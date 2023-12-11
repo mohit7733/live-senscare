@@ -1,0 +1,300 @@
+{
+  "YRS":"YRS",
+  "Plan not active":"Plan nije aktivan",
+  "Load more": "Load more",
+  "Nanny": "Nanny",
+  "Rate: High to low": "Rate: High to low",
+  "Rate: Low to high": "Rate: Low to high",
+  "Relevance": "Relevance",
+  "Result per page": "Result per page",
+  "Reviews": "Reviews",
+  "Sort by": "Sort by",
+  "Special education paraprofessional": "Special education paraprofessional",
+  "Special education teacher": "Special education teacher",
+  "Tutor": "Tutor",
+  "View profile": "View profile",
+  "advanced": "Advanced search",
+  "appear": "Appear higher in search results and find your perfect",
+  "city": "City",
+  "dist": "Distance",
+  "experienced": "These are experienced candidates from your area",
+  "families": "See who families are interested in",
+  "popular": "View popular candidates in your area",
+  "result": "result",
+  "results": "results",
+  "search": "Search",
+  "select": "Select job category",
+  "sorry": "Sorry your search returned no results.",
+  "theseFamilier": "These families and schools are looking for candidates like you",
+  "theseJob": "These are job offers in your area",
+  "zip": "Zip code",
+  
+  "Frequency":"Frequency",
+  "Full time":"Full time",
+  "Part time":"Part time",
+  "Occasionally":"Occasionally",
+  "Hourly rate":"Hourly rate",
+  "Number of children":"Number of children",
+  "Twins":"Twins",
+  "Child’s age":"Child’s age",
+  "0 - 1 years":"0 - 1 years",
+  "4 - 7 years":"4 - 7 years",
+  "8 - 10 years":"8 - 10 years",
+  "11 - 15 years":"11 - 15 years",
+  "16+  years":"16+  years",
+  "Start date":"Start date",
+  "Within a week":"Within a week",
+  "Within a month":"Within a month",
+  "Other options":"Other options",
+  "Without transportation":"Without transportation",
+  "Jobs posted within a week":"Jobs posted within a week",
+  "Work abroad":"Work abroad",
+  "School jobs":"School jobs",
+  "Refine result":"Refine result",
+  "Member":"Member",
+  "Job posts":"Job posts",
+  "Applications":"Applications",
+  "Hirings":"Hirings",
+  "Find perfect job":"Find perfect job",
+  "Advanced search":"Advanced search",
+  "Search":"Search",
+  "/hour":"/hour",
+  "...more":"...more",
+  "less":"less",
+  "Account":"Account",
+  "Personal Info":"Personal Info",
+  "First Name":"First Name",
+  "Last Name":"Last Name",
+  "Date of birth":"Date of birth",
+  "Mobile":"Mobile",
+  "Email":"Email",
+  "Address":"Address",
+  "City":"City",
+  "ZIP code":"ZIP code",
+  "Country":"Country",
+  "Email address":"Email address",
+  "Mobile Phone":"Mobile Phone",
+  "Get code":"Get code",
+  "Verify":"Verify",
+  "ZIP Code":"ZIP Code",
+  "Username":"Username",
+  "Password":"Password",
+  "Change password":"Change password",
+  "Cancel":"Cancel",
+  "Save changes":"Save changes",
+  "Payment and Membership":"Payment and Membership",
+  "Add new card":"Add new card",
+  "Pay with card":"Pay with card",
+  "Pay with PayPal":"Pay with PayPal",
+  "My Cards":"My Cards",
+  "Set as default":"Set as default",
+  "Card name":"Card name",
+  "Bankname card ****4589":"Bankname card ****4589",
+  "Expires on":"Expires on",
+  "04/2022":"04/2022",
+  "Remove":"Remove",
+  "Edit":"Edit",
+  "Current membership plan":"Current membership plan",
+  "Cancel plan":"Cancel plan",
+  "Change plan":"Change plan",
+  "Auto renew subscription":"Auto renew subscription",
+  "Subscription":"Subscription",
+  "Deactivate/ Delete account":"Deactivate/ Delete account",
+  "Current account status plan":"Current account status plan",
+  "Delete account":"Delete account",
+  "Disable account":"Disable account",
+  "Upgrade":"Upgrade",
+  "to post media.":"to post media.",
+  "Notifications":"Notifications",
+  "Messages":"Messages",
+  "Job History and Docs":"Job History and Docs",
+  "Recent profile visits":"Recent profile visits",
+  "Who I Visited":"Who I Visited",
+  "Who Visited Me":"Who Visited Me",
+  "upgrade":"upgrade",
+  "Favorites":"Favorites",
+  "SensCare Loyalty":"SensCare Loyalty",
+  "Settings":"Settings",
+  "View/Edit Profile":"View/Edit Profile",
+  "Sign Out":"Sign Out",
+  "Please refer to our ":"Please refer to our ",
+  "FAQ":" FAQ",
+  "Safety center":"Safety center",
+  "and":"and",
+  "to read safety tips.":"to read safety tips.",
+  "Upgrade to premium":"Upgrade to premium",
+  "yrs of exp":"yrs of exp",
+  "Date of Birth":"Date of Birth",
+  "Jobs & Doc":"Jobs & Doc",
+  "Recent visit":"Recent visit",
+  "Change Password":"Change Password",
+  "Old password":"Old password",
+  "New password":"New password",
+  "Confirm new password":"Confirm new password",
+  " Your password must be between 8-15 characters long and contain":" Your password must be between 8-15 characters long and contain",
+  "- at least one special character -for example:  #, @, !":"- at least one special character -for example:  #, @, !",
+  "- at least one number digit":"- at least one number digit",
+  "- at least one uppercase letter":"- at least one uppercase letter",
+  "Your password is updated. Log in with your new password.":"Your password is updated. Log in with your new password.",
+  "Log in":"Log in",
+  "Edit card details":"Edit card details",
+  "Name on card":"Name on card",
+  "Billing address":"Billing address",
+  "Name":"Name",
+  "State":"State",
+  "Card Number":"Card Number",
+  "Expiration Date":"Expiration Date",
+  "Security #":"Security #",
+  "Save this card for future payments":"Save this card for future payments",
+  "Save":"Save",
+  "Cancel membership":"Cancel membership",
+  "Warning!":"Warning!",
+  "Are you sure you want to cancel? If you cancel your membership, you will lose your discount offers viaSenscare Loyalty Program.":"Are you sure you want to cancel? If you cancel your membership, you will lose your discount offers viaSenscare Loyalty Program.",
+  "Confirm":"Confirm",
+  "Close":"Close",
+  "Disable Account":"Disable Account",
+  "By disabling your account, your profile will be on temporary hold.":"By disabling your account, your profile will be on temporary hold.",
+  "Disable":"Disable",
+  "Delete Account":"Delete Account",
+  "This action cannot be undone.":"This action cannot be undone.",
+  "All your contacts will be inaccessible.":"All your contacts will be inaccessible.",
+"All your employment history will be deleted.":"All your employment history will be deleted.",
+"All your messages, its favorites, and reviews will be erased.":"All your messages, its favorites, and reviews will be erased.",
+"None of your recommendations will be available for download.":"None of your recommendations will be available for download.",
+"Delete my account":"Delete my account",
+"Keep my account":"Keep my account",
+"Sorry to see you go":"Sorry to see you go",
+"In order to make our service better for our clients, we need a little bit more information from you.":"In order to make our service better for our clients, we need a little bit more information from you.",
+"Please tell us the reason you want to disable or delete your profile?":"Please tell us the reason you want to disable or delete your profile?",
+"It’s too expensive":"It’s too expensive",
+"I didn't find a candidate":"I didn't find a candidate",
+"I found a candidate somewhere else":"I found a candidate somewhere else",
+"Other":"Other",
+"Number of characters":"Number of characters",
+"Are you sure you want to delete your account?":"Are you sure you want to delete your account?",
+"We are sorry to see you go!":"We are sorry to see you go!",
+"You can":"You can",
+"come back":"come back",
+"anytime":"anytime",
+"Sign out":"Sign out",
+"Are you sure you want to Sign out?":"Are you sure you want to Sign out?",
+"No":"No",
+"Yes":"Yes",
+"Complete your profile and find the perfect candidate":"Complete your profile and find the perfect candidate",
+"Answer a few questions to help you find the candidates that are just right for you!":"Answer a few questions to help you find the candidates that are just right for you!",
+"Complete Profile":"Complete Profile",
+"Complete your profile and get a perfect job":"Complete your profile and get a perfect job",
+"Answer a few questions to make it easier to find jobs that are just made for you!":"Answer a few questions to make it easier to find jobs that are just made for you!",
+"Upload profile photos":"Upload profile photos",
+"Set as profile photo":"Set as profile photo",
+"* You can upload .jpg and .png files size up to 5Mb":"* You can upload .jpg and .png files size up to 5Mb",
+"Upload photo":"Upload photo"
+
+
+
+}
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  "
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  "
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}

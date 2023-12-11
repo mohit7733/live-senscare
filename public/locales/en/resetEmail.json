@@ -1,0 +1,18 @@
+{
+  "Dear username,": "Dear username,",
+  "We have received your request to reset your password. To reset your password click the button below within 24 hours.": "  We have received your request to reset your password. To reset your password click the button below within 24 hours.",
+  "Reset Password": "Reset Password",
+  "If you haven’t made this request, please contact us immediately at": "If you haven’t made this request, please contact us immediately at",
+  "Sincerely": "Sincerely",
+  "Password did not match.": "Password did not match.",
+  "Your password has been reset successfully!": "Your password has been reset successfully!",
+  "Password": "Password",
+  "Your password must be between 8-15 characters long and contain:": "Your password must be between 8-15 characters long and contain:",
+  "- at least one uppercase letter": "- at least one uppercase letter",
+  "- at least one number digit": "- at least one number digit",
+  "- at least one special character -for example:  #, @, !": "- at least one special character -for example:  #, @, !",
+  "Confirm password": "Confirm password",
+  "Remember me": "Remember me",
+  "Reset password": "Reset password",
+  "Cancel": "Cancel"
+}

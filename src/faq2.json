@@ -1,0 +1,618 @@
+[
+  {
+    "main_category": "Security and Verification",
+    "id": 8,
+    "data": [
+      {
+        "main_category": "Security and Verification",
+        "category": null,
+        "sub_category": null,
+        "question": "How can I know if a member has a verified accounts?",
+        "answer": "<p>In order to protect our members, SensCare implemented several ways for account verification. All of our members have to verify their phone number and email address. Therefore, you can check if a member has a verified social network account by following these steps:&nbsp;\r\n            go to a member's <strong>profile &nbsp;<svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n            \r\n                        <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                            <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n                        </g>\r\n                    </svg></strong> then open a section “<strong>Security and Verification</strong>”. A gold social network symbol means that the account is verified &nbsp;&nbsp; <img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 500.svg\">&nbsp; <img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Twitter.svg\">&nbsp; <img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Instagram.svg\">&nbsp; <img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/LinkedIn.svg\"><br>\r\n            In addition, the symbols colored in gold on a member’s profile are indicators of the verified records. <img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Vector.svg\">&nbsp; <img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Vector (1).svg\">&nbsp;<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/account_circle_24px.svg\">&nbsp;<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Vector (2).svg\"></p>"
+      },
+      {
+        "main_category": "Security and Verification",
+        "category": null,
+        "sub_category": null,
+        "question": "How do I report a member due to safety concerns or inappropriate conduct?",
+        "answer": "<p>If you believe that a member should be reported, go to the member&#39;s profile and click on the button shown as a purple hand symbol &nbsp; <img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 1773.svg\" /> &nbsp; next to the member&rsquo;s photo. You will be asked to write a brief description of your concerns. Once we have received a report, we will further investigate it.</p>"
+      },
+      {
+        "main_category": "Security and Verification",
+        "category": null,
+        "sub_category": null,
+        "question": "Why do I have to verify my phone number?",
+        "answer": "<p>In order to be able to verify our new members and add an extra layer of security, all of our SensCare members are required to verify their phone number. Your phone number will be secured and other members will not have access to your phone number.</p>"
+      },
+      {
+        "main_category": "Security and Verification",
+        "category": null,
+        "sub_category": null,
+        "question": "What personal information is visible to other members?",
+        "answer": "<p>SensCare is aware of how important it is to protect your personal information; therefore, the only information visible to other members will be: your first name and last name, your date of birth, city, zip code, and country of residence.</p>"
+      },
+      {
+        "main_category": "Security and Verification",
+        "category": null,
+        "sub_category": null,
+        "question": "Is my personal information protected on the SensCare platform?",
+        "answer": "<p>Yes, your personal information is secured on SensCare and your sensitive information (such as phone number and home address) will not be visible to and shared with anyone.</p>"
+      },
+      {
+        "main_category": "Security and Verification",
+        "category": null,
+        "sub_category": null,
+        "question": "SensCare put my account on hold, why?",
+        "answer": "<p>SensCare has the right to put users&#39; accounts on hold if the details of the allegation against particular users have been confirmed (these allegations may include, but are not limited to: unsolicited messages, unethical behavior, verification failure). Your safety is very important to us; therefore, we strive to provide a safe and secure environment for our members.</p>"
+      }
+    ]
+  },
+  {
+    "main_category": "Account management",
+    "id": 14,
+    "data": [
+      {
+        "main_category": "Account management",
+        "category": null,
+        "sub_category": null,
+        "question": "How can I edit my personal information?",
+        "answer": "<p>If you would like to update your personal information, go to the <strong>Settings &nbsp; View/Edit Profile </strong>&nbsp; &nbsp;and choose <strong>About</strong>. Once you open the About section click on <strong>Edit</strong> in the upper right corner and then update your personal information.</p>"
+      },
+      {
+        "main_category": "Account management",
+        "category": null,
+        "sub_category": null,
+        "question": "I forgot my password or email address, how can I retrieve them?",
+        "answer": "<p>Once you click on log in on the Home page, choose the button &ldquo;<strong>forget password</strong>&rdquo; and follow the instructions.&nbsp;</p>"
+      },
+      {
+        "main_category": "Account management",
+        "category": null,
+        "sub_category": null,
+        "question": "I want to close my account, what steps do I need to take?",
+        "answer": "<p>We are sorry to see you go. If you wish to close your account, visit <strong>Settings Account Deactivate/Delete Account</strong> and then choose whether you would like to delete your account permanently or disable it. If you are unsure what to do with the account, we would recommend disabling it as your data will be stored and available to you once you reactivate your account. Please note that if you decide to delete your account, all data will be permanently removed from SensCare.</p>"
+      }
+    ]
+  },
+  {
+    "main_category": "Profile management and content use",
+    "id": 17,
+    "data": [
+      {
+        "main_category": "Profile management and content use",
+        "category": "Profile management",
+        "sub_category": null,
+        "question": "Why do I have to upload my media and how to do it?",
+        "answer": "<p>As SensCare strives to create a safe and interactive environment, having a photo media will help you connect with other members and create a personal touch during the initial interactions. During profile completion, you will be asked to upload a profile picture or video by clicking on the &ldquo;<strong>upload</strong>&rdquo; symbol.</p>"
+      },
+      {
+        "main_category": "Profile management and content use",
+        "category": "Profile management",
+        "sub_category": null,
+        "question": "How to make a video that represents me the best?",
+        "answer": "<p>We would recommend creating a short video (no longer than 2 minutes) which represents your greatest strengths. Share with others what your experience with children is, what motivates you to work with children, what your teaching philosophy is, what your main strengths are and what you like doing in your free time.</p>"
+      },
+      {
+        "main_category": "Profile management and content use",
+        "category": "Profile management",
+        "sub_category": null,
+        "question": "What do each icon on a profile page represent?",
+        "answer": "<p>The icons on a member profile tell whether a member has verified each data. If an icon is gold that means that a member verified that feature, if it is a gray icon, that feature is not verified.</p>\r\n\r\n<p>Icons Legend (general for all users)</p>\r\n\r\n<p><img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Vector (5).svg\" />&nbsp; Phone number<br />\r\n<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 924.svg\" />&nbsp; Mail<br />\r\n<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/account_circle_24px.svg\" /> Background check<br />\r\n<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 500.svg\" /> Social media<br />\r\n<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/videocam_24px.svg\" /> Video<br />\r\n<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 1773.svg\" /> Report<br />\r\n<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Shape.svg\" /> Share profile&nbsp;</p>\r\n\r\n<p>Icons legend (providers profile)<br />\r\n<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 1806.svg\" /> Special Education Teacher<br />\r\n<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 337.svg\" /> Special Education Paraprofessional<br />\r\n<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 335.svg\" /> Nanny<br />\r\n<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 339.svg\" /> Tutor</p>"
+      },
+      {
+        "main_category": "Profile management and content use",
+        "category": "Profile management",
+        "sub_category": null,
+        "question": "Why can't I access some features on SensCare?",
+        "answer": "<p>Although most of the features are available to all members, some features are only available to premium members.&nbsp;<br />\r\nIf you wish to upgrade your membership status and gain full access to our services, you can either click on &ldquo;upgrade to premium&rdquo; golden strip on your home page or visit <strong>Settings <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Account <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Payment and Membership</strong> <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg>&nbsp;and choose &ldquo;<strong>Change Plan</strong>&rdquo;. Then you will be prompted to choose the new membership plan.&nbsp;</p>"
+      },
+      {
+        "main_category": "Profile management and content use",
+        "category": "For parents",
+        "sub_category": "Job/ Interview",
+        "question": "Is SensCare responsible for finding me a provider?",
+        "answer": "<p>SensCare is a platform which connects an employer with an employee but SensCare is not responsible for finding you a provider. SensCare is always here to support you if you do have any questions or concerns. However, our premium membership plan gives you an opportunity to use SensCare selection of candidates.To take advantage of this feature, upgrade to our Premium Membership plan.</p>"
+      },
+      {
+        "main_category": "Profile management and content use",
+        "category": "For parents",
+        "sub_category": "Job/ Interview",
+        "question": "If I hire a foreign employee via SensCare platform will you help me with their visa application process?",
+        "answer": "<p>Although we are very thrilled you found an excellent provider, SensCare is currently not able to assist you in processing a visa/ work permit for your employee and will therefore hold no responsibility for providing any other legal documents, including a contract between you and your employee. To ensure a smooth hiring process, please visit our <a href=\"/safety-center#parents\">Safety Center</a>. Also, for more information on the visa application process for a foreign employee, visit the embassy or consulate of the country of your residence.&nbsp;<br />\r\n&nbsp;</p>"
+      },
+      {
+        "main_category": "Profile management and content use",
+        "category": "For parents",
+        "sub_category": "Job/ Interview",
+        "question": "I am looking for a nanny and/or professional child service provider, how can I post a job?",
+        "answer": "<p>This is an exciting moment. To create a new job post, click on the &ldquo;<strong>job post</strong>&rdquo; purple icon in the upper right corner next to your profile picture. You can also go to <strong>Job History &amp; Doc&rsquo;s</strong> and select the &ldquo;<strong>+ job post</strong>&rdquo; purple symbol.<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 2258.svg\" /><br />\r\nThen you will be asked to enter a job post title and write a short job description. Once your post is live, sit tight and a lot of fantastic caregivers and/or professional child service providers will reach out to you.&nbsp;<br />\r\n&nbsp;</p>"
+      },
+      {
+        "main_category": "Profile management and content use",
+        "category": "For parents",
+        "sub_category": "Job/ Interview",
+        "question": "How can I edit a job post?",
+        "answer": "<p>To edit a job post, visit <strong>Job History &amp; Doc&rsquo;s</strong> and select a job post you would like to edit. Then you will be brought to a new page where you can click on the &ldquo;<strong>edit post</strong>&rdquo; button and update your post accordingly.</p>"
+      },
+      {
+        "main_category": "Profile management and content use",
+        "category": "For parents",
+        "sub_category": "Job/ Interview",
+        "question": "I want to close a job post, how can I do it?",
+        "answer": "<p>To close a job post, visit <strong>Job History &amp; Doc&rsquo;s</strong> and select a job post you would like to close. You will be brought to a new page where you can click on the &ldquo;<strong>close this job</strong>&rdquo; button and then you will be asked to confirm if you want to close a job post. Also, you can deactivate an active service from your <strong>View/Edit Profile</strong> page via toggle button.</p>"
+      },
+      {
+        "main_category": "Profile management and content use",
+        "category": "For parents",
+        "sub_category": "Job/ Interview",
+        "question": "I found a professional child service provider, how can I send an interview invite?",
+        "answer": "<p>This is an exciting moment. To send an interview invite, visit the member&#39;s profile and click on the\r\n        &ldquo;<strong>interview invite</strong>&rdquo; purple button in the upper right corner of the member&rsquo;s\r\n        profile <span class=\"interview\">interview invite</span>.<br />\r\n        The member will then receive your invitation and be asked whether they will accept it or decline it. Sit tight\r\n        as your ideal provider is just around the corner.<br />\r\n        &nbsp;</p>"
+      },
+      {
+        "main_category": "Profile management and content use",
+        "category": "For parents",
+        "sub_category": "Job/ Interview",
+        "question": "How can I contact a nanny and/or professional service provider?",
+        "answer": "<p>We are glad you have found a potential candidate. If you would like to contact a nanny and/or professional child\r\n            service provider, you will need to submit an interview invite. To do so, please visit the member's profile\r\n            and click on the “<strong>interview invite</strong>” purple button in the upper right corner of the\r\n            member’s profile &nbsp; <span class=\"interview\">interview invite</span>.<br>\r\n            If the member accepts your interview invite, you will be notified and then you will be able to contact them via\r\n            our message center. To access messages, you must be a paid member. Click <a href=\"javascript: void(0)\">here</a> to upgrade your\r\n                membership.&nbsp;<br>\r\n                &nbsp;</p>"
+      },
+      {
+        "main_category": "Profile management and content use",
+        "category": "For parents",
+        "sub_category": "Job/ Interview",
+        "question": "What should I do if a member does not show up for a job interview?",
+        "answer": "<p>Although SenCare provides its members with great guidelines on how to conduct an effective interview and be respectful, unfortunately, in some cases the unexpected things may happen. The first step would be to check whether or not the member contacted you via SensCare platform and what their reason for missing an interview was. If you feel the member showed unprofessional behavior, it would be best to discontinue any further conversation with the member.</p>"
+      },
+      {
+        "main_category": "Profile management and content use",
+        "category": "For parents",
+        "sub_category": "Job/ Interview",
+        "question": "What if some unprofessional behaviors occur during an interview or after I have hired a provider?",
+        "answer": "<p>While SensCare strives to ensure a secure environment for our members through a rigorous verification process, we\r\n        still strongly recommend that you visit our <a href=\"/safety-center#parents\">Safety Center</a> and read our safety tips\r\n        prior to the interview. If some unprofessional behaviors occur during or after the interview, we encourage you\r\n        to report a user. Learn <a href=\"javascript:void(0)\" id=\"question1\">here</a> how to report\r\n        users. If there are serious violations of your rights or the safety of your family is threatened, please contact\r\n        the appropriate authorities in your area immediately.</p>"
+      },
+      {
+        "main_category": "Profile management and content use",
+        "category": "For parents",
+        "sub_category": "Document requests",
+        "question": "How can I request a background check?",
+        "answer": "<p>We are happy you've found a potential nanny and/or professional child service provider for your child. In order to request a background check, go to the member's profile and click on “<strong>request documents</strong>'' in the upper right corner.&nbsp;<img class=\"imgmrgn\" src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 2261.svg\"><br>\r\n            You will be prompted to choose a document. Then click on “ <strong>background check</strong>” &nbsp;and send your request.&nbsp;<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 2286.svg\"><br>\r\n            &nbsp;</p>"
+      },
+      {
+        "main_category": "Profile management and content use",
+        "category": "For parents",
+        "sub_category": "Document requests",
+        "question": "How can I request a CV and references from providers via SensCare platform?",
+        "answer": "<p>We are happy you’ve found a potential caregiver and/or professional service provider for your child. In\r\n        order to request a resume and/or references, go to the member's profile and click on “<strong>request\r\n            documents</strong>” in the upper right corner.&nbsp;<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 2261.svg\" class=\"imgmrgn\"><br>\r\n        You will be prompted to choose a document. Then click on “<strong>CV</strong>” <img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 2290.svg\"> &nbsp;and/or\r\n        “<strong>references</strong>” <img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 2291.svg\"> &nbsp;and send your request.</p>"
+      },
+      {
+        "main_category": "Profile management and content use",
+        "category": "For parents",
+        "sub_category": "Document requests",
+        "question": "I’ve received a recommendation request, what’s the next step?",
+        "answer": "<p>This is great news. To help members in their future career, a recommendation letter is very important.&nbsp;<br />\r\nVisit <strong>Job History &amp; Doc&rsquo;s</strong> <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> <strong>Recommendation request</strong> and choose a member you would like to write a recommendation for. Then click on the &ldquo;<strong>leave recommendation</strong>&rdquo; button in the message from the member. You will be further prompted to attach a recommendation letter as .pdf or .docx file. Once you&#39;ve uploaded a recommendation letter, click on the &ldquo;<strong>send recommendation</strong>&rdquo; button.</p>"
+      },
+      {
+        "main_category": "Profile management and content use",
+        "category": "For providers",
+        "sub_category": "Job/ Interview",
+        "question": "Is SensCare responsible for finding me a job?",
+        "answer": "<p>SensCare is a platform that connects an employer with an employee but SensCare is not responsible for finding you a job. SensCare is always here to support you if you do have any questions or concerns.</p>"
+      },
+      {
+        "main_category": "Profile management and content use",
+        "category": "For providers",
+        "sub_category": "Job/ Interview",
+        "question": "I have found a great job post, how can I apply for it?",
+        "answer": "<p>This is amazing news. Visit the member&#39;s profile and then click on <strong>Job Posts <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Apply for a job</strong>.</p>"
+      },
+      {
+        "main_category": "Profile management and content use",
+        "category": "For providers",
+        "sub_category": "Job/ Interview",
+        "question": "If I get hired internationally, will SensCare help me with my visa application?",
+        "answer": "<p>Although we are very thrilled you got the opportunity to work abroad, SensCare is currently not able to assist you in obtaining your visa/work permit and will therefore hold no responsibility for providing any other legal documents, including a contract between you and your employer. For more information on the visa application process, please visit the embassy or consulate of the country where you got a job.</p>"
+      },
+      {
+        "main_category": "Profile management and content use",
+        "category": "For providers",
+        "sub_category": "Job/ Interview",
+        "question": "I have applied for more than 10 jobs but no one has hired me yet, what should I do?",
+        "answer": "<p>Although this is a frustrating situation, some candidates go through this path until they find the right job. You might also want to consider whether your profile matches the job description and requirements and whether you have enough expertise for that job.&nbsp;<br />\r\nRemember that SensCare is always here to support you; therefore, you just need to <a href=\"/contact-us\">contact us</a>.</p>"
+      },
+      {
+        "main_category": "Profile management and content use",
+        "category": "For providers",
+        "sub_category": "Job/ Interview",
+        "question": "How can I be sure the family will make a payment?",
+        "answer": "<p>To ensure finding a job with a reliable family, please visit our Safety Center and read our <a href=\"/safety-center\">safety tips</a> to prepare for your job search. In some cases, employers and employees can sign a contract which clearly outlines duties and payment. However, if you experience any difficulties with a family, please report their profile. Learn  <a href=\"javascript:void(0)\" id=\"question2\">here</a> how to report users so that we could take a further look into the matter.</p>"
+      },
+      {
+        "main_category": "Profile management and content use",
+        "category": "For providers",
+        "sub_category": "Job/ Interview",
+        "question": "Who determines a salary range/or an employee’s salary?",
+        "answer": "<p>SensCare does not determine your pay rate. You have the freedom to request your desired salary for your services. If you are unsure how to determine your hourly wage, we recommend that you take into account different factors, such as your level of education, years of work experience and location or where you would like to get hired. You can also visit the profiles of other candidates to see the average pay rate for services like yours at your desired location. Nonetheless, based on our experience, the final pay rate is always determined between an employer and an employee.</p>"
+      },
+      {
+        "main_category": "Profile management and content use",
+        "category": "For providers",
+        "sub_category": "Job/ Interview",
+        "question": "I have received an interview invite. What is the next step?",
+        "answer": "<p>This is exciting news. Visit Notifications or <strong>Job History &amp; <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Doc&rsquo;s Interview Invites</strong> and select a message from the member you would like to review an interview invite. You will have an option either to accept or decline an interview invite and then visit the profile. SensCare strongly encourages to review the member&rsquo;s profile before accepting an interview invite. Please visit our Safety Center for <a href=\"/safety-center\">safety tips</a>.</p>"
+      },
+      {
+        "main_category": "Profile management and content use",
+        "category": "For providers",
+        "sub_category": "Job/ Interview",
+        "question": "How should I prepare for an interview?",
+        "answer": "<p>Please visit our <a href=\"/safety-center\">Safety Center</a> for tips on how to prepare for an interview.</p>"
+      },
+      {
+        "main_category": "Profile management and content use",
+        "category": "For providers",
+        "sub_category": "Job/ Interview",
+        "question": "How can I contact a family/school?",
+        "answer": "<p>You can initiate contact with a family/school by applying to an active job post. If a family/school believes you are a good fit for them, they may contact you directly on SensCare via message and you will be able to continue your further communication. Also, a family/school can initiate interaction by sending you an interview invite. If you accept an interview invite, family/school will be notified and then you will be able to contact the member via our message center. To access messages you must be a paid member. Upgrade your membership now to get full access.&nbsp;</p>"
+      },
+      {
+        "main_category": "Profile Management and Content Use",
+        "category": "For providers",
+        "sub_category": "Job/ Interview",
+        "question": "What if some unprofessional behaviors occur during an interview or after I have been hired?",
+        "answer": "<p>While SensCare strives to ensure a secure environment for our members through a rigorous verification process, we still strongly recommend that you visit our Safety Center and read our <a href=\"/safety-center\">safety tips</a> prior to the interview. If some unprofessional behaviors occur during or after the interview, we encourage you to report the user by clicking the report icon &nbsp;<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 1773.svg\" /> &nbsp; on her/his profile. If there are serious violations of your rights or safety, please contact the appropriate authorities in your area immediately.</p>"
+      },
+      {
+        "main_category": "Profile management and content use",
+        "category": "For providers",
+        "sub_category": "Document requests",
+        "question": "Family/or school is asking for a background check, how can I send it?",
+        "answer": "<p>It seems you are one step closer to finding your dream job. Visit <strong>Notifications <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Document Requests</strong> or <strong>Job History &amp; Doc&rsquo;s <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Document Requests</strong> and then select the message from the member who requests your background check. Once the message is opened, click on the button &ldquo;send documents&rdquo;. Then you will be prompted to select your documents; choose a background check document and click on &ldquo;continue&rdquo;.&nbsp;</p>"
+      },
+      {
+        "main_category": "Profile management and content use",
+        "category": "For providers",
+        "sub_category": "Document requests",
+        "question": "How often should I update my background check?",
+        "answer": "<p>To ensure the safety of all members, SensCare recommends that you update your background check every six months.</p>"
+      },
+      {
+        "main_category": "Profile management and content use",
+        "category": "For providers",
+        "sub_category": "Document requests",
+        "question": "How can I send my supporting documents, such as a resume or references?",
+        "answer": "<p>It seems you are one step closer to finding your dream job. Visit <strong>Notifications <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\"\r\n            viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\"  stroke=\"none\">\r\n                <path\r\n                    d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\" />\r\n            </g>\r\n        </svg> Document Requests or Job History &amp; Doc&rsquo;s <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\"\r\n            viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\"  stroke=\"none\">\r\n                <path\r\n                    d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\" />\r\n            </g>\r\n        </svg> Document Requests</strong>. Once the member&rsquo;s message is opened, click on the button &ldquo;send documents&rdquo;. Then you will be prompted to select your documents, choose the document you wish to send and click on &ldquo;<strong>continue</strong>&rdquo;. Also, you can visit <strong>Job History &amp; Doc&rsquo;s <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\"\r\n            viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\"  stroke=\"none\">\r\n                <path\r\n                    d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\" />\r\n            </g>\r\n        </svg> My Documents</strong> and use a share button <img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Shape (1).svg\" /> to send documents to the member.</p>"
+      },
+      {
+        "main_category": "Profile management and content use",
+        "category": "For providers",
+        "sub_category": "Document requests",
+        "question": "How can I request a recommendation from a family/or school?",
+        "answer": "<p>We are glad to hear that you've had a positive experience with SensCare members. To request a recommendation, visit the member’s profile, and click on “<strong>ask for recommendation</strong>” &nbsp; <img class=\"imgmrgn\" src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 2282.svg\"> &nbsp;below the “<strong>About me</strong>” section.</p>"
+      },
+      {
+        "main_category": "Profile Management and Content Use",
+        "category": "Reviews",
+        "sub_category": null,
+        "question": "A member gave me a bad review, what should I do?",
+        "answer": "<p>We understand that this might be an unpleasant experience but SensCare does not have the right to change any reviews. We would encourage you to review what the member was dissatisfied with and improve that aspect in the future. You can always reach out to SensCare support to get some ideas. If the member used offensive language, please report &nbsp; <img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 1773.svg\" /> &nbsp; the member and we will further investigate it.</p>"
+      },
+      {
+        "main_category": "Profile Management and Content Use",
+        "category": "Reviews",
+        "sub_category": null,
+        "question": "I want to post a review, how can I do it?",
+        "answer": "<p>We hope you are satisfied with your collaboration with the SensCare member. To leave a review, go to the member&rsquo;s profile and click on the star to rate &nbsp; <img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Vector (Stroke).svg\" /><img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Vector (Stroke).svg\" /><img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Vector (Stroke).svg\" /><img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Vector (Stroke).svg\" /><img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Vector (Stroke) (1).svg\" /> &nbsp;the member or you can do it in the <strong>Reviews section</strong> on your profile.<br />\r\n&nbsp;</p>"
+      },
+      {
+        "main_category": "Profile Management and Content Use",
+        "category": "Deals",
+        "sub_category": null,
+        "question": "I’ve claimed an amazing deal, how can I redeem it?",
+        "answer": "<p>We are glad you&rsquo;ve found the right service or product for you!&nbsp;<br />\r\nFollow this trajectory: Log into your account <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\"\r\n            viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\"  stroke=\"none\">\r\n                <path\r\n                    d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\" />\r\n            </g>\r\n        </svg> Promotions <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\"\r\n            viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\"  stroke=\"none\">\r\n                <path\r\n                    d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\" />\r\n            </g>\r\n        </svg> Claimed Deals <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\"\r\n            viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\"  stroke=\"none\">\r\n                <path\r\n                    d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\" />\r\n            </g>\r\n        </svg> and View Deal. You will be given information about the business so that you can contact the business once you are ready to redeem your voucher. If you paid for the services online, you are all set and you would only need to contact the business to make an appointment. If you chose to pay via cash, then print the voucher, contact the business to make an appointment and bring the voucher with you so that you could show it to the business on your next visit.</p>"
+      },
+      {
+        "main_category": "Profile Management and Content Use",
+        "category": "Deals",
+        "sub_category": null,
+        "question": "Are the listed business deals on your website safe to buy?",
+        "answer": "<p>Yes, the businesses we collaborate with have a registered company for the services they provide.</p>"
+      },
+      {
+        "main_category": "Profile Management and Content Use",
+        "category": "Deals",
+        "sub_category": null,
+        "question": "I have a problem using the business deal voucher, what should I do?",
+        "answer": "<p>If you have any difficulties redeeming your voucher, please contact the business directly. If you still experience this issue, contact SensCare directly via our <a href=\"/contact-us\">contact page</a>.</p>"
+      },
+      {
+        "main_category": "Profile Management and Content Use",
+        "category": "Deals",
+        "sub_category": null,
+        "question": "Why cannot I pay for a deal on your website?",
+        "answer": "<p>At the moment, SensCare does not host any payment on the website. Please refer to the business directly regarding the payment of your deal.</p>"
+      },
+      {
+        "main_category": "Profile Management and Content Use",
+        "category": "Promotions and notifications",
+        "sub_category": null,
+        "question": "I no longer wish to receive promotional emails from SensCare, how can I opt out?",
+        "answer": "<p>We do understand that sometimes it is good to take a break from promotional emails. Please visit your <strong>Settings <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> View/Edit Profile <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Personal Preferences <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Alerts &amp; Notifications</strong> and deactivate notifications by sliding a toggle bar.</p>"
+      }
+    ]
+  },
+  {
+    "main_category": "Membership and payments",
+    "id": 58,
+    "data": [
+      {
+        "main_category": "Membership and payments",
+        "category": "Membership",
+        "sub_category": null,
+        "question": "If you are a parent - How do I know which membership tier is best for me?",
+        "answer": "<p>When choosing membership tiers, consider your needs. Higher membership tiers give you more flexibility and choices, which may be important for you if you are, for example, a frequent traveler, need multiple nannies, live in more than one place, etc.</p>"
+      },
+      {
+        "main_category": "Membership and payments",
+        "category": "Membership",
+        "sub_category": null,
+        "question": "If you are a provider - How do I know which membership tier is best for me?",
+        "answer": "<p>When choosing membership tiers, consider your needs. Higher membership tiers give you more flexibility and choices, as well as a better opportunity to find a suitable position.&nbsp;&nbsp; &nbsp;</p>"
+      },
+      {
+        "main_category": "Membership and payments",
+        "category": "Membership",
+        "sub_category": null,
+        "question": "I wish to upgrade my membership plan, how can I do it?",
+        "answer": "<p>We are glad that you would like to further explore our SensCare platform. To upgrade membership status, you can either click on the &ldquo;<strong>upgrade to premium</strong>&rdquo; golden strip on your home page or visit <strong>Settings <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Account <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Payment and Membership <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> </strong> and then choose <strong>Change Plan</strong>. You will be prompted to choose a new membership plan.</p>"
+      },
+      {
+        "main_category": "Membership and payments",
+        "category": "Membership",
+        "sub_category": null,
+        "question": "How can I change my membership plan?",
+        "answer": "<p>We hope that you would like to further explore our SensCare platform. To change your membership status, please visit <strong>Settings <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Account <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Payment and Membership</strong> and click on Change Plan. You will be prompted to choose a new membership plan.</p>"
+      },
+      {
+        "main_category": "Membership and payments",
+        "category": "Membership",
+        "sub_category": null,
+        "question": "Can I get a refund if I am not satisfied with services?",
+        "answer": "<p>SensCare strives to provide the best services; however, we are fully aware that sometimes one&#39;s expectations might not be met. Unfortunately, as per our policy, there is no refund on using services on our platform. However, you may be eligible for a refund if there were serious violations of our <a href=\"/terms-of-use\">Terms of use</a> and&nbsp;<a href=\"/privacy-policy\"> Privacy policy</a>. SensCare maintains the right to decide about refunds on an individual basis. If you are unsatisfied with services, please let us know about your experience as we would like to address your concerns and make your experience more pleasant.&nbsp;<br />\r\n&nbsp;</p>"
+      },
+      {
+        "main_category": "Membership and payments",
+        "category": "SensCare subscription renewal",
+        "sub_category": null,
+        "question": "What is auto-renewal?",
+        "answer": "<p>Auto-renewal is a service offered by SensCare to automatically extend your subscription right before it is due to expire. Auto-renewal is preferred by customers as you will not have to manually perform the renewal process. When you choose a membership plan, your subscription will be automatically renewed each billing cycle unless you cancel auto-renewal before the next payment date.</p>"
+      },
+      {
+        "main_category": "Membership and payments",
+        "category": "SensCare subscription renewal",
+        "sub_category": null,
+        "question": "When did I subscribe to an automatically renewing subscription?",
+        "answer": "<p>You subscribed to an automatically renewing subscription when you activated or upgraded a membership plan and gave your consent by clicking the auto-renewal button.</p>"
+      },
+      {
+        "main_category": "Membership and payments",
+        "category": "SensCare subscription renewal",
+        "sub_category": null,
+        "question": "How do I cancel auto-renewal?",
+        "answer": "<p>You may cancel your subscription by visiting <strong>Settings <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Account <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Payment and membership</strong> and deactivating auto-renewal option.</p>"
+      },
+      {
+        "main_category": "Membership and payments",
+        "category": "SensCare subscription renewal",
+        "sub_category": null,
+        "question": "When will my credit card be charged?",
+        "answer": "<p>When you are enrolled in auto-renewal, SensCare will charge the credit card stored in your account within 48 hours of your renewal date for the amount of your current membership. You can check your membership plan at <strong>Settings <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Account <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Payment and membership</strong>.</p>"
+      },
+      {
+        "main_category": "Membership and payments",
+        "category": "SensCare subscription renewal",
+        "sub_category": null,
+        "question": "How do I enroll in auto-renewal?",
+        "answer": "<p>You can enroll in auto-renewal by visiting <strong>Settings <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Account <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Payment and membership</strong> and activating auto-renewal option. Also, you can enroll in auto-renewal when you activate or upgrade your membership plan.</p>"
+      },
+      {
+        "main_category": "Membership and payments",
+        "category": "SensCare subscription renewal",
+        "sub_category": null,
+        "question": "Will you remind me if my credit card is about to expire?",
+        "answer": "<p>SensCare does not send reminders if your card is about to expire. Please be sure to have the most updated information about stored credit cards in your Account section. In cases where the card expired and we are not able to charge your credit card, your membership will not be auto-renewed and you will have to re-enter your payment information.</p>"
+      },
+      {
+        "main_category": "Membership and payments",
+        "category": "SensCare subscription renewal",
+        "sub_category": null,
+        "question": "Will you remind me if my auto-renewal is about to expire?",
+        "answer": "<p>Yes, SensCare will email you at least 10 days before your automatic subscription ends. For example, if your subscription renews annually, we will send you an email with price, term, and related details before we charge your credit card.</p>"
+      },
+      {
+        "main_category": "Membership and payments",
+        "category": "SensCare subscription renewal",
+        "sub_category": null,
+        "question": "What will happen if I cancel my auto-renewal before it expires?",
+        "answer": "<p>You will need to cancel your auto-renewal at least 7 days prior to renewal date to avoid any additional charges. Please review our <a href=\"/terms-of-use\">Terms of Use</a> for more information regarding cancellation policy.</p>"
+      },
+      {
+        "main_category": "Membership and payments",
+        "category": "Payment",
+        "sub_category": null,
+        "question": "Is it safe to have my credit card saved on SensCare?",
+        "answer": "<p>Yes, your stored credit card information is secured on the SensCare platform.</p>"
+      },
+      {
+        "main_category": "Membership and payments",
+        "category": "Payment",
+        "sub_category": null,
+        "question": "My credit card is denied, what should I do?",
+        "answer": "<p>We are fully aware that this can be a very unpleasant experience; therefore, we are here to help you. Very often a credit card is denied as your card has expired or you might have entered the wrong credit card number. Double check your card expiration date and whether your credit card number is entered correctly. If we still cannot process your payment, please try another card or contact your bank. Any additional bank fees associated with purchases may apply per your banking agreement.</p>"
+      },
+      {
+        "main_category": "Membership and payments",
+        "category": "Payment",
+        "sub_category": null,
+        "question": "How to remove my credit card fromSensCare?",
+        "answer": "<p>To remove a credit card, visit <strong>Settings <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Account <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Payment and Membership</strong> <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> then <strong>choose the credit card</strong> you would like to remove from SensCare.</p>"
+      },
+      {
+        "main_category": "Membership and payments",
+        "category": "Payment",
+        "sub_category": null,
+        "question": "How can I add a new credit card?",
+        "answer": "<p>To add a credit card, visit <strong>Settings <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Account <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Payment and Membership</strong> and then choose &ldquo;<strong>add new card</strong>&rdquo; in the upper right corner.<br />\r\n&nbsp;</p>"
+      },
+      {
+        "main_category": "Membership and payments",
+        "category": "Payment",
+        "sub_category": null,
+        "question": "Does SensCare host payments?",
+        "answer": "<p>At the moment, SensCare does not host any payments between our members. Please review our <a href=\"/safety-center\">Safety Center</a> for more information about safety tips.</p>"
+      }
+    ]
+  },
+  {
+    "main_category": "For Business and schools",
+    "id": 76,
+    "data": [
+      {
+        "main_category": "For Business and schools",
+        "category": null,
+        "sub_category": null,
+        "question": "How can I advertise my company/or school on your website?",
+        "answer": "<p>If you wish to advertise your company or school on SensCare platform, you may do so in two ways:<br />\r\nOnce you create a profile, your company profile will be listed in our <a href=\"/\">Business Directory page</a>. This is a great place to advertise your company and connect with other businesses.&nbsp;<br />\r\nPlace a banner on our platform and promote your brand.</p>\r\n\r\n<p>Please visit our <a href=\"/work-with-us\">Work with us</a> page and send us a message to further discuss your business needs and get a personalized quota.</p>"
+      },
+      {
+        "main_category": "For Business and schools",
+        "category": null,
+        "sub_category": null,
+        "question": "What are the conditions to list my company/school on your website?",
+        "answer": "<p>SensCare strives to create a safe and secure environment for our business partners. In order to list your company/school on SensCare platform, the businesses need to be registered and have the proper licenses to operate in the prospective fields.</p>"
+      },
+      {
+        "main_category": "For Business and schools",
+        "category": null,
+        "sub_category": null,
+        "question": "How much does it cost to advertise my services/deals with SensCare?",
+        "answer": "<p>Please <a href=\"/work-with-us\">send us message</a> &nbsp;to further discuss your business needs and get a personalized quota.</p>"
+      },
+      {
+        "main_category": "For Business and schools",
+        "category": null,
+        "sub_category": null,
+        "question": "I have a great promotion of my product or service, how can I post it?",
+        "answer": "<p>This is an exciting moment. To create a new deal, click on the &ldquo;new deal&rdquo; purple icon &nbsp; <img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 1491.svg\" /> &nbsp; in the upper right corner next to your profile picture. You can also go to Deal History and select the &ldquo;+ new deal&rdquo; purple symbol. Then you will be asked to enter a deal title and write a short deal description. Once your deal is live, sit tight and many members will start to claim your deal.</p>"
+      },
+      {
+        "main_category": "For Business and schools",
+        "category": null,
+        "sub_category": null,
+        "question": "What information should my deal contain to get approved?",
+        "answer": "<p>Please review the instructions to see an example of successful promotion description. If you have any questions please contact us, SensCare is always here to support you.</p>"
+      },
+      {
+        "main_category": "For Business and schools",
+        "category": null,
+        "sub_category": null,
+        "question": "How can I edit a deal post?",
+        "answer": "<p>To edit a deal post, visit Deal History <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\"\r\n            viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\"  stroke=\"none\">\r\n                <path\r\n                    d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\" />\r\n            </g>\r\n        </svg> My promotions and select a deal post you would like to edit. Then you will be brought to a new page where you can click on the &ldquo;edit deal&rdquo; button and update your post accordingly.</p>"
+      },
+      {
+        "main_category": "For Business and schools",
+        "category": null,
+        "sub_category": null,
+        "question": "How can I see how many members have claimed my deals?",
+        "answer": "<p>To see the analytics of your deal, visit Analytics sections on your profile and then choose the deal you want to see analytics for.&nbsp;</p>"
+      },
+      {
+        "main_category": "For Business and schools",
+        "category": null,
+        "sub_category": null,
+        "question": "What is your Analytics page and why is it important for us?",
+        "answer": "<p><img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 2278.svg\" /></p>\r\n\r\n<p>Analytics data will provide comprehensive insight on how well your services or products perform on our platform. Moreover, it will help you to better understand which marketing strategies work best for your company and how to improve your services, if necessary.</p>"
+      },
+      {
+        "main_category": "For Business and schools",
+        "category": null,
+        "sub_category": null,
+        "question": "We run a business/school in another country and would like to work with SensCare. How can we get in touch with you?",
+        "answer": "<p>We are eager to see you on our platform! Please <a href=\"/work-with-us\">send us message</a> to tell us more about your business needs and how you envision your collaboration with SensCare.</p>"
+      },
+      {
+        "main_category": "For Business and schools",
+        "category": null,
+        "sub_category": null,
+        "question": "Can SensCare help schools with the selection process?",
+        "answer": "<p>Definitely! Please <a href=\"/contact-us\">contact us</a> and describe your school&rsquo;s specific needs and requirements and our HR representative will be in contact with you, shortly.</p>"
+      }
+    ]
+  },
+  {
+    "main_category": "EDU Store",
+    "id": 86,
+    "data": [
+      {
+        "main_category": "EDU Store",
+        "category": null,
+        "sub_category": null,
+        "question": "What is your EDU store?",
+        "answer": "<p>Our EDU store contains products of our affiliate partners. In our EDU store you can find a wide range of toys and educational materials for students of all ages.</p>"
+      },
+      {
+        "main_category": "EDU Store",
+        "category": null,
+        "sub_category": null,
+        "question": "You’ve mentioned that your EDU store has products from affiliate partners. What does that mean?",
+        "answer": "<p>Our affiliate partners are businesses that sell their products on our platform. However, SensCare only hosts their products and does not handle any payment or shipping of the products.</p>"
+      },
+      {
+        "main_category": "EDU Store",
+        "category": null,
+        "sub_category": null,
+        "question": "Why cannot I buy EDU products directly on your site?",
+        "answer": "<p>Currently, SensCare does not handle any payments for EDU products. If you wish to purchase products from an EDU store, click on the button &lsquo;&rsquo;buy now&rsquo;&rsquo; on a product you wish to buy and you will be redirected to our partner&rsquo;s website where you can pay for the product.</p>"
+      },
+      {
+        "main_category": "EDU Store",
+        "category": null,
+        "sub_category": null,
+        "question": "I’ve ordered a product from an EDU store, but it hasn't been shipped and/or delivered yet.",
+        "answer": "<p>Please, be patient. We do understand that the situation might upset you, unfortunately the shipping services may sometimes experience a delay, especially if you&rsquo;ve ordered a product out of the country. However, If you&#39;re experiencing significant delays in shipping or delivery, please contact the website where you bought a product for further assistance. Moreover, if you&#39;re still experiencing issues after reaching out to our business partner store, please <a href=\"/contact-us\">contact us</a> and share more information with us so in order to better assist you.</p>"
+      }
+    ]
+  },
+  {
+    "main_category": "SensCare general questions",
+    "id": 90,
+    "data": [
+      {
+        "main_category": "SensCare general questions",
+        "category": null,
+        "sub_category": null,
+        "question": "What countries does SensCare currently provide services in?",
+        "answer": "<p>Currently, SensCare mainly operates in the Republic of Serbia with the aim of expanding its business operations in the EU countries. However, SensCare has partners worldwide and we provide customized services to our clients no matter where they are located.<br />\r\n<a href=\"/work-with-us\">Contact us</a> to further discuss your business needs.<br />\r\nAccordingly, we will update our website with new information prior to launching our services in the EU.<br />\r\n&nbsp;</p>"
+      },
+      {
+        "main_category": "SensCare general questions",
+        "category": null,
+        "sub_category": null,
+        "question": "Where are the members of your team located?",
+        "answer": "<p>Our platform takes pride in operating fully remotely; thus, the members of our team live worldwide - including the United States and Europe.</p>"
+      },
+      {
+        "main_category": "SensCare general questions",
+        "category": null,
+        "sub_category": null,
+        "question": "I need to request Business/School support",
+        "answer": "<p>For our paid members, please log into your account, visit <strong>Settings Support</strong>. If you are still not a member of SensCare, please sign up <a href=\"/signup\">here </a>&nbsp;and in the meanwhile, <a href=\"/contact-us\">contact us</a> to discuss your needs.</p>"
+      },
+      {
+        "main_category": "SensCare general questions",
+        "category": null,
+        "sub_category": null,
+        "question": "Does SensCare have an age restriction on how old a person has to be to apply for a job?",
+        "answer": "<p>Yes, SensCare does not allow persons younger than 16 years to advertise on our website. Visit our <a href=\"/terms-of-use\">Terms of Use</a> for more information.</p>"
+      }
+    ]
+  }
+]

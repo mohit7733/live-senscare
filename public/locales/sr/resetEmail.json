@@ -1,0 +1,18 @@
+{
+  "We have received your request to reset your password. To reset your password click the button below within 24 hours.": "Primili smo vaš zahtev za promenu lozinke. Da biste promenili lozinku, kliknite na dugme ispod u roku od 24 sata.",
+  "If you haven’t made this request, please contact us immediately at": "Ako vi niste zahtevali promenu lozinke molimo vas da nas odmah kontaktirate putem",
+
+  "Sincerely": "Iskreno",
+  "Dear username,": "Dragi/a korisničko ime,",
+  "Reset Password": "Resetuj lozinku",
+  "Password did not match.": "Lozinke se ne poklapaju.",
+  "Password": "Lozinka",
+  "Your password must be between 8-15 characters long and contain:": "Lozinka mora da bude između 8-15 karaktera i da sadrži sledeće:",
+  "- at least one uppercase letter": "- najmanje jedno veliko slovo",
+  "- at least one number digit": "- najmanje jedan broj ",
+  "- at least one special character -for example:  #, @, !": "- najmanje jedan specijalni karakter, kao na primer: #, @, !",
+  "Confirm password": "Potvrdi lozinku",
+  "Remember me": "Zapamti me",
+  "Reset password": "Resetuj lozinku",
+  "Cancel": "Otkaži"
+}

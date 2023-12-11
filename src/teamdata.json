@@ -1,0 +1,57 @@
+[
+  {
+    "id": 8,
+    "name": "Ivana Kovačević",
+    "nameCorrect": "Ivani",
+    "education": "Master specijalni edukator",
+    "position": "Generalni direktor",
+    "description": "Ivana je završila master studije u oblasti specijalnog obrazovanja i poseduje preko 13 godina međunarodnog iskustva u radu sa osobama sa smetnjama u razvoju, uključujući Srbiju i Sjedinjene Američke Države. Njen stručni fokus je podrška studentima sa različitim razvojnim smetnjama i poteškoćama u učenju, kao i menadžment u specijalnoj edukaciji.Ivana je radila kao konsultant za specijalno obrazovanje u Njujorku, kao specijalista za specijalno obrazovanje u internacionalnoj školi u Denveru, Kolorado, a trenutno je na poziciji direktora za podršku studentima sa smetnjama u učenju u privatnoj školi u Los Anđelesu u Kaliforniji. Ivanino iskustvo joj je pomoglo da razvije veliku stručnost u podršci u učenju, dizajnu instrukcija, kao i u menadžmentu u specijalnoj edukaciji i rehabilitaciji. Štaviše, Ivana je bila ponosna suvlasnica agencije za brigu o deci u Beogradu, Srbija; stoga, ona ima ogromno iskustvo u međunarodnom zapošljavanju profesionalaca koji pružaju usluge za decu. Ivana ima jak preduzetnički duh, a radila je i na razvoju i konsaltingu na nekoliko B2C i B2B start up-ova. Ponosi se time što je poluprofesionalni šef, a u slobodno vreme voli da čita. Ivana priča tečno srpski i engleski jezik.",
+    "image": "202206241656071974png",
+    "created_at": "2022-06-23T14:00:20.000000Z",
+    "updated_at": "2022-06-24T04:59:34.000000Z"
+  },
+  {
+    "id": 9,
+    "name": "Dr. Marija Čolić",
+    "education": "BCBA, LBA",
+    "nameCorrect": "Mariji",
+    "position": "Direktor poslovanja",
+    "description": "Marija Čolić, BCBA, LBA: Dr. Marija je diplomirala defektologiju i psihologiju, i doktorirala je na Fakultetu za specijalnu edukaciju i rehabilitaciju na Univerzitetu u Beogradu. Marija radi sa osobama sa autizmom više od 10 godina i bavi se primenjenom analizom ponašanja (ABA) od 2014. Trenutno predaje na Havajskom univerzitetu Manoa na prelepom ostrvu Oahu. Marija je objavila više članaka o porodičnoj stigmi i ABA-i u vodećim časopisima u ovim oblastima. U januaru 2021 godine, dobila je prestižnu Međunarodnu nagradu za istraživanje autizma od strane INSAR organizacije za svoj rad vezan za stigmatizaciju među srpskim roditeljima osoba sa autizmom. Marija od maja 2020. godine vodi besplatne ABA vebinare za stručnjake i roditelje koji imaju decu sa smetnjama u razvoju koji žive u Srbiji. Zanima je stigma u porodicama osoba sa smetnjama u razvoju i na koji način možemo podržati roditelje, kao i socijalni aspekt ABA. Marija voli surfovanje, okean i morski život.",
+    "image": "202206241656071898png",
+    "created_at": "2022-06-23T14:04:53.000000Z",
+    "updated_at": "2022-06-30T08:41:29.000000Z"
+  },
+  {
+    "id": 10,
+    "name": "Mila Širić",
+    "nameCorrect": "Mili",
+    "education": "Diplomirani Lingvista ",
+    "position": "Koordinator zapošljavanja",
+    "description": "Mila Širić, talentovana trilingvistkinja sa diplomom iz engleskih i američkih studija (uz dodatak u globalnom korporativnom menadžmentu) stečenom na Univerzitetu u Beču, pridružila se našem timu kao koordinator za zapošljavanje. Mila je rođena u Srbiji; međutim, tokom poslednjih 12 godina živela je u Austriji, uglavnom radeći kao instruktor engleskog i nemačkog jezika i nastavnik u Američkoj internacionalnoj školi u Beču. Stoga, Mila ima bogato iskustvo u radu sa internacionalnim studentima i duboko razume raznolikost kultura i inkluziju. Naravno, profesionalno vlada engleskim, nemačkim i srpskim jezikom. U slobodno vreme uživa u jahanju konja u prirodi, plivanju i vožnji rolerima. Takođe je strastvena ljubiteljka životinja i podržava prava životinja.",
+    "image": "202206241656071958png",
+    "created_at": "2022-06-23T14:01:19.000000Z",
+    "updated_at": "2023-09-12T06:28:22.000000Z"
+  },
+  {
+    "id": 11,
+    "name": "Faith Gobeli",
+    "nameCorrect": "Faith",
+    "education": "Master filozofije",
+    "position": "Marketing specijalista",
+    "description": "Faith je rođena i odrasla na Floridi i završila je master studije iz filozofije na Univerzitetu Biola u Kaliforniji. Faith se pridružila SensCare platformi kao stručnjak za marketing. Ona ima široko iskustvo u radu sa međunarodnim studentima i dobro razume raznolikost i inkluziju. Faith trenutno radi sa međunarodnim studentima na Long Beach City Koledžu u Kaliforniji. Njene glavne dužnosti uključuju pružanje podrške u nastavi i vođenje obrazovnih protokola za centar za učenje na koledžu. Faith je takođe programer sadržaja i marketinga za različite B2C i B2B kompanije. U slobodno vreme, Faith voli da piše i takođe je velika aktivistkinja za ženska prava.",
+    "image": "202206241656071934png",
+    "created_at": "2022-06-23T14:02:50.000000Z",
+    "updated_at": "2022-06-30T08:43:26.000000Z"
+  },
+  {
+    "id": 12,
+    "nameCorrect": "Dr. Sho Araiba",
+    "name": "Sho Araiba",
+    "education": "BCBA-D, LBA",
+    "position": "Bihejvioralni konsultant",
+    "description": "Dr. Sho je doktorirao psihologiju na Univerzitetu u Njujorku, sa naglaskom na primenjenoj analizi ponašanja (ABA). Ima preko 10 godina iskustva u oblasti ABA sa osobama sa smetnjama u razvoju, sa posebnim fokusom na autizam. Živi i radi kao BCBA-D u Honolulu, na Havajima. Njegova interesovanja su bihejviorizam i analiza ponašanja. Objavljivao je članke vezane za analizu ponašanja u vodećim časopisima. Sho se pridružio SensCare-u kao bihejvioralni konsultant za porodice sa osobama is spektra autizma. Sho priča japanski i engleski jezik.",
+    "image": "202206241656071917png",
+    "created_at": "2022-06-23T14:04:00.000000Z",
+    "updated_at": "2022-06-30T08:43:22.000000Z"
+  }
+]

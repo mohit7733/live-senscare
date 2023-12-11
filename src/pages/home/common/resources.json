@@ -1,0 +1,171 @@
+[
+  {
+    "category": "Savezi",
+    "id": 1,
+    "data": [
+      {
+        "id": 1,
+        "category": "Savezi",
+        "title": "Fizičke poteškoće",
+        "subtitle": "MS platforma Srbije ",
+        "link": "https://msplatforma.org.rs/about-us/?lang=en",
+        "created_at": "2022-06-27T14:35:07.000000Z",
+        "updated_at": "2022-06-29T12:13:12.000000Z"
+      }
+    ]
+  },
+  {
+    "category": "Udruženja",
+    "id": 5,
+    "data": [
+      {
+        "id": 5,
+        "category": "Udruženja",
+        "title": "Fizičke poteškoće",
+        "subtitle": "Centar za samostalni život osoba sa invaliditetom  Srbije, Beograd",
+        "link": "http://www.cilsrbija.org/eng/index.php",
+        "created_at": "2022-06-27T14:46:31.000000Z",
+        "updated_at": "2022-06-27T14:46:31.000000Z"
+      },
+      {
+        "id": 6,
+        "category": "Udruženja",
+        "title": null,
+        "subtitle": "Udruženje studenata sa hendikepom",
+        "link": "https://ush.rs/en/home",
+        "created_at": "2022-06-27T14:46:31.000000Z",
+        "updated_at": "2022-06-27T14:46:31.000000Z"
+      },
+      {
+        "id": 7,
+        "category": "Udruženja",
+        "title": null,
+        "subtitle": "Društvo za cerebralnu i dečiju paralizu 'Ana Antonijević'",
+        "link": "https://drustvo-zacerebralnuparalizukg.business.site/",
+        "created_at": "2022-06-27T14:46:31.000000Z",
+        "updated_at": "2022-06-27T14:46:31.000000Z"
+      },
+      {
+        "id": 8,
+        "category": "Udruženja",
+        "title": " Senzorni poremećaji",
+        "subtitle": "Gradska organizacija gluvih Beograda.",
+        "link": "http://gogb.org.rs/",
+        "created_at": "2022-06-27T14:46:31.000000Z",
+        "updated_at": "2022-06-27T14:46:31.000000Z"
+      }
+    ]
+  },
+  {
+    "category": "Nevladine organizacije",
+    "id": 9,
+    "data": [
+      {
+        "id": 9,
+        "category": "Nevladine organizacije",
+        "title": null,
+        "subtitle": "Mreža organizacija za decu iz Srbije",
+        "link": "http://zadecu.org/en/",
+        "created_at": "2022-06-27T15:11:41.000000Z",
+        "updated_at": "2022-07-06T09:22:56.000000Z"
+      },
+      {
+        "id": 10,
+        "category": "Nevladine organizacije",
+        "title": null,
+        "subtitle": "Organization littleBig people",
+        "link": "https://malivelikiljudi.com/en/",
+        "linkAnother": "https://malivelikiljudi.com/sr/",
+        "created_at": "2022-06-27T15:11:41.000000Z",
+        "updated_at": "2022-07-06T09:23:04.000000Z"
+      },
+      {
+        "id": 11,
+        "category": "Nevladine organizacije",
+        "title": null,
+        "subtitle": "Viva Udruženje za pomoć deci",
+        "link": "http://vivapomocdeci.org/en/",
+        "created_at": "2022-06-27T15:11:41.000000Z",
+        "updated_at": "2022-07-06T09:23:08.000000Z"
+      },
+      {
+        "id": 12,
+        "category": "Nevladine organizacije",
+        "title": null,
+        "subtitle": "Fondacija Anđela",
+        "link": "https://fondacijaandjela.org/en/",
+        "created_at": "2022-06-27T15:11:41.000000Z",
+        "updated_at": "2022-07-06T09:23:15.000000Z"
+      },
+      {
+        "id": 13,
+        "category": "Nevladine organizacije",
+        "title": null,
+        "subtitle": "Centar živeti uspravno Novi Sad",
+        "link": "https://www.czuns.org/en/",
+        "created_at": "2022-06-27T15:11:41.000000Z",
+        "updated_at": "2022-07-06T09:23:20.000000Z"
+      },
+      {
+        "id": 14,
+        "category": "Nevladine organizacije",
+        "title": null,
+        "subtitle": "Ekumenska humanitarna organizacija",
+        "link": "http://ehons.org/en/",
+        "created_at": "2022-06-27T15:11:41.000000Z",
+        "updated_at": "2022-07-06T09:23:25.000000Z"
+      },
+      {
+        "id": 15,
+        "category": "Nevladine organizacije",
+        "title": null,
+        "subtitle": "Pomoć Srpskoj deci",
+        "link": "https://en.pomocsrpskojdeci.com/",
+        "created_at": "2022-06-27T15:11:41.000000Z",
+        "updated_at": "2022-07-06T09:23:30.000000Z"
+      },
+      {
+        "id": 16,
+        "category": "Nevladine organizacije",
+        "title": null,
+        "subtitle": "Otvoreni klub - Društvo za razvoj dece i mladih",
+        "link": "https://oknis.org.rs/en/",
+        "created_at": "2022-06-27T15:11:41.000000Z",
+        "updated_at": "2022-07-06T09:23:44.000000Z"
+      },
+      {
+        "id": 17,
+        "category": "Nevladine organizacije",
+        "title": null,
+        "subtitle": "Nacionalna organizacija osoba sa invaliditetom Srbije (NOOIS)",
+        "link": "https://noois.rs/english",
+        "created_at": "2022-06-27T15:11:41.000000Z",
+        "updated_at": "2022-07-06T09:23:48.000000Z"
+      }
+    ]
+  },
+  {
+    "category": "Zakoni, propisi i priručnici",
+    "id": 18,
+    "data": [
+      {
+        "id": 18,
+        "category": "Zakoni, propisi i priručnici",
+        "title": null,
+        "subtitle": "Centar za prava deteta",
+        "link": "https://cpd.org.rs/?lang=en",
+        "created_at": "2022-06-27T15:13:05.000000Z",
+        "updated_at": "2022-07-06T09:24:13.000000Z"
+      },
+      {
+        "id": 19,
+        "category": "Zakoni, propisi i priručnici",
+        "title": null,
+        "subtitle": "Položaj dece sa smetnjama u razvoju i invaliditetom u Republici Srbiji",
+        "link": "https://www.unicef.org/serbia/en/position-children-disabilities-republic-serbia",
+        "created_at": "2022-06-27T15:13:05.000000Z",
+        "updated_at": "2022-07-06T09:24:25.000000Z"
+      }
+    ]
+  }
+]

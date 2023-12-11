@@ -1,0 +1,621 @@
+[
+  {
+    "main_category": "Sigurnost i verifikacija",
+    "id": 8,
+    "data": [
+      {
+        "main_category": "Sigurnost i verifikacija",
+        "category": null,
+        "sub_category": null,
+        "question": "Kako da znam da li član ima verifikovan profil?",
+        "answer": "<p>Da bi zaštitili naše članove, tim SensCare je usvojio nekoliko načina za verifikaciju profila. Svi naši članovi moraju da verifikuju svoj broj telefona i <br> e-mail adresu. Stoga, možete proveriti da li član ima verifikovani nalog na društvenoj mreži prateći ove korake:&nbsp;\r\n            idite na profil člana <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n            \r\n                        <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                            <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n                        </g>\r\n                    </svg></strong> zatim otvorite odeljak <strong>„Sigurnost i verifikacija</strong>”. Zlatni simbol društvene mreže znači da je nalog verifikovan &nbsp;&nbsp; <img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 500.svg\">&nbsp; <img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Twitter.svg\">&nbsp; <img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Instagram.svg\">&nbsp; <img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/LinkedIn.svg\"><br>\r\n            Pored toga, zlatni simboli na profilu člana su pokazatelji verifikovanih naloga <img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Vector.svg\">&nbsp; <img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Vector (1).svg\">&nbsp;<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/account_circle_24px.svg\">&nbsp;<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Vector (2).svg\"></p>"
+      },
+      {
+        "main_category": "Sigurnost i verifikacija",
+        "category": null,
+        "sub_category": null,
+        "question": "Kako da prijavim člana zbog sigurnosnih razloga ili neprimerenog ponašanja?",
+        "answer": "<p>Ako smatrate da člana treba prijaviti, idite na korisnikov profil i kliknite na dugme koje izgleda kao ljubičasti simbol &nbsp; <img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 1773.svg\" /> &nbsp;ruke odmah pored fotografije člana. Od vas će se tražiti da date kratak opis situacije. Kada primimo izveštaj, SensCare tim će preduzeti korake da dodatno istraži okolnosti.</p>"
+      },
+      {
+        "main_category": "Sigurnost i verifikacija",
+        "category": null,
+        "sub_category": null,
+        "question": "Zašto moram da verifikujem svoj broj telefona?",
+        "answer": "<p>Da bi mogli da verifikujemo naše nove članove i dodamo dodatni nivo zaštite, svi SensCare korisnici moraju da verifikuju svoj broj telefona. Vaš telefonski broj će biti zaštićen i ostali članovi neće imati pristup vašem telefonskom broju.</p>"
+      },
+      {
+        "main_category": "Sigurnost i verifikacija",
+        "category": null,
+        "sub_category": null,
+        "question": "Koji su lični podaci vidljivi  drugim članovima?",
+        "answer": "<p>SensCare tim razume koliko je važno zaštititi vaše lične podatke i stoga će jedini podaci dostupni ostalim članovima biti: vaše ime i prezime, godine starosti, grad i poštanski broj.</p>"
+      },
+      {
+        "main_category": "Sigurnost i verifikacija",
+        "category": null,
+        "sub_category": null,
+        "question": "Da li su moji lični podaci zaštićeni na platformi SensCare?",
+        "answer": "<p>Da, vaši lični podaci su zaštićeni na SensCare i vaši lični podaci (kao što su broj telefona i kućna adresa) neće biti vidljivi i neće biti deljeni sa drugim članovima. </p>"
+      },
+      {
+        "main_category": "Sigurnost i verifikacija",
+        "category": null,
+        "sub_category": null,
+        "question": "Zašto je SensCare stopirao moj nalog?",
+        "answer": "<p>SensCare ima pravo da stopira nalog korisnika ako su potvrđeni navodi protiv korisnika (ovi navodi mogu uključivati, ali nisu ograničeni na: neželjene poruke, neetično ponašanje, neuspeh prilikom verifikacije). Vaša sigurnost nam je veoma važna; stoga uvek težimo da našim članovima pružimo sigurno okruženje.</p>"
+      }
+    ]
+  },
+  {
+    "main_category": "Upravljanje nalogom",
+    "id": 14,
+    "data": [
+      {
+        "main_category": "Upravljanje nalogom",
+        "category": null,
+        "sub_category": null,
+        "question": "Kako mogu da izmenim svoje lične podatke?",
+        "answer": "<p>Ako želite da ažurirate svoje lične podatke, idite u <strong>Podešavanja &nbsp;<svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\"><g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\"><path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path></g></svg> Nalog </strong>&nbsp; <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\"><g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\"><path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path></g></svg>i odaberite <strong>Lične informacije</strong>. Kada otvorite odeljak <strong>Lične informacije</strong> <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\"><g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\"><path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path></g></svg> kliknite na <strong>Izmeni</strong> u gornjem desnom uglu, a zatim ažurirajte informacije koje želite.</p>"
+      },
+      {
+        "main_category": "Upravljanje nalogom",
+        "category": null,
+        "sub_category": null,
+        "question": "Zaboravio/la sam lozinku ili e-mail adresu, kako da ih povratim?",
+        "answer": "<p>Jednom kada kliknete na prijavi se, odaberite dugme &ldquo;<strong>zaboravili ste lozinku</strong>&rdquo; i sledite uputstva..&nbsp;</p>"
+      },
+      {
+        "main_category": "Upravljanje nalogom",
+        "category": null,
+        "sub_category": null,
+        "question": "Želim da zatvorim svoj nalog, koje korake treba da preduzmem?",
+        "answer": "<p>Žao nam je što odlazite! Ako želite da zatvorite svoj nalog, posetite <strong>Podešavanja <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\"><g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\"><path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path></g></svg> Nalog <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\"><g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\"><path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path></g></svg> Deaktiviraj/Izbriši nalog</strong> <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\"><g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\"><path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path></g></svg>     <br>i odatle odaberite da li želite da nalog trajno izbrišete ili trenutno onemogućite. Ako niste sigurni šta želite da uradite sa nalogom, preporučujemo vam da onemogućite nalog jer će vaši podaci biti sačuvani i biće vam dostupni kada ponovo aktivirate nalog. Imajte na umu da ako odlučite da izbrišete svoj nalog, svi podaci će biti trajno uklonjeni sa SensCare.</p>"
+      }
+    ]
+  },
+  {
+    "main_category": "Upravljanje profilom i sadržajem",
+    "id": 17,
+    "data": [
+      {
+        "main_category": "Zašto moram da postavim medije i kako to da uradim?",
+        "category": "Upravljanje profilom",
+        "sub_category": null,
+        "question": "Zašto moram da postavim medije i kako to da uradim?",
+        "answer": "<p>Kako SensCare teži stvaranju sigurnog i interaktivnog okruženja, posedovanje fotografije na profilu pomoći će da se bolje povežete sa drugim članovima, jer će dati ličniji dodir tokom početnih interakcija. Tokom popunjavanja profila, od vas će biti zatraženo da postavite profilnu sliku i/ ili video klikom na <strong>„postavi</strong>&rdquo; simbol.</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Upravljanje profilom",
+        "sub_category": null,
+        "question": "Kako napraviti video kako bih se najbolje predstavio/la?",
+        "answer": "<p>Preporučili bismo da napravite kratki video (ne duži od 2 minuta) koji najbolje pokazuje vaše profesionalne kvalitete. Prilikom pravljenja videa uzmite u obzir: vaše iskustvo sa decom, šta vas motiviše da radite sa decom, koja je vaša filozofija učenja, koje su vaše najznajčajnije prednosti u odnosu na druge kandidate, šta volite da radite u slobodno vreme, i slično.</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Upravljanje profilom",
+        "sub_category": null,
+        "question": "Šta predstavlja svaka ikonica na stranici profila?",
+        "answer": "<p>Ikonice na profilu člana pokazuju da li je član verifikovao svaki podatak. Ako je ikonica zlatne boje, to znači da je član verifikovao tu informaciju, ako je siva boja informacija nije verifikovana.</p>\r\n\r\n<p><strong>Objašnjenje ikonica (za sve korisnike)</strong></p>\r\n\r\n<p><img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Vector (5).svg\" />&nbsp; Broj telefona<br />\r\n\r\n<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 924.svg\" />&nbsp; Emejl<br />\r\n<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/account_circle_24px.svg\"  />&nbsp; Uverenje o ne(kažnjavanju) <br /> \r\n<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 500.svg\" />&nbsp;Soc medija<br />\r\n<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/videocam_24px.svg\" />&nbsp; Video<br />\r\n<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 1773.svg\" />&nbsp;Prijavi<br />\r\n<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Shape.svg\" /> &nbsp;Podeli profil&nbsp;</p>\r\n\r\n<p><strong>Opis ikonica (kandidati)</strong> \r\n\r\n<br />\r\n<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 1806.svg\" /> Defektolog<br />\r\n<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 337.svg\" /> Pedagoški asistent<br />\r\n<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 335.svg\" /> Dadilja<br />\r\n<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 339.svg\" /> Tutor</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Upravljanje profilom",
+        "sub_category": null,
+        "question": "Zašto ne mogu da pristupim nekim funkcijama na SensCare?",
+        "answer": "<p>Iako je većina funkcija dostupna svim korisnicima, neke funkcije su dostupne samo Premium članovima.&nbsp;<br />\r\nAko želite da dokupite komprehenzivniji plan i dobijete celokupan pristup našim uslugama, možete to uraditi na dva načina &ldquo;dokupi premium plan&rdquo; na zlatnoj traci na početnoj stranici i posetite  <strong>Podešavanja <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Nalog <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Plaćanje i SensCare Plan</strong> <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg>&nbsp; i odaberite &ldquo;<strong>Promeni plan</strong>&rdquo; odatle ćete biti u mogućnosti da odaberete novi plan.&nbsp;</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Za Roditelje",
+        "sub_category": "Posao/Intervju",
+        "question": "Da li je SensCare odgovoran da mi nađe osobu za rad?",
+        "answer": "<p>SensCare je platforma koja povezuje poslodavca i osobe koje traže posao u domenu dečijih usluga, ali SensCare nije direktno odgovoran za pronalaženje osobe za rad. SensCare je uvek tu da vas podrži ako imate pitanja ili nedoumice. Međutim, naš premium paket članstva daje vam mogućnost da koristite SensCare izbor kandidata. Da biste iskoristili ovu funkciju, dokupite naš Premium paket.</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Za Roditelje",
+        "sub_category": "Posao/Intervju",
+        "question": "Ako angažujem kandidata preko SensCare platforme koji živi u drugoj državi, da li ćete mi pomoći u procesu podnošenja zahteva za vizu?",
+        "answer": "<p>lako smo oduševljeni što ste našli izvrsnog kandidata, SensCare trenutno nije u mogućnosti da vam pomogne u obradi vize / radne dozvole za vašeg budućeg zaposlenog i stoga neće snositi odgovornost za pružanje bilo kakvih pravnih dokumenata, uključujući ugovor između vas i budućeg zaposlenog. Da biste osigurali uspešnost odabira pravog kandidata posetite naš <a href=\"/safety-center#parents\">Sigurnosni centar</a>. Takođe, za više informacija o postupku podnošenja zahteva za vizu, posetite ambasadu ili konzulat zemlje u kojoj živite.&nbsp;<br />\r\n&nbsp;</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Za Roditelje",
+        "sub_category": "Posao/Intervju",
+        "question": "Tražim dadilju i/ili profesionalnog pružaoca dečijih usluga, kako da objavim oglas za posao?",
+        "answer": "<p>Ovo je uzbudljiv trenutak! Da biste napravili novi oglas za posao, kliknite ljubičastu ikonicu &ldquo;<strong>oglas</strong>&rdquo; koja se nalazi u desnom gornjem uglu pored slike vašeg profila. Takođe, možete da posetite sekciju <strong>Istorija Poslova i Dokumenta</strong>  i izaberete ljubičasti simbol  <img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 2258.svg\"/>  „dodaj posao“. <br />Od vas će se tražiti da unesete naslov oglasa za posao i napišete kratak opis posla. Jednom kada objavite oglas budite strpljivi i mnoge dadilje i ostali profesionalni pružaoci dečjih usluga će vas konktatirati.&nbsp;<br />\r\n&nbsp;</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Za Roditelje",
+        "sub_category": "Posao/Intervju",
+        "question": "Kako mogu da uredim oglas za posao?",
+        "answer": "<p>Da biste uredili oglas za posao, posetite odeljak <strong> Istorija Poslova i Dokumenta</strong>  i odaberite oglas koji želite da uredite. Tada ćete biti preusmereni na novu stranicu na kojoj možete da kliknete na &ldquo;<strong>uredi oglas</strong>&rdquo; dugme i ažurirate svoju objavu.</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Za Roditelje",
+        "sub_category": "Posao/Intervju",
+        "question": "Želim da zatvorim oglas za posao, kako da to uradim?",
+        "answer": "<p>Da biste zatvorili oglas za posao, posetite sekciju <strong>Istorija Poslova i Dokumenta</strong> i odaberite oglas koji želite da zatvorite. Tada ćete biti preusmereni na novu stranicu na kojoj možete da kliknete na dugme  &ldquo;<strong>zatvori oglas</strong>&rdquo; i od vas će se tražiti da potvrdite da li želite da zatvorite oglas za posao. Takođe, aktivan posao možete deaktivirati sa stranice  <strong>Vidi / Uredi</strong> profil pomoću kliznog dugmeta.</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Za Roditelje",
+        "sub_category": "Posao/Intervju",
+        "question": "Pronašao/la sam dadilju i/ili  profesionalnog pružaoca dečijih usluga, kako da pošaljem poziv na intervju?",
+        "answer": "<p>Ovo je uzbudljiv trenutak! Da biste poslali poziv na intervju posetite <strong>profil člana</strong> i kliknite na\r\n        &ldquo;<strong>pozovi na intervju</strong>&rdquo; ljubičasto dugme koje se nalazi u desnom gornjem delu profila člana.<span class=\"interview\">Poziv za intervju</span> Vaša idealna dadilja i/ili profesionalni pružalac dečijih usluga je odmah iza ugla.</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Za Roditelje",
+        "sub_category": "Posao/Intervju",
+        "question": "Kako mogu da kontaktiram dadilju i / ili profesionalnog pružaoca dečijih usluga?",
+        "answer": "<p>Veoma nam je drago što ste našli potencijalnog kandidata. Ako želite da kontaktirate kandidata, potrebno je da pošaljete poziv na intervju. Da biste to uradili, posetite profil člana i kliknite ljubičasto dugme “<strong>Poziv na intervju</strong>” koji se nalazi u desnom gornjem delu profilne stranice člana. &nbsp; <span class=\"interview\">poziv na intervju</span><br>\r\n            Ako član prihvati vaš intervju, bićete obavešteni i odatle ćete moći da ga kontaktirate putem našeg centra za poruke. Da biste pristupili porukama, morate da imate plaćeni paket. Kliknite <a href=\"javascript: void(0)\">ovde</a> da biste dokupili \r\n                paket.&nbsp;<br>\r\n                &nbsp;</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Za Roditelje",
+        "sub_category": "Posao/Intervju",
+        "question": "Šta da uradim ako član ne dođe na intervju?",
+        "answer": "<p>Iako je SensCare pružio sjajne smernice o tome kako da se sprovede efikasan intervju i koliko je važno da se iskaže poštovanje prilikom intervjua, nažalost u nekim slučajevima se mogu dogoditi neočekivane stvari. Prvi korak bi bio da proverite da li vas je član kontaktirao putem naše platforme i šta je razlog za propuštanje intervjua. Ako smatrate da je član pokazao neprofesionalno ponašanje, bilo bi najbolje da prekinete dalju komunikaciju sa kandidatom.</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Za Roditelje",
+        "sub_category": "Posao/Intervju",
+        "question": "Šta ako tokom intervjua ili nakon što zaposlim dadilju i/ili profesionalnog pružaoca dečijih usluga uvidim neprofesionalno ponašanje?",
+        "answer": "<p>Iako se SensCare trudi da obezbedi sigurno okruženje među našim članovima kroz strog postupak verifikacije, i\r\n         dalje toplo preporučujemo da posetite naš <a href=\"/safety-center#parents\">Sigurnosni centar</a> i pročitate naše savete\r\n        u vezi intervju procesa. Ako se tokom ili nakon intervjua dogodi neko neprofesionalno ponašanje, podstičemo vas\r\n        da prijavite kandiata. Pročitajte više <a href=\"javascript:void(0)\" id=\"question1\">ovde</a> kako biste prijavili\r\n        kandidata. Ako postoje ozbiljna kršenja vaših prava ili je ugrožena bezbednost vaše porodice, odmah kontaktirajte\r\n        nadležne organe u vašem području.</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Za Roditelje",
+        "sub_category": "Zatraži dokumenta",
+        "question": "Kako mogu da zatražim uverenje o (ne)kažnjavanju?",
+        "answer": "<p>Srećni smo što ste pronašli potencijalnog kandidata da radi sa vašim detetom. Da biste zatražili potvrdu o neosuđivanosti, idite na profil člana i kliknite na “<strong>zatraži dokumenta</strong>'' koji se nalazi u gornjem desnom uglu &nbsp;<img class=\"imgmrgn\" src=\"request.png\" width=\"150\"><br>\r\n           Od vas će biti zatraženo da odaberete dokument, zatim kliknite na “ <strong>uverenje o (ne)kažnjavanju</strong>” &nbsp;i pošaljite svoj zahtev.</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Za Roditelje",
+        "sub_category": "Zatraži dokumenta",
+        "question": "Kako zatražiti CV i preporuke od člana putem platforme SensCare?",
+        "answer": "<p>Srećni smo što ste pronašli potencijalnog kandidata da radi sa vašim detetom. Da biste zatražili CV i / ili preporuku, idite na profil člana i kliknite na dugme &nbsp;<img src=\"../request.png\" width=\"150\" class=\"imgmrgn\">        koje se nalazi u gornjem desnom uglu. Od vas će biti zatraženo da odaberete dokument, a zatim kliknite na “<strong>CV</strong>” i / ili\r\n        “<strong>Preporuka</strong>” &nbsp; i pošaljite svoj zahtev.</p>"
+      },
+
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Za Roditelje",
+        "sub_category": "Zatraži dokumenta",
+        "question": "Dobio/la sam zahtev za preporuku, šta je sledeći korak?",
+        "answer": "<p>To su sjajne vesti! Da bi se članovima pomoglo u budućem zaposlenju, pismo preporuke je veoma važno.&nbsp;<br />\r\nPosetite <strong>Istoriju Poslova i Dokumenta</strong> <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> <strong>Zahtevi za preporuke</strong> i izaberite kojem članu želite da pošaljete preporuku. Potom, kliknite na &ldquo;<strong>napiši preporuku</strong>&rdquo; dugme koje se nalazi u poruci koju vam je član poslao. Dalje će biti zatraženo da podelite pismo preporuke u obliku .pdf ili .docx fajla. Nakon toga kliknite &ldquo;<strong>pošalji preporuku</strong>&rdquo; dugme.</p>"
+      },
+
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Za kandidate",
+        "sub_category": "Posao/Intervju",
+        "question": "Da li je SensCare odgovoran da mi nađe posao?",
+        "answer": "<p>SensCare je platforma koja povezuje poslodavca i osobu koja traži posao, ali SensCare nije odgovoran za pronalaženje posla. SensCare tim je uvek tu da vas podrži ako imate pitanja ili nedoumice.</p>"
+      },
+
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Za kandidate",
+        "sub_category": "Posao/Intervju",
+        "question": "Našao sam sjajan oglas za posao, kako da se prijavim?",
+        "answer": "<p>Ovo su odlične vesti! Posetite profil člana, kliknite na <strong>Oglasi za posao <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Prijavi se za posao.</strong></p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Za kandidate",
+        "sub_category": "Posao/Intervju",
+        "question": "Ako me neko angažuje za posao u inostranstvu, da li će mi SensCare pomoći oko zahteva za vizu?",
+        "answer": "<p>Iako smo veoma srećni što ste dobili priliku da radite u inostranstvu, SensCare trenutno nije u mogućnosti da vam pomogne u dobijanju vize / radne dozvole i stoga neće snositi odgovornost za pružanje bilo kakvih pravnih dokumenata, uključujući ugovor između vas i vašeg poslodavca. Za više informacija o postupku podnošenja zahteva za vizu, posetite ambasadu ili konzulat države u kojoj ste dobili posao.</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Za kandidate",
+        "sub_category": "Posao/Intervju",
+        "question": "Prijavio/la sam se za preko 10 poslova, ali me još niko nije zaposlio, šta da radim?",
+        "answer": "<p>Razumemo da ovo može predstavljati frustrirajuću situaciju. U nekim slučajevima se desi da protekne malo vremena pre nego što korisnik primi ponudu za posao. Budite strpljivi, i uvek proverite da li se vaš profil poklapa opisu i zahtevima posla, i da li imate dovoljno iskustva za taj posao.&nbsp;<br />\r\nTakođe, imajte na umu da je SensCare tim uvek tu da vas podrži, samo treba da nas  <a href=\"/contact-us\">kontaktirate</a>.</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Za kandidate",
+        "sub_category": "Posao/Intervju",
+        "question": "Kako mogu biti siguran/na da će porodica izvršiti uplatu?",
+        "answer": "<p>Da biste osigurali pronalazak posla kod pouzdane porodice, posetite naš <a href=\"/safety-center\">Sigurnosni centar</a> i pročitajte više o intervju procesu i naše <a href=\"/safety-center\">saveta o bezbednosti</a> kako biste se pripremili za traženje posla. U nekim slučajevima, poslodavac i zaposleni mogu da potpišu ugovor koji jasno opisuje dužnosti i plaćanje. Međutim, ako naiđete na bilo kakve poteškoće sa porodicom, pročitajte više <a href=\"javascript:void(0)\" id=\"question2\">ovde</a> kako da prijavite profil.</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Za kandidate",
+        "sub_category": "Posao/Intervju",
+        "question": "Ko odlučuje visinu zarade?",
+        "answer": "<p>SensCare ne učestvuje u odlučivanju visine vaše zarade. Na vašem profilu, imate slobodu da objavite željenu sumu po satu za svoje usluge. Ako niste sigurni kako da odredite svoju satnicu, preporučujemo vam da uzmete u obzir nekoliko faktora, kao što su: nivo obrazovanja, godine radnog iskustva i lokacija na kojoj želite da se zaposlite. Takođe, možete posetiti profile drugih kandidata da biste videli njihovu prosečnu satnicu za pružanje istih usluga na vašoj lokaciji. Konačno, na osnovu našeg iskustva, krajnja satnica se uvek odlučuje između poslodavca i zaposlenog.</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Za kandidate",
+        "sub_category": "Posao/Intervju",
+        "question": "Dobio/la sam poziv za intervju, šta je sledeće?",
+        "answer": "<p>Ovo su odlične vesti! Posetite sekciju <strong>Obaveštenja </strong> ili <strong>Istorija Poslova i Dokumenta <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Pozivi na intervju</strong> i odaberite poruku od člana koji vas je pozvao na intervju. Imaćete mogućnost da prihvatite poziv na intervju i posetite profil, ili da ga odbijete. SensCare toplo preporučuje da pregledate profil člana pre nego što prihvatite poziv na intervju. Molimo vas da posetite naš Sigurnosni centar radi <a href=\"/safety-center\">saveta o bezbednosti</a> i da saznate više o intervju procesu.</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Za kandidate",
+        "sub_category": "Posao/Intervju",
+        "question": "Kako da se pripremim za intervju?",
+        "answer": "<p>Molimo vas da posetite naš <a href=\"/safety-center\">Sigurnosni centar</a> kako biste dobili savete da se najbolje pripremite za intervju.</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Za kandidate",
+        "sub_category": "Posao/Intervju",
+        "question": "Kako mogu da kontaktiram porodicu ili školu?",
+        "answer": "<p>Možete započeti kontakt prijavljivanjem na aktivan oglas za posao. Ako porodica ili škola veruje da ste odgovarajuć kandidat, mogu vas kontaktirati putem poruka direktno na SensCare platformi  i onda ćete moći nastaviti dalju komunikaciju. Takođe, porodica ili škola može započeti kontakt slanjem poziva na intervju. Ako prihvatite poziv za intervju, porodica ili škola će biti obavešteni i odatle ćete moći da kontaktirate člana putem našeg centra za poruke. Da biste pristupili porukama, morate imati plaćeni plan. Dokupite svoj plan danas kako bi imali kompletan pristup svim funkcijama na SensCare platformi.&nbsp;</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Za kandidate",
+        "sub_category": "Posao/Intervju",
+        "question": "Šta ako se tokom intervjua ili nakon što sam zaposlen/na dogodi neko neprofesionalno ponašanje?",
+        "answer": "<p>Iako se SensCare tim trudi da obezbedi sigurno okruženje među našim članovima kroz strog postupak verifikacije, i dalje toplo preporučujemo da posetite naš Sigurnosni centar  i pročitate naše  <a href=\"/safety-center\">savete o bezbednosti</a> pre intervjua. Ako se tokom ili nakon intervjua dogodi neko neprofesionalno ponašanje, podstičemo vas da prijavite korisnika klikom na ikonicu ruke &nbsp;<img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 1773.svg\" /> &nbsp; na profilu tog člana. Ako postoje ozbiljna kršenja vaših prava ili bezbednosti, odmah kontaktirajte nadležne organe u vašem području.</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Za kandidate",
+        "sub_category": "Zahtevi za dokumenta",
+        "question": "Porodica/ ili škola traži uverenje o neosuđivanosti, kako da pošaljem uverenje?",
+        "answer": "<p>Čini se da ste na korak do pronalaska vašeg posla iz snova. Posetite <strong>Obaveštenja <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Zahtevi za dokumenta</strong> ili <strong>Istoriju Poslova i  Dokumenta <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Zahtevi za dokumenta</strong> i zatim izaberite poruku od člana koji je potražio uverenje o (ne)kažnjavanju. Kada se poruka otvori, kliknite na dugme „pošalji dokumenta“. Tada će biti zatraženo da postavite vaš dokument; izaberete uverenje o (ne)kažnjavanju i kliknite na &ldquo;nastavi&rdquo;.&nbsp;</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Za kandidate",
+        "sub_category": "Zahtevi za dokumenta",
+        "question": "Koliko često treba da postavim novo uverenje o (ne)kažnjavanju?",
+        "answer": "<p>Da bi osigurao sigurnost svih članova, SensCare preporučuje da uverenje o (ne)kažnjavanju nije starije od 6 meseci.</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Za kandidate",
+        "sub_category": "Zahtevi za dokumenta",
+        "question": "Kako mogu da pošaljem prateću dokumentaciju, poput biografije ili preporuka?",
+        "answer": "<p>Čini se da ste na korak do pronalaska posla iz snova. Posetite  <strong>Obaveštenja <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\"\r\n            viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\"  stroke=\"none\">\r\n                <path\r\n                    d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\" />\r\n            </g>\r\n        </svg> Zahtevi za dokumenta ili Istoriju Poslova i Dokumenta  <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\"\r\n            viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\"  stroke=\"none\">\r\n                <path\r\n                    d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\" />\r\n            </g>\r\n        </svg> Zahtevi za dokumenta</strong>.Kada se otvori poruka člana, kliknite na dugme &ldquo;pošalji dokumente&rdquo;. Tada će biti zatraženo da odaberete svoja dokumenta, te odaberite dokument koji želite da pošaljete i kliknite na &ldquo;<strong>nastavi</strong>&rdquo;. Takođe, možete da posetite <strong>Istoriju Poslova i dokumenta  <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\"\r\n            viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\"  stroke=\"none\">\r\n                <path\r\n                    d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\" />\r\n            </g>\r\n        </svg> Moja dokumenta</strong> i koristeći simbol za deljenje <img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Shape (1).svg\" /> pošaljite dokumenat članu.</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Za kandidate",
+        "sub_category": "Zahtevi za dokumenta",
+        "question": "Kako mogu da zatražim preporuku od porodice/ili škole?",
+        "answer": "<p>Drago nam je da čujemo da ste imali pozitivno iskustvo sa članovima SensCare platforme. Da biste zatražili preporuku, posetite profil člana i kliknite na “<strong>zatraži preporuku</strong>” &nbsp; <img class=\"imgmrgn\" src=\"../preporuku.png\" width=\"150\"> &nbsp;ispod “<strong>O meni</strong>” sekcije.</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Ocene",
+        "sub_category": null,
+        "question": "Član mi je dao lošu ocenu, šta da radim?",
+        "answer": "<p>Shvatamo da je ovo neprijatno iskustvo, ali SensCare nema pravo da menja recenzije koje su članovi postavili. Savetovali bismo vas da proverite u samoj recenziji čime je član bio nezadovoljan i poboljšate taj aspekt u budućnosti. Uvek možete kontaktirati SensCare podršku da biste dobili neke ideje. Ako se član služio uvredljivim jezikom, molimo vas da prijavite &nbsp; <img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 1773.svg\" /> &nbsp; člana i mi ćemo dalje istražiti vašu prijavu.</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Ocene",
+        "sub_category": null,
+        "question": "Želim da objavim ocenu, kako to mogu da uradim?",
+        "answer": "<p>Nadamo se da ste zadovoljni saradnjom sa članom SensCare platforme. Da biste ostavili ocenu, idite na profil člana i kliknite na zvezdice da biste ocenili  &nbsp; <img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Vector (Stroke).svg\" /><img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Vector (Stroke).svg\" /><img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Vector (Stroke).svg\" /><img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Vector (Stroke).svg\" /><img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Vector (Stroke) (1).svg\" /> &nbsp;člana ili to možete učiniti u sekciji <strong>Ocene</strong> na vašem profilu. <br />\r\n&nbsp;</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Ponude",
+        "sub_category": null,
+        "question": "Preuzeo/la sam odličnu promotivnu ponudu, kako mogu da je iskoristim?",
+        "answer": "<p>Drago nam je da ste pronašli pravu uslugu ili proizvod za vas!&nbsp;<br />\r\nPratite ovu putanju: Prijavite se na svoj nalog <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\"\r\n            viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\"  stroke=\"none\">\r\n                <path\r\n                    d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\" />\r\n            </g>\r\n        </svg> Promocije <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\"\r\n            viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\"  stroke=\"none\">\r\n                <path\r\n                    d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\" />\r\n            </g>\r\n        </svg> Preuzete ponude <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\"\r\n            viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\"  stroke=\"none\">\r\n                <path\r\n                    d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\" />\r\n            </g>\r\n        </svg> i Prikaži ponudu. Prikazaće se informacije o kompaniji i možete da stupite u kontakt kada budete spremni da iskoristite svoj vaučer. Ako ste usluge platili putem Interneta samo ćete morati da kontaktirate kompaniju da biste zakazali sastanak. Ako ste odlučili da platite gotovinom, odštampajte vaučer, kontaktirajte kompaniju da biste zakazali sastanak i ponesite vaučer sa sobom kako biste ga pokazali prilikom vaše posete.</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Ponude",
+        "sub_category": null,
+        "question": "Da li su navedene promotivne ponude na vašem veb sajtu sigurne za kupovinu?",
+        "answer": "<p>Da, biznisi sa kojima sarađujemo imaju registrovanu kompaniju za usluge koje pružaju.</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Ponude",
+        "sub_category": null,
+        "question": "Imam problem da iskoristim vaučer za promotivnu ponudu, šta da radim?",
+        "answer": "<p>Ako imate poteškoća da iskoristite vaučer, obratite se direktno kompaniji. Ako i dalje imate problem, kontaktirajte SensCare direktno putem naše <a href=\"/contact-us\">stranice za kontakt</a>.</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Ponude",
+        "sub_category": null,
+        "question": "Zašto ne mogu da kupim promotivnu ponudu na vašem veb sajtu?",
+        "answer": "<p>Trenutno, SensCare ne posreduje u transakcijama između drugih kompanija i naših članova. Molimo vas da se direktno obratite kompaniji u vezi sa plaćanjem ponude.</p>"
+      },
+      {
+        "main_category": "Upravljanje profilom i sadržajem",
+        "category": "Promocije i Obaveštenja",
+        "sub_category": null,
+        "question": "Više ne želim da primam promotivne e-mailove od SensCare, kako mogu da se odjavim?",
+        "answer": "<p>Razumemo da je ponekad dobro napraviti predah od promotivnih e-mailove. Posetite svoja <strong>Podešavanja <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Vidi/Uredi Profil <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Lične Preferencije <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Preferencije i obaveštenja</strong> i onda deaktivirajte obaveštenja putem kliznog dugmeta.</p>"
+      }
+    ]
+  },
+  {
+    "main_category": "Plaćanje i SensCare Plan",
+    "id": 58,
+    "data": [
+      {
+        "main_category": "Plaćanje i SensCare Plan",
+        "category": "Plaćanje",
+        "sub_category": null,
+        "question": "Ako ste roditelj - Kako da znate koji SensCare plan je najbolji za vas?",
+        "answer": "<p>Kada birate SensCare plan uzmite u obzir svoje potrebe.Veći plan pruža vam više fleksibilnosti i izbora, što može biti važno za vas ako ste, na primer, često u putu, treba vam više dadilja, živite na više mesta itd.</p>"
+      },
+      {
+        "main_category": "Plaćanje i SensCare Plan",
+        "category": "Plaćanje",
+        "sub_category": null,
+        "question": "Ako tražite posao - Kako da znate koji SensCare plan je najbolji za vas?",
+        "answer": "<p>Kada birate SensCare plan uzmite u obzir svoje potrebe. Veći plan pruža vam više fleksibilnosti i izbora, kao i bolju priliku da pronađete odgovarajuću poziciju i posao.&nbsp;&nbsp; &nbsp;</p>"
+      },
+      {
+        "main_category": "Plaćanje i SensCare Plan",
+        "category": "Plaćanje",
+        "sub_category": null,
+        "question": "Želim da dokupim komprehnzivniji plan, kako to mogu da uradim?",
+        "answer": "<p>Drago nam je što želelite da dodatno istražite našu platformu SensCare. Da biste dokupili novi plan možete ili kliknuti &ldquo;<strong>dokupi premium plan</strong>&rdquo; na  zlatnoj traci na naslovnoj stranici ili posetite  <strong>Podešavanja <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Nalog <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Plaćanje i SensCare Plan <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> </strong> i zatim odaberite <strong>Promeni plan</strong>.Bićete upućeni da izaberete novi plan članstva.</p>"
+      },
+      {
+        "main_category": "Plaćanje i SensCare Plan",
+        "category": "Plaćanje",
+        "sub_category": null,
+        "question": "Kako mogu da promenim svoj SensCare plan?",
+        "answer": "<p>Drago nam je što želelite da dodatno istražite našu platformu SensCare. Da biste promenili plan, posetite <strong>Podešavanja <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Nalog <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Plaćanje i SensCare Plan</strong> i kliknite na Promeni plan. Bićete upućeni da izaberete novi plan članstva</p>"
+      },
+      {
+        "main_category": "Plaćanje i SensCare Plan",
+        "category": "Plaćanje",
+        "sub_category": null,
+        "question": "Mogu li dobiti povraćaj novca ako nisam zadovoljan/na uslugama?",
+        "answer": "<p>SensCare se trudi da pruži usluge najboljeg kvaliteta; međutim, potpuno smo svesni da očekivanja možda neće uvek biti ispunjena. Nažalost, prema našoj politici, ne postoji povraćaj novca za korišćenje usluga na našoj platformi. Mećutim, u retkim slučajevima postoji mogućnost da ostvarite pravo na povraćaj novca ako je došlo do ozbiljnih kršenja naše  <a href=\"/privacy-policy\">Politike privatnosti</a> i&nbsp;<a href=\"/terms-of-use\"> Uslova korišćenja</a>. SensCare zadržava pravo da odlučuje o povraćaju novca na individualnoj osnovi. Ukoliko niste zadovoljni uslugama, obavestite nas o svom iskustvu jer bismo želeli da saslušamo vaše mišljenje i učinimo vaše iskustvo prijatnijim.&nbsp;<br />\r\n&nbsp;</p>"
+      },
+      {
+        "main_category": "Plaćanje i SensCare Plan",
+        "category": "SensCare obnova pretplate",
+        "sub_category": null,
+        "question": "Šta je automatska obnova pretplate?",
+        "answer": "<p>Automatska obnavlja pretplate je usluga koju nudi SensCare kako bi se automatski produžio plan članstva neposredno pre isteka. Automatsko obnavljanje pretplate  je pozitivno ocenjeno jer nećete morati ručno da izvršite postupak obnavljanja svakog meseca. Kada odaberete SensCare plan, pretplata će se automatski obnavljati svakog obračunskog ciklusa, osim ako ne otkažete automatsko obnavljanje pre sledećeg datuma plaćanja.</p>"
+      },
+      {
+        "main_category": "Plaćanje i SensCare Plan",
+        "category": "SensCare obnova pretplate",
+        "sub_category": null,
+        "question": "Kada sam se prijavo/la na automatsko obnavljanje pretplate?",
+        "answer": "<p>Pretplatili ste se na automatsko obnavljanje kada ste aktivirali ili dokupili SensCare plan i dali vašu saglasnost klikom na dugme za automatsko obnavljanje.</p>"
+      },
+      {
+        "main_category": "Plaćanje i SensCare Plan",
+        "category": "SensCare obnova pretplate",
+        "sub_category": null,
+        "question": "Kako mogu da otkažem automatsko obnavljanje pretplate?",
+        "answer": "<p>Pretplatu možete otkazati posetom <strong>Podešavanja <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Nalog <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Plaćanje i SensCare Plan</strong> i deaktiviranjem dugmeta za  automatsko obnavljanje.</p>"
+      },
+      {
+        "main_category": "Plaćanje i SensCare Plan",
+        "category": "SensCare obnova pretplate",
+        "sub_category": null,
+        "question": "Kada će moja kreditna kartica da se naplati?",
+        "answer": "<p>Kada se prijavite za automatsko obnavljanje pretplate, SensCare će kreditnu karticu koja je sačuvana na vašem nalogu naplatiti u roku od 48 sati od datuma obnavljanja vaše pretplate u iznosu vašeg trenutnog članstva. Svoj plan članstva možete proveriti u <strong>Podešavanja <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Nalog <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Plaćanje i SensCare Plan.</strong></p>"
+      },
+      {
+        "main_category": "Plaćanje i SensCare Plan",
+        "category": "SensCare obnova pretplate",
+        "sub_category": null,
+        "question": "Kako da aktiviram automatsko obnavljanje pretplate?",
+        "answer": "<p>Možete se prijaviti za automatsko obnavljanje pretplate tako što ćete posetiti <strong>Podešavanja <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Nalog <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Plaćanje i članstvo</strong> i aktiviranjem opcije automatskog obnavljanja. Takođe, možete se prijaviti za automatsko obnavljanje pretplate kada aktivirate ili dokupite svoj SensCare plan.</p>"
+      },
+      {
+        "main_category": "Plaćanje i SensCare Plan",
+        "category": "SensCare obnova pretplate",
+        "sub_category": null,
+        "question": "Da li ćete me podsetiti pre nego što moja kreditna kartica istekne?",
+        "answer": "<p>SensCare trenutno ne šalje podsetnike da bi vas obavestili o isteku vaše kreditne kartice. Zato je važno da uvek imate najnovije informacije u vezi sa sačuvanim kreditnim karticama na vašem nalogu. U slučajevima kada je kartica istekla i ne možemo da naplatimo vašu kreditnu karticu, vaše članstvo se neće automatski obnavljati i moraćete ponovo da unesete podatke o plaćanju.</p>"
+      },
+      {
+        "main_category": "Plaćanje i SensCare Plan",
+        "category": "SensCare obnova pretplate",
+        "sub_category": null,
+        "question": "Da li ćete poslati podsetnik o isteku automatske obnove pretplate?",
+        "answer": "<p>Da, SensCare će vam poslati e-mejl najmanje 10 dana pre završetka automatske pretplate. Na primer, ako se pretplata obnavlja godišnje, poslaćemo vam e-mejl sa cenom, rokom i povezanim detaljima pre nego što naplatimo vašu kreditnu karticu.</p>"
+      },
+      {
+        "main_category": "Plaćanje i SensCare Plan",
+        "category": "SensCare obnova pretplate",
+        "sub_category": null,
+        "question": "Šta će se dogoditi ako otkažem automatsko obnavljanje pretplate pre isteka SensCare plana?",
+        "answer": "<p>Morate da otkažete automatsko obnavljanje pretplate najmanje 7 dana pre datuma obnavljanja kako biste izbegli dodatne troškove. Molimo vas pročitajte naše <a href=\"/terms-of-use\">Uslove korišćenja</a> za više informacija o uslovima otkazivanja SensCare plana.</p>"
+      },
+      {
+        "main_category": "Plaćanje i SensCare Plan",
+        "category": "Plaćanje",
+        "sub_category": null,
+        "question": "Da li je sigurno da moja kreditna kartica bude sačuvana na SensCare?",
+        "answer": "<p>Da, vaše sačuvane informacije o kreditnoj kartici su zaštićene na platformi SensCare.</p>"
+      },
+      {
+        "main_category": "Plaćanje i SensCare Plan",
+        "category": "Plaćanje",
+        "sub_category": null,
+        "question": "Moja kreditna kartica je odbijena, šta da radim?",
+        "answer": "<p>Potpuno smo svesni da ovo može biti vrlo neprijatno iskustvo stoga je SensCare tim ovde da vam pomogne. Česti razlozi za odbijanje kreditne kartice su zato sto je kartica istekla ili se dogodi da korisnik unese pogrešan broj kreditne kartice. Još jednom proverite datum isteka kartice i da li ste tačno uneli broj vaše kreditne kartice. Ako i dalje ne možemo da obradimo vašu uplatu, pokušajte sa drugom karticom ili kontaktirajte svoju banku. Dodatne provizije banke povezane sa kupovinom mogu biti uključene u skladu sa vašim bankovnim ugovorom.</p>"
+      },
+      {
+        "main_category": "Plaćanje i SensCare Plan",
+        "category": "Plaćanje",
+        "sub_category": null,
+        "question": "Kako da uklonim kreditnu karticu sa SensCare?",
+        "answer": "<p>Da biste uklonili kreditnu karticu, posetite <strong>Podešavanja <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Nalog <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Plaćanje i SensCare Plan</strong> <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> i zatim <strong>odaberite kreditnu karticu</strong> koju želite da uklonite sa SensCare.</p>"
+      },
+      {
+        "main_category": "Plaćanje i SensCare Plan",
+        "category": "Plaćanje",
+        "sub_category": null,
+        "question": "Kako mogu da dodam novu kreditnu karticu?",
+        "answer": "<p>Da biste dodali kreditnu karticu, posetite <strong>Podešavanja <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Nalog <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\" viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\" stroke=\"none\">\r\n                <path d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\"></path>\r\n            </g>\r\n        </svg> Plaćanje i SensCare Plan</strong> i zatim odaberite &ldquo;<strong>dodaj novu karticu</strong>&rdquo; u gornjem desnom uglu.<br />\r\n&nbsp;</p>"
+      },
+      {
+        "main_category": "Plaćanje i SensCare Plan",
+        "category": "Plaćanje",
+        "sub_category": null,
+        "question": "Da li SensCare posreduje u novčanim transakcijama između poslodavca i zaposlenog?",
+        "answer": "<p>Trenutno SensCare ne posreduje u novčanim transakcijama između naših članova. Molimo vas da pregledate naš <a href=\"/safety-center\">Sigurnosni centar</a> za više informacija o bezbednosnim savetima.</p>"
+      }
+    ]
+  },
+  {
+    "main_category": "For Business and schools",
+    "id": 76,
+    "data": [
+      {
+        "main_category": "For Business and schools",
+        "category": null,
+        "sub_category": null,
+        "question": "Kako mogu da oglašavam svoju kompaniju / ili školu na vašem veb sajtu?",
+        "answer": "<p>Ako želite da oglasite svoju kompaniju ili školu na SensCare platformi, to možete učiniti na dva načina:<br />\r\nKada napravite nalog, profil vaše kompanije biće prikazan na našoj  <a href=\"/\">Poslovnog Direktorijuma stranici</a>. SensCare je odlično mesto za oglašavanje vaše kompanije i povezivanje sa drugim biznisima.&nbsp;<br />\r\nPostavite baner na našoj platformi i promovišite svoj brend.</p>\r\n\r\n<p>Molimo vas da posetite našu <a href=\"/work-with-us\">Sarađujte sa nama</a> stranicu i pošaljite nam poruku kako bismo nastavili dalju komunikaciju o vašim poslovnim potrebama i kako biste dobili personalizovanu kvotu.</p>"
+      },
+      {
+        "main_category": "For Business and schools",
+        "category": null,
+        "sub_category": null,
+        "question": "Koji su uslovi za postavljanje moje kompanije na vaš vebsajt?",
+        "answer": "<p>SensCare nastoji da stvori sigurno okruženje za naše poslovne partnere. Da bi se vaša kompanija/škola oglasila na SensCare platformi, biznisi moraju da budu registrovani i da imaju odgovarajuće licence za rad u oblasti u kojoj pružaju usluge.</p>"
+      },
+      {
+        "main_category": "For Business and schools",
+        "category": null,
+        "sub_category": null,
+        "question": "Koliko košta oglašavanje mojih usluga/ponuda na SensCare?",
+        "answer": "<p>Molimo <a href=\"/work-with-us\">pošaljite nam poruku</a> &nbsp;kako bismo nastavili dalju komunikaciju o vašim poslovnim potrebama i kako biste dobili personalizovanu kvotu.</p>"
+      },
+      {
+        "main_category": "For Business and schools",
+        "category": null,
+        "sub_category": null,
+        "question": "Imam sjajnu promociju svog proizvoda ili usluge, kako da postavim ponudu?",
+        "answer": "<p>Ovo je uzbudljiv trenutak. Da biste napravili novu promociju, kliknite na &ldquo;nova ponuda&rdquo; ljubičastu ikonu &nbsp; <img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 1491.svg\" /> &nbsp; u gornjem desnom uglu pored slike vašeg profila. Možete i da posetite Istoriju ponuda i izaberete &ldquo;+ novu ponudu&rdquo; ljubičasti simbol. Tada ćete biti upitani da unesete naslov ponude i napišete kratak opis. Onog trenutka kada je promotivna ponuda aktivna, mnogi članovi će početi da kupuju vašu ponudu.</p>"
+      },
+      {
+        "main_category": "For Business and schools",
+        "category": null,
+        "sub_category": null,
+        "question": "Koje informacije treba da sadrži moja promotivna ponuda da bi bila odobrena?",
+        "answer": "<p>Molimo pogledajte uputstva da biste videli primer uspešnog opisa promocije. Ako imate bilo kakvih pitanja, kontaktirajte nas, SensCare je uvek tu da vam pomogne.</p>"
+      },
+      {
+        "main_category": "For Business and schools",
+        "category": null,
+        "sub_category": null,
+        "question": "Kako mogu da uredim promotivnu ponudu?",
+        "answer": "<p>Da biste uredili promotivnu ponudu, posetite sekciju Istorija promocija <svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" width=\"10\"\r\n            viewBox=\"0 0 512.000000 512.000000\" height=\"20\">\r\n\r\n            <g transform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\"  stroke=\"none\">\r\n                <path\r\n                    d=\"M3025 3950 l-350 -350 270 -270 270 -270 -1608 0 -1607 0 0 -500 0 -500 1607 0 1608 0 -270 -270 -270 -270 353 -353 352 -352 870 870 870 870 -873 873 -872 872 -350 -350z m1015 -735 l655 -655 -658 -657 -657 -658 -137 138 -138 137 420 420 420 420 -1823 0 -1822 0 0 200 0 200 1817 0 1818 0 -418 418 -417 417 137 138 c76 75 140 137 143 137 3 0 300 -295 660 -655z\" />\r\n            </g>\r\n        </svg> Moje promocije anchor i odaberite promotivnu ponudu koji želite da uredite. Tada ćete biti preusmereni na novu stranicu na kojoj možete da kliknete &ldquo;uredi promociju&rdquo; dugme i ažurirate svoju ponudu</p>"
+      },
+      {
+        "main_category": "For Business and schools",
+        "category": null,
+        "sub_category": null,
+        "question": "Kako mogu da vidim koliko članova je preuzelo moje ponude?",
+        "answer": "<p>Da biste videli analitiku vaše ponude, posetite stranicu Analitika na vašem profilu, a zatim odaberite ponudu za koju želite da vidite podatke&nbsp;</p>"
+      },
+      {
+        "main_category": "For Business and schools",
+        "category": null,
+        "sub_category": null,
+        "question": "Šta predstavlja vaša stranica Analitike i zašto je važna za nas?",
+        "answer": "<p><img src=\"https://admin.senscare.sdsstaging.co.uk/assets/cms/Group 2278.svg\" /></p>\r\n\r\n<p>Podaci analitike pružiće sveobuhvatani uvid u to koliko su tražene ponude vaših usluge ili proizvoda na našoj platformi. Štaviše, to će vam pomoći da bolje razumete koje marketinške strategije najbolje odgovaraju vašoj kompaniji i ukoliko je potrebno, kako poboljšati svoje usluge.</p>"
+      },
+      {
+        "main_category": "For Business and schools",
+        "category": null,
+        "sub_category": null,
+        "question": "Mi imamo kompaniju/školu u drugoj zemlji i želeli bismo da radimo sa SensCare.Kako možemo stupiti u kontakt sa vama?",
+        "answer": "<p>Drago nam je da vas vidimo na našoj platformi! Molimo <a href=\"/work-with-us\">Pošaljite nam poruku </a> kako biste nam rekli više o vašim poslovnim potrebama i kako zamišljate svoju saradnju sa SensCare.</p>"
+      },
+      {
+        "main_category": "For Business and schools",
+        "category": null,
+        "sub_category": null,
+        "question": "Može li SensCare pomoći školama u procesu odabira kandidata?",
+        "answer": "<p>Definitivno! Molimp <a href=\"/contact-us\">Kontaktirajte nas</a> i opišite specifične potrebe i zahteve vaše škole, i naš predstavnik za ljudske resurse uskoro će biti u kontaktu sa vama.</p>"
+      }
+    ]
+  },
+  {
+    "main_category": "EDU prodavnica",
+    "id": 86,
+    "data": [
+      {
+        "main_category": "EDU prodavnica",
+        "category": null,
+        "sub_category": null,
+        "question": "Šta je vaša EDU prodavnica?",
+        "answer": "<p>Naša EDU  prodavnica sadrži proizvode naših affiliate partnera. U našoj EDU prodavnici možete pronaći širok spektar igračaka i obrazovnih materijala za decu svih uzrasta.</p>"
+      },
+      {
+        "main_category": "EDU prodavnica",
+        "category": null,
+        "sub_category": null,
+        "question": "Spomenuli ste da vaša EDU prodavnica ima proizvode od affiliate partnera. Šta to znači?",
+        "answer": "<p>Naši affiliate partneri su kompanije koje prodaju svoje proizvode na našoj platformi. Međutim, SensCare hostuje samo njihove proizvode i ne posreduje u plaćanju ili pošiljci proizvoda.</p>"
+      },
+      {
+        "main_category": "EDU prodavnica",
+        "category": null,
+        "sub_category": null,
+        "question": "Zašto ne mogu da kupim EDU proizvode direktno na vašem veb sajtu?",
+        "answer": "<p>SensCare trenutno ne posreduje u plaćanju za preuzete proizvode. Ako želite da kupite proizvode iz EDU prodavnice, kliknite na dugme &lsquo;&rsquo;kupi sada&rsquo;&rsquo; na proizvodu koji želite da kupite i bićete preusmereni na vebsajt našeg partnera gde možete da kupite proizvod.</p>"
+      },
+      {
+        "main_category": "EDU prodavnica",
+        "category": null,
+        "sub_category": null,
+        "question": "Naručio/la sam proizvod iz EDU prodavnice, ali još uvek nije poslat i/ili isporučen.",
+        "answer": "<p>Molimo vas da budite strpljivi. Razumemo da ova situacija može da vas uznemiri, nažalost, usluge pošiljke mogu da budu usporene, naročito ako ste naručili proizvod van zemlje. Međutim, ako je kašnjenje u pošiljci ili isporuci značajno, kontaktirajte kompaniju gde ste kupili proizvod. Ako i dalje imate problema nakon što ste kontaktirali našeg poslovnog partnera, <a href=\"/contact-us\">kontaktirajte nas</a> i podelite sa nama više informacija kako bismo vam pomogli.</p>"
+      }
+    ]
+  },
+  {
+    "main_category": "SensCare opšta pitanja",
+    "id": 90,
+    "data": [
+      {
+        "main_category": "SensCare opšta pitanja",
+        "category": null,
+        "sub_category": null,
+        "question": "U kojim zemljama SensCare trenutno pruža usluge?",
+        "answer": "<p>SensCare trenutno posluje u Republici Srbiji sa ciljem da proširi svoje poslovanje u zemljama EU. Međutim, SensCare ima partnere širom sveta i našim klijentima pružamo prilagođene usluge bez obzira gde se nalaze.<br />\r\n<a href=\"/work-with-us\">Kontaktirajte nas</a> kako bismo dalje razgovarali o vašim poslovnim potrebama.<br />\r\nAžuriraćemo našu veb stranicu sa novim informacijama o poslovanju van Srbije pre nego što pokrenemo usluge u zemljama EU.<br />\r\n&nbsp;</p>"
+      },
+      {
+        "main_category": "SensCare opšta pitanja",
+        "category": null,
+        "sub_category": null,
+        "question": "Gde se nalaze članovi vašeg tima?",
+        "answer": "<p>Naša platforma se ponosi što sav rad obavlja online; članovi našeg tima žive širom sveta, uključujući Sjedinjene Američke Države i Evropu.</p>"
+      },
+      {
+        "main_category": "SensCare opšta pitanja",
+        "category": null,
+        "sub_category": null,
+        "question": "Moram da zatražim podršku za biznis ili školu",
+        "answer": "<p>Za naše članove koji imaju plaćen plan posetite <strong>Podešavanja → Podrška</strong>. Ako još uvek niste član SensCare, prijavite se <a href=\"/signup\">ovde </a>&nbsp;a u međuvremenu, <a href=\"/contact-us\">nas kontaktirajte</a>  i pišite nam o svojim poslovnim potrebama.</p>"
+      },
+      {
+        "main_category": "SensCare opšta pitanja",
+        "category": null,
+        "sub_category": null,
+        "question": "Da li SensCare ima starosno ograničenje koliko osoba mora imati godina da bi se prijavila za posao?",
+        "answer": "<p>Da, SensCare ne dozvoljava osobama mlađim od 16 godina da se oglašavaju na našoj veb stranici. Posetite stranicu <a href=\"/terms-of-use\">Uslovi Korišćenja</a> za više informacija.</p>"
+      }
+    ]
+  }
+]
