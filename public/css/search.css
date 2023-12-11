@@ -1039,7 +1039,7 @@ table#customer_tabel td.active.iep_section {
     padding: 10px 10px;
     border: none !important;
     height: 40px;
-    min-width: 80px;
+    max-width: 130px;
     position: relative;
 }
 
@@ -1047,7 +1047,7 @@ table#customer_tabel td.active.iep_section {
     padding: 10px 10px;
     border: none !important;
     height: 40px;
-    min-width: 80px;
+    max-width: 130px;
     position: relative;
 }
 

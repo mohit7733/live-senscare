@@ -1,46 +1,58 @@
-import React, { useEffect, useState } from 'react'
-import { api } from '../../../urls';
-import Footer from './footer'
-import Header from './header'
-
+import React, { useEffect, useState } from "react";
+import { api } from "../../../urls";
+import Footer from "./footer";
+import Header from "./header";
+import { useTranslation } from "react-i18next";
+import Preloader from "../common/preLoader";
 
 function Terms_condition() {
-    const [count, setcount] = useState(true);
-    const [investor, setinvestor] = useState({});
-    useEffect(() => {
-        if (count) {
-            var requestOptions = {
-                method: 'GET',
-                redirect: 'follow'
-            };
+  const [count, setcount] = useState(true);
+  const [investor, setinvestor] = useState({});
 
-            fetch(api + "/api/termofuse", requestOptions)
-                .then(response => response.json())
-                .then(result => {
-                    setinvestor(result.data)
-                    console.log(result.data);
-                })
-                .catch(error => console.log('error', error));
-            setcount(false)
-        }
-    }, [count])
-    return (
-        <>
-            <Header />
-            <div className='container-fluid'>
-                <div className='container'>
-                    <div className='contact privacy'>
-                        {investor.title ?
-                            <h2>{investor.title} </h2> : ""}
-                        {investor.description ?
-                            <div className="privacycon" dangerouslySetInnerHTML={{ __html: investor.description }} /> : ""
-                        }
-                    </div>
-                </div>
-            </div>
-            <Footer />
-        </>
-    )
+  const { t } = useTranslation("termsOfUse");
+  const [isloading, setIsloading] = useState(true);
+  useEffect(() => {
+    if (count) {
+      var requestOptions = {
+        method: "GET",
+        redirect: "follow",
+      };
+      setIsloading(true);
+      fetch(api + "/api/termofuse", requestOptions)
+        .then((response) => response.json())
+        .then((result) => {
+          setinvestor(result.data);
+          setIsloading(false);
+        })
+        .catch((error) => console.log("error", error));
+      setcount(false);
+    }
+  }, [count]);
+  return (
+    <>
+      <Header />
+      <div className="container-fluid">
+        <Preloader isloading={isloading} />
+        <div className="container">
+          <div className="contact privacy">
+            <h2>{t("title", { defaultValue: investor.title })}</h2>
+            <p>
+              <em>{t("Last version 27, September 2023")}</em>
+            </p>
+            <div
+              dangerouslySetInnerHTML={{
+                __html: t("description", {
+                  defaultValue: investor.description,
+                }),
+              }}
+              className="privacycon"
+            />
+          </div>
+        </div>
+      </div>
+      <Footer />
+    </>
+  );
 }
 
-export default Terms_condition
+export default Terms_condition;

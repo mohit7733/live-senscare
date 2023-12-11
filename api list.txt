@@ -41,3 +41,10 @@ https://staging.webguruawards.com/guru-of-the-month-nominees
 https://staging.webguruawards.com/guru-of-the-day-nominees
 
 ftp://webgukfc@ftp.webguruawards.com/staging.webguruawards.com/application/views/site/nominess_page.php
+
+
+AWS.config.update({
+  accessKeyId: 'AKIAZEH755VC4MLAEKON',
+  secretAccessKey: 'VB/+Z5I6yO/eLRNC96rVvkLHmby7vWXW3dfXli6f',
+  region: 'us-west-1', // e.g., 'us-east-1'
+});

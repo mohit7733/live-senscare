@@ -3252,7 +3252,7 @@ function Create_provider_profile() {
                                     <div className='right2'>
                                         <div className='form_group qualification full set'>
                                             <br />
-                                            <label>Do you have any <a>allergies?</a><span className='smallpop'>Information about your medical condition will be not publicly available. To adhere to ethical standards, it is your responsibility to disclose to prospective employer any medical condition that could affect your work performance (e.g., heart problem, seizure, mental illness, etc.). Additionally, if you are substance user or you have an untreated mental illness, this job position might not be suitable for you.  </span> which could interfere with your work performance?<span className={errorfield.anyallergies != "" ? "starred" : ""}>*</span></label>
+                                            <label>Do you have any allergies?<span className={errorfield.anyallergies != "" ? "starred" : ""}>*</span></label>
                                             <div className='checkbox create'>
                                                 <ul onClick={e => seterrorfield({ ...errorfield, anyallergies: "" })}>
                                                     <li><input type="radio" name="allergies" onClick={e => setdetailprovide({ ...detailprovider, anyallergies: "Yes" })} checked={detailprovider.anyallergies == "Yes" ? true : false} /><span> Yes</span></li>
@@ -3271,16 +3271,14 @@ function Create_provider_profile() {
                                             </div>
                                         </div>
                                         <div className='form_group qualification full set'>
-                                            <label>Do you have any <a>medical condition</a
-                                            ><span className='smallpop'>Information about your medical condition will be not publicly available. To adhere to ethical standards, it is your responsibility to disclose to prospective employer any medical condition that could affect your work performance (e.g., heart problem, seizure, mental illness, etc.). Additionally, if you are substance user or you have an untreated mental illness, this job position might not be suitable for you.  </span> which could interfere with your work performance?
-                                             <span className={errorfield.medicalcondition != "" ? "starred" : ""}>*</span></label>
+                                            <label>Do you have any <a>medical condition</a><span className='smallpop'>Information about your medical condition will be not publicly available. To adhere to ethical standards, it is your responsibility to disclose to prospective employer any medical condition that could affect your work performance (e.g., heart problem, seizure, mental illness, etc.). Additionally, if you are substance user or you have an untreated mental illness, this job position might not be suitable for you.  </span> which could interfere with your work performance? <span className={errorfield.medicalcondition != "" ? "starred" : ""}>*</span></label>
                                             <div className='checkbox create'>
                                                 <ul onClick={e => seterrorfield({ ...errorfield, medicalcondition: "" })}>
                                                     <li><input type="radio" name="medical" onClick={e => setdetailprovide({ ...detailprovider, medicalcondition: "Yes" })} checked={detailprovider.medicalcondition == "Yes" ? true : false} /><span>Yes </span></li>
                                                     <li><input type="radio" name="medical" onClick={e => setdetailprovide({ ...detailprovider, medicalcondition: "No" })} checked={detailprovider.medicalcondition == "No" ? true : false} /><span>No </span></li>
 
                                                 </ul>
-                                                {detailprovider.medicalcondition == "Yes" ?
+                                                {/* {detailprovider.medicalcondition == "Yes" ?
                                                     <>
                                                         <textarea rows="2" placeholder="Short description" maxlength="300" name="message" onChange={e => {
                                                             seterrorfield({ ...errorfield, medicalconditiondescription: "" })
@@ -3288,7 +3286,7 @@ function Create_provider_profile() {
                                                         }} defaultValue={detailprovider.medicalconditiondescription != null ? detailprovider.medicalconditiondescription : ""} className={errorfield.medicalconditiondescription != "" ? "bordererror" : ""}></textarea>
                                                         <span>Number of characters {(300 - detailprovider.medicalconditiondescription.length)}</span>
                                                     </>
-                                                    : ""}
+                                                    : ""} */}
                                             </div>
                                             {/* <div className='errorfield'>{error.message}</div>*/}
                                         </div>
