@@ -1,45 +1,26 @@
-import React from "react";
-import { useEffect } from "react";
-import { useState } from "react";
-import { Link } from "react-router-dom";
-import { NavLink, useNavigate } from "react-router-dom";
-import { useTranslation } from "react-i18next";
+import React from 'react'
+import { useEffect } from 'react';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom'
+
 function Favorite_provider(props) {
-  const { t } = useTranslation("favorite_profile");
-  const [fav, setfav] = useState("");
-  const navigate = useNavigate();
-  return (
-    <>
-      <ul>
-        {localStorage.getItem("user_type") == "parents" ? (
-          ""
-        ) : (
-          <li
-            className={props.subtab == "job-post" ? "active" : ""}
-            onClick={(e) => {
-              navigate("/search-providers/job-post");
-              window.scrollTo({ top: 0, behavior: "smooth" });
-              props.setsubtab("job-post");
-              props.setprofilesection("");
-            }}
-          >
-            {" "}
-            <svg
-              width="16"
-              height="14"
-              viewBox="0 0 16 14"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M10 8H16V12.5C16 13.3284 15.3284 14 14.5 14H1.5C0.671562 14 0 13.3284 0 12.5V8H6V8.625C6 8.83209 6.16791 9 6.375 9H9.625C9.83209 9 10 8.83209 10 8.625V8ZM16 4.5V7H0V4.5C0 3.67156 0.671562 3 1.5 3H4V1.5C4 0.671562 4.67156 0 5.5 0H10.5C11.3284 0 12 0.671562 12 1.5V3H14.5C15.3284 3 16 3.67156 16 4.5ZM10 2H6V3H10V2Z"
-                fill="#636363"
-              />
-            </svg>{" "}
-            {t("Job Posts")}
-          </li>
-        )}
-        {/* {localStorage.getItem("user_type") == "parents" ?
+    const [fav, setfav] = useState("")
+    const navigate = useNavigate();
+    return (
+        <>
+            <ul>
+                {localStorage.getItem("user_type") == "parents" ? "" :
+                    <li className={props.subtab == "job-post" ? "active" : ""} onClick={e => {
+                        navigate("/search-providers/job-post")
+                        window.scrollTo({ top: 0, behavior: 'smooth' })
+                        props.setsubtab("job-post")
+                        props.setprofilesection("")
+                    }}> <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 8H16V12.5C16 13.3284 15.3284 14 14.5 14H1.5C0.671562 14 0 13.3284 0 12.5V8H6V8.625C6 8.83209 6.16791 9 6.375 9H9.625C9.83209 9 10 8.83209 10 8.625V8ZM16 4.5V7H0V4.5C0 3.67156 0.671562 3 1.5 3H4V1.5C4 0.671562 4.67156 0 5.5 0H10.5C11.3284 0 12 0.671562 12 1.5V3H14.5C15.3284 3 16 3.67156 16 4.5ZM10 2H6V3H10V2Z" fill="#636363" />
+                        </svg> Job Posts</li>
+                }
+                {/* {localStorage.getItem("user_type") == "parents" ?
                     <li className={props.subtab == "all-profile" ? "active" : ""} onClick={e => {
                         window.scrollTo({ top: 0, behavior: 'smooth' })
                         props.setsubtab("all-profile")
@@ -49,7 +30,7 @@ function Favorite_provider(props) {
                         </svg> All Profiles</li>
                     : ""
                 } */}
-        {/* <li className={props.subtab == "who-i-visited" || props.subtab == "who-visited-me" ? "active Document_main side_drop_collapse" : "Document_main side_drop_collapse"} onClick={e => setfav(fav != "" ? "" : "fav")}><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                {/* <li className={props.subtab == "who-i-visited" || props.subtab == "who-visited-me" ? "active Document_main side_drop_collapse" : "Document_main side_drop_collapse"} onClick={e => setfav(fav != "" ? "" : "fav")}><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1.55556V12.4444C0 13.3 0.692222 14 1.55556 14H12.4444C13.3 14 14 13.3 14 12.4444V1.55556C14 0.7 13.3 0 12.4444 0H1.55556C0.692222 0 0 0.7 0 1.55556ZM9.33332 4.66573C9.33332 5.95684 8.2911 6.99906 6.99999 6.99906C5.70888 6.99906 4.66666 5.95684 4.66666 4.66573C4.66666 3.37462 5.70888 2.3324 6.99999 2.3324C8.2911 2.3324 9.33332 3.37462 9.33332 4.66573ZM7.0001 8.47839C5.44455 8.47839 2.33344 9.33395 2.33344 10.8895V11.6673H11.6668V10.8895C11.6668 9.33395 8.55566 8.47839 7.0001 8.47839Z" fill="#636363" />
                 </svg> Recent profile visits
                     <ul style={fav != "" ? { display: "block" } : { display: "none" }}>
@@ -69,9 +50,9 @@ function Favorite_provider(props) {
                         }} className={props.subtab == "who-visited-me" ? "active upgrade" : "upgrade"}>Who Visited Me <span><Link to={!localStorage.getItem("token") || !localStorage.getItem("id") ? "/signup" : localStorage.getItem("user_type") == "parents" ? "/parents-membership" : "/provider-membership"} target="_blank">upgrade</Link></span></li>
                     </ul>
                 </li> */}
-      </ul>
-    </>
-  );
+            </ul>
+        </>
+    )
 }
 
-export default Favorite_provider;
+export default Favorite_provider

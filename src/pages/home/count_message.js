@@ -28,8 +28,8 @@ function Count_message() {
             .then(result => {
                 setinve(result.data)
                 setinve2(inve2 + 1)
-                setTimeout(membership1, 10000);
-                
+                // setTimeout(membership1, 10000);
+                // console.log(result,">>>>>>>>>>>>>>>>")
             })
             .catch(error => console.log('error', error));
     }

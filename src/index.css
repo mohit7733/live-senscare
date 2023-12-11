@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.resources_tabs .tab_open p img {
+  float: none;
+  margin-right: 4px !important;
+  margin-left: 10px;
+}
+
+.promocode_content button {
+  padding: 10px 20px !important;
+}
+
+
+.main-header .detail_invit h2 a {
+  margin-right: 2px !important
+}
+
+.select message_select ul li {
+  font-size: 11px !important
+}
+
+.resources_tabs .tab_open #tab22 p:nth-child(3) img {
+  width: 16px;
+  height: 16px;
+}
