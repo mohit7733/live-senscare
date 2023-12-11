@@ -14,50 +14,6 @@ a {
     color: #000;
 }
 
-.aboutus_popup .modal-dialog {
-    max-width: 80% !important;
-    height: 95vh;
-}
-
-.aboutus_popup .about .content p {
-
-    font-size: 18px;
-}
-.aboutus_popup .modal-title {
-    display: flex;
-    padding: 30px 30px 0;
-    justify-content: space-between;
-
-}
-
-.aboutus_popup .modal-title a {
-
-    transform: rotate(45deg);
-    z-index: 8;
-    cursor: pointer;
-    color: #b7b7b7;
-    font-size: 30px;
-    background: none !important;
-    box-shadow: none !important;
-    border: none !important;
-}
-
-.aboutus_popup .meet-team-section {
-    padding: 30px;
-}
-
-.aboutus_popup .about .content {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.aboutus_popup .container-fluid {
-    overflow-y: auto;
-    height: 80vh;
-}
-
-
-
 li {
     list-style: none;
 }
@@ -893,6 +849,7 @@ textarea::placeholder {
     line-height: 19px;
     text-transform: uppercase;
     color: #FFFFFF;
+    padding-left: 45px;
 }
 
 .footer .head ul li:last-child,
@@ -922,6 +879,7 @@ textarea::placeholder {
     float: left;
     width: 25%;
     margin-top: 10px;
+    padding-left: 43px;
 }
 
 .footer .footer_menu ul li {
@@ -962,6 +920,7 @@ textarea::placeholder {
 
 .bottom>ul>li:first-child {
     padding-top: 8px;
+    padding-left:27px;
 }
 
 .bottom>ul>li ul li {
@@ -2068,7 +2027,7 @@ textarea::placeholder {
 
 
 .login_form {
-    max-width: 35%;
+    max-width: 46%;
     padding: 30px 40px 0;
     min-width: auto !important;
     max-height: 100% !important;
@@ -3890,7 +3849,7 @@ textarea {
     height: 200px;
     position: absolute;
     right: 0;
-    top: -38px;
+    top: -52px;
     background: url(../images/home_right.svg) no-repeat center;
     background-size: cover;
 }
@@ -5614,6 +5573,7 @@ textarea {
     float: left;
     width: 50%;
     min-width: 385px;
+    margin-bottom:10px;
 }
 
 .fc-liquid-hack td {
@@ -5665,7 +5625,7 @@ textarea {
 
 .Profile_complete .detail.availability .legend {
     width: 40%;
-    float: right;
+    /* float: right; */
 }
 
 .Profile_complete .detail.availability .legend .form_group label {
@@ -6524,7 +6484,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .Profile_complete .detail .button {
     left: 50%;
-    transform: translateX(-90.7%);
+    transform: translateX(-77.7%);
 }
 
 .Profile_complete .detail.stap1 .button {
@@ -8131,7 +8091,7 @@ input[type=number]::-webkit-outer-spin-button {
     width: 340px;
     gap: 20px;
     display: inline-flex;
-    margin: 30px calc(50% - 170px) 0;
+    margin: 30px calc(50% - 245px) 0;
 }
 
 .editview .personal_preferences .notification_edt {
@@ -9160,19 +9120,19 @@ body {
     .footer .head ul li:last-child,
     .footer .footer_menu ul:last-child,
     .bottom>ul>li:last-child {
-        padding-left: 68px;
+        padding-left: 90px;
     }
 
     .footer .head ul li:nth-child(3),
     .footer .footer_menu ul:nth-child(3),
     .bottom>ul>li:nth-child(3) {
-        padding-left: 25px;
+        padding-left: 48px;
     }
 
     .footer .head ul li:nth-child(2),
     .footer .footer_menu ul:nth-child(2),
     .bottom>ul>li:nth-child(2) {
-        padding-left: 25px;
+        padding-left: 48px;
     }
 
     .footer .footer_menu ul li a {
