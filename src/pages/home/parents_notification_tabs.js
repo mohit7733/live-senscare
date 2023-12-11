@@ -148,7 +148,7 @@ function Parents_notification_tabs(props) {
                     </div>
                     : ""
             }
-              {
+            {
                 props.subtab == "Loyalty-notification" ?
                     <div class="interview" >
                         <Loyality_notification />

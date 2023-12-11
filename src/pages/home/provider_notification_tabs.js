@@ -20,6 +20,7 @@ import Trash_list from './common/trash'
 import Loyalty from './common/loyalty_program'
 import Loyality_notification from './common/loyalty_notification_'
 
+
 function Provider_notification_tabs(props) {
     useEffect(() => {
         localStorage.setItem("back", props.subtab)
