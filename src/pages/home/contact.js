@@ -293,7 +293,7 @@ function Contact() {
                                     <span className='errorfield'>{error.gender}</span>
                                 </div>
                                 <div className='form_group full'>
-                                    <label>Your message<span>*</span></label>
+                                    <label>Your message <span>*</span></label>
                                     <textarea rows={2} maxlength="300" name='message' onChange={e => logins_field(e)} className={error.message == '' ? '' : "bordererror"} >
                                     </textarea>
                                     <div className='errorfield'>{error.message}</div>

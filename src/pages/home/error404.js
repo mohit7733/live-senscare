@@ -1,30 +1,39 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 // import { useHistory } from "react-router-dom";
-import Footer from './common/footer'
-import Header from './common/header'
-
+import Footer from "./common/footer";
+import Header from "./common/header";
+import { useTranslation } from "react-i18next";
 
 function Error() {
-    // const history = useHistory();
-    return (
-        <>
-            <Header />
-            <div className='container-fluid '>
-                <div className='container'>
-                    <div className='thank_page error'>
-                        <h2>Oh snap! Error 404.</h2>
-                        <div className='thanks'>
-                            <p>Sorry! We couldn't find what  you are looking for.</p>
-                            <Link to={"/"}><img src={window.location.origin + '/images/left_arrow_fill.svg'} /> <span>Please return to previous page</span></Link>
-                        </div>
-                        <img src={window.location.origin + '/images/Error-404-animation.gif'} />
-                    </div>
-                </div>
+  // const history = useHistory();
+  const { t } = useTranslation("error404");
+
+  return (
+    <>
+      <Header />
+      <div className="container-fluid ">
+        <div className="container">
+          <div className="thank_page error">
+            <h2>{t("snap")}</h2>
+            <div className="thanks">
+              <p>{t("sorry")}</p>
+              <Link to={"/"}>
+                <img
+                  src={window.location.origin + "/images/left_arrow_fill.svg"}
+                />{" "}
+                <span>{t("please")}</span>
+              </Link>
             </div>
-            <Footer />
-        </>
-    )
+            <img
+              src={window.location.origin + "/images/Error-404-animation.gif"}
+            />
+          </div>
+        </div>
+      </div>
+      <Footer />
+    </>
+  );
 }
 
-export default Error
+export default Error;
