@@ -29,8 +29,11 @@ import View_edit_provider from "./view_edit_provider";
 import Message_tab from "./common/message_tab";
 import Count_message from "./count_message";
 import Facebook_share from "./common/share_facebook";
+import { useTranslation } from "react-i18next";
 
 function Profile() {
+  const { t, i18n } = useTranslation("profile");
+  const language = i18n.language;
   const navigate = useNavigate();
   const [list, setlist] = useState([]);
   const [showflogin2, setshowflogin2] = useState(false);
@@ -61,11 +64,13 @@ function Profile() {
     jobposted: "",
     distance: "",
   });
+
   const [advance_search, setadvance_search] = useState(false);
   const [reviewmodel, setreviewmodel] = useState(false);
   const [image, setImage] = useState(null);
   const [recommend, setrecommend] = useState("");
   const [profile, setprofile] = useState({});
+
   const [selfprofile, setselfprofile] = useState({});
   const [count, setcount] = useState(true);
   const [filtercheck, setfiltercheck] = useState(true);
@@ -153,16 +158,9 @@ function Profile() {
     if (catopen) {
       window.document.getElementById(e).style.display = "block";
       setcatopen(false);
-      if ((e = "filterdata")) {
-        window.document.getElementById("leftdataback").style.background =
-          "#FAFAFA";
-      }
     } else {
       window.document.getElementById(e).style.display = "none";
       setcatopen(true);
-      if (e == "filterdata") {
-        window.document.getElementById("leftdata").style.background = "#fff";
-      }
     }
   };
   const custom2 = (e, x) => {
@@ -199,10 +197,7 @@ function Profile() {
         console.log(result);
         setselfprofile(result.data);
       })
-      .catch((error) => {
-        setadvance_search(true);
-        console.log("error", error);
-      });
+      .catch((error) => console.log("error", error));
   };
 
   const pmore = (e, x, z) => {
@@ -216,7 +211,6 @@ function Profile() {
       document.getElementById(z).style.display = "none";
     }
   };
-
   const profile_update = () => {
     var myHeaders = new Headers();
     myHeaders.append(
@@ -266,10 +260,10 @@ function Profile() {
 
     fetch(
       api +
-      "/api/" +
-      (localStorage.getItem("token") != null
-        ? "v1/favotheruserprofileview"
-        : "otheruserprofileview"),
+        "/api/" +
+        (localStorage.getItem("token") != null
+          ? "v1/favotheruserprofileview"
+          : "otheruserprofileview"),
       requestOptions
     )
       .then((response) => response.json())
@@ -311,62 +305,62 @@ function Profile() {
           min:
             result.data.nanyperhrrate != null
               ? result.data.nanyperhrrate
-                .substr(result.data.nanyperhrrate.lastIndexOf("\\") + 1)
-                .split("-")[0]
+                  .substr(result.data.nanyperhrrate.lastIndexOf("\\") + 1)
+                  .split("-")[0]
               : 0,
           max:
             result.data.nanyperhrrate != null
               ? result.data.nanyperhrrate
-                .substr(result.data.nanyperhrrate.lastIndexOf("\\") + 1)
-                .split("-")[1]
+                  .substr(result.data.nanyperhrrate.lastIndexOf("\\") + 1)
+                  .split("-")[1]
               : 0,
         });
         setusd2({
           min:
             result.data.tutorperhrrate != null
               ? result.data.tutorperhrrate
-                .substr(result.data.tutorperhrrate.lastIndexOf("\\") + 1)
-                .split("-")[0]
+                  .substr(result.data.tutorperhrrate.lastIndexOf("\\") + 1)
+                  .split("-")[0]
               : 0,
           max:
             result.data.tutorperhrrate != null
               ? result.data.tutorperhrrate
-                .substr(result.data.tutorperhrrate.lastIndexOf("\\") + 1)
-                .split("-")[1]
+                  .substr(result.data.tutorperhrrate.lastIndexOf("\\") + 1)
+                  .split("-")[1]
               : 0,
         });
         setusd3({
           min:
             result.data.seterhrrate != null
               ? result.data.seterhrrate
-                .substr(result.data.seterhrrate.lastIndexOf("\\") + 1)
-                .split("-")[0]
+                  .substr(result.data.seterhrrate.lastIndexOf("\\") + 1)
+                  .split("-")[0]
               : 0,
           max:
             result.data.seterhrrate != null
               ? result.data.seterhrrate
-                .substr(result.data.seterhrrate.lastIndexOf("\\") + 1)
-                .split("-")[1]
+                  .substr(result.data.seterhrrate.lastIndexOf("\\") + 1)
+                  .split("-")[1]
               : 0,
         });
         setusd4({
           min:
             result.data.seperhrrate != null
               ? result.data.seperhrrate
-                .substr(result.data.seperhrrate.lastIndexOf("\\") + 1)
-                .split("-")[0]
+                  .substr(result.data.seperhrrate.lastIndexOf("\\") + 1)
+                  .split("-")[0]
               : 0,
           max:
             result.data.seperhrrate != null
               ? result.data.seperhrrate
-                .substr(result.data.seperhrrate.lastIndexOf("\\") + 1)
-                .split("-")[1]
+                  .substr(result.data.seperhrrate.lastIndexOf("\\") + 1)
+                  .split("-")[1]
               : 0,
         });
       })
       .catch((error) => console.log("error", error));
   };
-  const provider_list = () => { };
+  const provider_list = () => {};
 
   const filter_box = () => {
     if (filtercheck) {
@@ -448,6 +442,9 @@ function Profile() {
     id2: "",
   });
   const [job_apply2, setjob_apply2] = useState("");
+
+  
+  
   const [ssubtab, setssubtab] = useState({
     About: localStorage.getItem("edittime") ? "active" : "",
     kids: localStorage.getItem("edittime") ? "active" : "",
@@ -690,7 +687,7 @@ function Profile() {
       visiter();
       setcount(false);
     }
-    console.log(job_apply,'job apply');
+    console.log(job_apply);
     localStorage.setItem("side", profilesection);
     localStorage.setItem("back", localStorage.getItem("back"));
   }, [profile, job_apply, profilesection]);
@@ -699,7 +696,7 @@ function Profile() {
       <Header fil={filter_box} />
       {strip == "1" ? (
         <div className="popup_status" id="popup_status">
-          Congratulations! You successfully sent a recommendation!
+          {t("Congratulations! You successfully sent a recommendation!")}
         </div>
       ) : (
         ""
@@ -731,7 +728,7 @@ function Profile() {
                       id="my-adv-filter"
                       onClick={(e) => custom("filterdata")}
                     >
-                      Advanced search
+                      {t("Advanced search")}
                     </span>
                     {advance_search != false ? (
                       <div
@@ -739,16 +736,16 @@ function Profile() {
                         id="filterdata"
                         style={
                           selfprofile.about == "" ||
-                            selfprofile.about == null ||
-                            !localStorage.getItem("token") ||
-                            !localStorage.getItem("id") ||
-                            localStorage.getItem("refine2")
+                          selfprofile.about == null ||
+                          !localStorage.getItem("token") ||
+                          !localStorage.getItem("id") ||
+                          localStorage.getItem("refine2")
                             ? { display: "block" }
                             : { display: "none" }
                         }
                       >
                         <div className="form_group full border qualification">
-                          <label>Frequency</label>
+                          <label>{t("Frequency")}</label>
                           <div className="checkbox create">
                             <ul>
                               <li>
@@ -769,7 +766,7 @@ function Profile() {
                                     }
                                   }}
                                 />
-                                <span>Full time </span>
+                                <span> {t("Full time")}</span>
                               </li>
                               <li>
                                 <input
@@ -789,7 +786,7 @@ function Profile() {
                                     }
                                   }}
                                 />
-                                <span>Part time </span>
+                                <span> {t("Part time")}</span>
                               </li>
                               <li>
                                 <input
@@ -809,7 +806,7 @@ function Profile() {
                                     }
                                   }}
                                 />
-                                <span>Occasionally</span>
+                                <span> {t("Occasionally")}</span>
                               </li>
                             </ul>
                           </div>
@@ -817,7 +814,7 @@ function Profile() {
                         </div>
                         <div className="form_group full border">
                           <label>
-                            Hourly rate{" "}
+                            {t("Hourly rate")}{" "}
                             {profile && profile.country == "Serbia"
                               ? "(RSD)"
                               : "(USD)"}
@@ -970,7 +967,7 @@ function Profile() {
                         </div>
 
                         <div className="form_group full border">
-                          <label>Number of children</label>
+                          <label>{t("Number of children")}</label>
                           <div className="children_number">
                             <ul>
                               <li
@@ -1018,7 +1015,7 @@ function Profile() {
                                   children2.data3 == "twins" ? "active" : ""
                                 }
                               >
-                                Twins
+                                {t("Twins")}
                               </li>
                               <li
                                 onClick={(e) => {
@@ -1041,34 +1038,15 @@ function Profile() {
                         <div className="job_performance">
                           <div className="form_group   full border">
                             <label>Child’s age</label>
-                            <div className="text customselect ">
-                              {children_age ? (
-                                <span
-                                  className="keyword"
-                                  onClick={(e) => custom2("cate5", "over2")}
-                                  style={{
-                                    cursor: "pointer",
-                                    whiteSpace: "nowrap",
-                                    overflow: "hidden",
-                                  }}
-                                >
-                                  {children_age.map((e) => {
-                                    if (typeof e.name == "string") {
-                                      return e.name + " , ";
-                                    }
-                                  })}
-                                  {children_age.length > 0
-                                    ? ""
-                                    : "Choose from the list"}
-                                </span>
-                              ) : (
-                                ""
-                              )}
-                            </div>
                             <div className="customselect inp">
-                              {/* <TranslateComponent text='Choose from the list' className='keyword' type="text" value={children_age.map((e) => {
-                                                                    return e.name
-                                                                })} /> */}
+                              <input
+                                className="keyword"
+                                type="text"
+                                placeholder={t("Choose from the list")}
+                                value={children_age.map((e) => {
+                                  return e.name;
+                                })}
+                              />
                               <div
                                 className="overflow"
                                 id="over2"
@@ -1079,63 +1057,74 @@ function Profile() {
                                   <input
                                     type="checkbox"
                                     onClick={(a) =>
-                                      selectoption2("0 - 1 years")
+                                      selectoption2(t("0 - 1 years"))
                                     }
                                   />
-                                  <h3>{"0 - 1 years"} </h3>
+                                  <h3>{t("0 - 1 years")} </h3>
                                   <span></span>
                                 </p>
                                 <p>
                                   <input
                                     type="checkbox"
                                     onClick={(a) =>
-                                      selectoption2("4 - 7 years")
+                                      selectoption2(t("4 - 7 years"))
                                     }
                                   />
-                                  <h3>{"4 - 7 years"} </h3>
+                                  <h3>{t("4 - 7 years")} </h3>
                                   <span></span>
                                 </p>
                                 <p>
                                   <input
                                     type="checkbox"
                                     onClick={(a) =>
-                                      selectoption2("8 - 10 years")
+                                      selectoption2(t("8 - 10 years"))
                                     }
                                   />
-                                  <h3>{"8 - 10 years"} </h3>
+                                  <h3>{t("8 - 10 years")} </h3>
                                   <span></span>
                                 </p>
                                 <p>
                                   <input
                                     type="checkbox"
                                     onClick={(a) =>
-                                      selectoption2("11 - 15 years")
+                                      selectoption2(t("11 - 15 years"))
                                     }
                                   />
-                                  <h3>{"11 - 15 years"} </h3>
+                                  <h3>{t("11 - 15 years")} </h3>
                                   <span></span>
                                 </p>
                                 <p>
                                   <input
                                     type="checkbox"
-                                    onClick={(a) => selectoption2("16+  years")}
+                                    onClick={(a) =>
+                                      selectoption2(t("16+  years"))
+                                    }
                                   />
-                                  <h3>{"16+  years"} </h3>
+                                  <h3>{t("16+  years")} </h3>
                                   <span></span>
                                 </p>
                               </div>
-                              {/* <span onClick={e => custom2("cate5", "over2")}>
-                                                                    <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                        <path d="M5.22299 0.247873L9.54938 5.05497C9.72313 5.24803 9.58612 5.55566 9.32639 5.55566L0.673609 5.55566C0.413877 5.55566 0.27687 5.24803 0.450621 5.05497L4.77701 0.247873C4.89618 0.115459 5.10382 0.115459 5.22299 0.247873Z" fill="#636363" />
-                                                                    </svg>
-                                                                </span> */}
+                              <span onClick={(e) => custom2("cate5", "over2")}>
+                                <svg
+                                  width="10"
+                                  height="6"
+                                  viewBox="0 0 10 6"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M5.22299 0.247873L9.54938 5.05497C9.72313 5.24803 9.58612 5.55566 9.32639 5.55566L0.673609 5.55566C0.413877 5.55566 0.27687 5.24803 0.450621 5.05497L4.77701 0.247873C4.89618 0.115459 5.10382 0.115459 5.22299 0.247873Z"
+                                    fill="#636363"
+                                  />
+                                </svg>
+                              </span>
                             </div>
                             {/* <div className='errorfield'>{error.message}</div> */}
                           </div>
                         </div>
 
                         <div className="form_group full border qualification">
-                          <label>"Start date</label>
+                          <label>{t("Start date")}</label>
                           <div className="checkbox create">
                             <ul>
                               <li>
@@ -1149,7 +1138,7 @@ function Profile() {
                                     });
                                   }}
                                 />
-                                <span>Within a week</span>
+                                <span> {t("Within a week")}</span>
                               </li>
                               <li>
                                 <input
@@ -1162,14 +1151,14 @@ function Profile() {
                                     });
                                   }}
                                 />
-                                <span> Within a month</span>
+                                <span> {t("Within a month")}</span>
                               </li>
                             </ul>
                           </div>
                           {/* <div className='errorfield'>{error.message}</div> */}
                         </div>
                         <div className="form_group full qualification">
-                          <label>Other options</label>
+                          <label>{t("Other options")}</label>
                           <div className="checkbox create">
                             <ul>
                               <li>
@@ -1183,7 +1172,7 @@ function Profile() {
                                     });
                                   }}
                                 />
-                                <span> Without transportation</span>
+                                <span> {t("Without transportation")}</span>
                               </li>
                               <li>
                                 <input
@@ -1196,7 +1185,7 @@ function Profile() {
                                     });
                                   }}
                                 />
-                                <span>Jobs posted within a week</span>
+                                <span> {t("Jobs posted within a week")}</span>
                               </li>
                               <li>
                                 <input
@@ -1216,7 +1205,7 @@ function Profile() {
                                     }
                                   }}
                                 />
-                                <span>Work abroad</span>
+                                <span> {t("Work abroad")}</span>
                               </li>
                               <li>
                                 <input
@@ -1236,7 +1225,7 @@ function Profile() {
                                     }
                                   }}
                                 />
-                                <span> School jobs</span>
+                                <span> {t("School jobs")}</span>
                               </li>
                             </ul>
                           </div>
@@ -1250,7 +1239,7 @@ function Profile() {
                             }, 300);
                           }}
                         >
-                          Refine result
+                          {t("Refine result")}
                         </button>
                       </div>
                     ) : (
@@ -1263,15 +1252,14 @@ function Profile() {
                     <div className="job_performance">
                       <div className="form_group   full">
                         <div className="customselect inp">
-                          {/* <input placeholder='Select job category' id="my-fil-cat" className='keyword' type="text" value={category.map((e) => {
-                                                        return e.name
-                                                    })} /> */}
                           <input
-                            placeholder="Select job category"
                             id="my-fil-cat"
                             className="keyword"
                             type="text"
-                            value={category.map((e) => e.name).join(", ")} // Add ', ' between values
+                            placeholder={t("Select job category")}
+                            value={category.map((e) => {
+                              return e.name;
+                            })}
                           />
                           <div
                             className="overflow"
@@ -1314,7 +1302,7 @@ function Profile() {
                                     fill="#7D2B8B"
                                   />
                                 </svg>
-                                Nanny{" "}
+                                {t("Nanny")}{" "}
                               </h3>
                               <span></span>
                             </p>
@@ -1354,7 +1342,7 @@ function Profile() {
                                     fill="#7D2B8B"
                                   />
                                 </svg>
-                                Special education teacher{" "}
+                                {t("Special education teacher")}
                               </h3>
                               <span></span>
                             </p>
@@ -1398,7 +1386,7 @@ function Profile() {
                                     fill="#7D2B8B"
                                   />
                                 </svg>
-                                "Special education paraprofessional"{" "}
+                                {t("Special education paraprofessional")}{" "}
                               </h3>
                               <span></span>
                             </p>
@@ -1434,7 +1422,7 @@ function Profile() {
                                     fill="#7D2B8B"
                                   />
                                 </svg>
-                                Tutor{" "}
+                                {t("Tutor")}{" "}
                               </h3>
                               <span></span>
                             </p>
@@ -1466,7 +1454,7 @@ function Profile() {
                 <div className="city">
                   <input
                     type="text"
-                    placeholder="City"
+                    placeholder={t("City")}
                     id="my-fil-city"
                     onChange={(e) =>
                       setsearch({ ...search, city: e.target.value })
@@ -1476,7 +1464,7 @@ function Profile() {
                 <div className="zip code">
                   <input
                     type="text"
-                    placeholder="Zip code"
+                    placeholder={t("Zip code")}
                     id="my-fil-zip"
                     onChange={(e) =>
                       setsearch({ ...search, zip: e.target.value })
@@ -1494,18 +1482,18 @@ function Profile() {
                       }
                     >
                       <option value="" selected>
-                        Distance
+                        {t("Distance")}
                       </option>
-                      <option value={5}>5 Miles</option>
-                      <option value={10}>10 Miles</option>
-                      <option value={15}>15 Miles</option>
-                      <option value={20}>20 Miles</option>
-                      <option value={25}>25 Miles</option>
-                      <option value={30}>30 Miles</option>
-                      <option value={35}>35 Miles</option>
-                      <option value={40}>40 Miles</option>
-                      <option value={45}>45 Miles</option>
-                      <option value={50}>50 Miles</option>
+                      <option value={5}>5 {t("Miles")}</option>
+                      <option value={10}>10 {t("Miles")}</option>
+                      <option value={15}>15 {t("Miles")}</option>
+                      <option value={20}>20 {t("Miles")}</option>
+                      <option value={25}>25 {t("Miles")}</option>
+                      <option value={30}>30 {t("Miles")}</option>
+                      <option value={35}>35 {t("Miles")}</option>
+                      <option value={40}>40 {t("Miles")}</option>
+                      <option value={45}>45 {t("Miles")}</option>
+                      <option value={50}>50 {t("Miles")}</option>
                     </select>
                   </div>
                 </div>
@@ -1531,7 +1519,7 @@ function Profile() {
                       );
                     }}
                   >
-                    Search
+                    {t("Search")}
                   </button>
                 </div>
               </div>
@@ -1559,18 +1547,15 @@ function Profile() {
             style={
               subtab != ""
                 ? {
-                  minHeight: "auto",
-                  marginBottom: "100px",
-                  float: "left",
-                  width: "100%",
-                }
+                    minHeight: "auto",
+                    marginBottom: "100px",
+                    float: "left",
+                    width: "100%",
+                  }
                 : {}
             }
           >
-            <div
-              className="left_side_section"
-              id={!catopen ? "leftdata" : "leftdataback"}
-            >
+            <div className="left_side_section" id={!catopen ? "leftdata" : ""}>
               {selfprofile.about == "" || selfprofile.about == null ? (
                 ""
               ) : (
@@ -1621,7 +1606,7 @@ function Profile() {
                           alt=""
                         />
                         {selfprofile.facebookverify != null ||
-                          selfprofile.linkdinverify != null ? (
+                        selfprofile.linkdinverify != null ? (
                           <img
                             src={
                               window.location.origin + "/images/nany_cont.svg"
@@ -1659,7 +1644,7 @@ function Profile() {
                       ) : (
                         <div className="profile_box_social_sec2">
                           {selfprofile.service_type &&
-                            selfprofile.service_type.tab1 == "Nanny" ? (
+                          selfprofile.service_type.tab1 == "Nanny" ? (
                             <img
                               src={
                                 window.location.origin + "/images/nany_pur.svg"
@@ -1670,7 +1655,7 @@ function Profile() {
                             ""
                           )}
                           {selfprofile.service_type &&
-                            selfprofile.service_type.tab2 ? (
+                          selfprofile.service_type.tab2 ? (
                             <img
                               src={
                                 window.location.origin +
@@ -1682,7 +1667,7 @@ function Profile() {
                             ""
                           )}
                           {selfprofile.service_type &&
-                            selfprofile.service_type.tab3 ? (
+                          selfprofile.service_type.tab3 ? (
                             <img
                               src={
                                 window.location.origin +
@@ -1694,7 +1679,7 @@ function Profile() {
                             ""
                           )}
                           {selfprofile.service_type &&
-                            selfprofile.service_type.tab4 ? (
+                          selfprofile.service_type.tab4 ? (
                             <img
                               src={
                                 window.location.origin + "/images/tutorform.svg"
@@ -1736,11 +1721,11 @@ function Profile() {
                         {selfprofile.first_name + " " + selfprofile.last_name} (
                         {selfprofile.dob != undefined
                           ? new Date().getFullYear() -
-                          parseInt(
-                            selfprofile.dob
-                              .substr(selfprofile.dob.lastIndexOf("\\") + 1)
-                              .split("-")[0]
-                          )
+                            parseInt(
+                              selfprofile.dob
+                                .substr(selfprofile.dob.lastIndexOf("\\") + 1)
+                                .split("-")[0]
+                            )
                           : ""}
                         )
                       </p>
@@ -1807,30 +1792,30 @@ function Profile() {
                         <h5>
                           {new Date().getFullYear() -
                             new Date(selfprofile.created_at).getFullYear() >
-                            0
+                          0
                             ? new Date().getFullYear() -
-                            new Date(selfprofile.created_at).getFullYear() +
-                            " YRS"
-                            : 0 + " YRS"}{" "}
+                              new Date(selfprofile.created_at).getFullYear() +
+                              t(" YRS")
+                            : 0 + t(" YRS")}{" "}
                         </h5>
-                        <h6>Member</h6>
+                        <h6>{t("Member")}</h6>
                       </div>
                       <div className="vi"></div>
                       {localStorage.getItem("user_type") == "parents" ? (
                         <div className="applications">
                           <h5>{selfprofile.jobs}</h5>
-                          <h6>Job posts</h6>
+                          <h6>{t("Job posts")}</h6>
                         </div>
                       ) : (
                         <div className="applications">
                           <h5>{selfprofile.jobApplicationcount}</h5>
-                          <h6>Applications</h6>
+                          <h6>{t("Applications")}</h6>
                         </div>
                       )}
                       <div className="vi"></div>
                       <div className="hiring">
                         <h5>{selfprofile.hiringcount}</h5>
-                        <h6>Hirings</h6>
+                        <h6>{t("Hirings")}</h6>
                       </div>
                     </div>
                   </div>
@@ -1853,7 +1838,7 @@ function Profile() {
                         alt=""
                       />
                       <h4>
-                        Notifications
+                        {t("Notifications")}
                         <span>
                           {" "}
                           (<Count_notification />)
@@ -1894,7 +1879,7 @@ function Profile() {
                         alt=""
                       />
                       <h4>
-                        Messages
+                        {t("Messages")}
                         <span>
                           {" "}
                           (<Count_message />)
@@ -1924,7 +1909,7 @@ function Profile() {
                         src={window.location.origin + "/images/jobnhistory.svg"}
                         alt=""
                       />
-                      <h4>Job History and Docs</h4>
+                      <h4>{t("Job History and Docs")}</h4>
                     </button>
                     <div
                       className="side_drop_collapse_box_content"
@@ -1975,7 +1960,7 @@ function Profile() {
                           fill="#A98D4B"
                         />
                       </svg>
-                      <h4>Recent profile visits</h4>
+                      <h4>{t("Recent profile visits")}</h4>
                     </button>
                     <div
                       className="side_drop_collapse_box_content Document_main side_drop_collapse"
@@ -1992,6 +1977,7 @@ function Profile() {
                             : { display: "none" }
                         }
                       >
+                        
                         <li
                           onClick={(e) => {
                             navigate(
@@ -2004,7 +1990,7 @@ function Profile() {
                           }}
                           className={subtab == "who-i-visited" ? "active " : ""}
                         >
-                          Who I Visited
+                          {t("Who I Visited")}
                         </li>
                         <li
                           onClick={(e) => {
@@ -2022,13 +2008,13 @@ function Profile() {
                               : "upgrade"
                           }
                         >
-                          Who Visited Me{" "}
+                          {t("Who Visited Me")}{" "}
                           <span>
                             <Link
                               to={""}
-                            // {!localStorage.getItem("token") || !localStorage.getItem("id") ? "/signup" : localStorage.getItem("user_type") == "parents" ? "/parents-membership" : "/provider-membership"} target="_blank"
+                              // {!localStorage.getItem("token") || !localStorage.getItem("id") ? "/signup" : localStorage.getItem("user_type") == "parents" ? "/parents-membership" : "/provider-membership"} target="_blank"
                             >
-                              upgrade
+                              {t("upgrade")}
                             </Link>
                           </span>
                         </li>
@@ -2048,7 +2034,7 @@ function Profile() {
                           src={window.location.origin + "/images/fav.svg"}
                           alt=""
                         />
-                        <h4>Favorites</h4>
+                        <h4>{t("Favorites")}</h4>
                       </button>
                     ) : (
                       <button
@@ -2064,7 +2050,7 @@ function Profile() {
                           src={window.location.origin + "/images/fav.svg"}
                           alt=""
                         />
-                        <h4>Favorites</h4>
+                        <h4>{t("Favorites")}</h4>
                       </button>
                     )}
                     <div
@@ -2108,7 +2094,7 @@ function Profile() {
                         src={window.location.origin + "/images/reviewi.svg"}
                         alt=""
                       />
-                      <h4>Reviews</h4>
+                      <h4>{t("Reviews")}</h4>
                     </button>
                     <button
                       className={
@@ -2138,7 +2124,7 @@ function Profile() {
                           fill="#A98D4B"
                         />
                       </svg>
-                      <h4>SensCare Loyalty </h4>
+                      <h4>{t("SensCare Loyalty")} </h4>
                     </button>
                     <button
                       type="button"
@@ -2151,7 +2137,7 @@ function Profile() {
                         src={window.location.origin + "/images/setting.svg"}
                         alt=""
                       />
-                      <h4>Settings</h4>
+                      <h4>{t("Settings")}</h4>
                     </button>
                     <div
                       className="side_drop_collapse_box_content"
@@ -2163,15 +2149,15 @@ function Profile() {
                     >
                       <ul>
                         <li
-                          className={subtab == "my-profile" ? "active" : ""}
+                          className={subtab == "Account" ? "active" : ""}
                           onClick={(e) => {
                             window.scrollTo({ top: 0, behavior: "smooth" });
                             navigate(
                               localStorage.getItem("user_type") == "parents"
-                                ? "/search-parents/my-profile"
-                                : "/search-providers/my-profile"
+                                ? "/search-parents/Account"
+                                : "/search-providers/Account"
                             );
-                            localStorage.setItem("search", "my-profile");
+                            localStorage.setItem("search", "Account");
                           }}
                         >
                           <svg
@@ -2187,7 +2173,7 @@ function Profile() {
                               fill="#636363"
                             />
                           </svg>
-                          <span>my-profile</span>
+                          <span>{t("Account")}</span>
                         </li>
                         <li
                           className={subtab == "Profile" ? "active" : ""}
@@ -2213,7 +2199,7 @@ function Profile() {
                               fill="#636363"
                             />
                           </svg>
-                          <span>View/Edit Profile</span>
+                          <span>{t("View/Edit Profile")}</span>
                         </li>
                         <li
                           className={subtab == "SignOut" ? "active" : ""}
@@ -2230,7 +2216,7 @@ function Profile() {
                               fill="#636363"
                             />
                           </svg>
-                          <span>Sign Out</span>
+                          <span>{t("Sign Out")}</span>
                         </li>
                       </ul>
                     </div>
@@ -2244,7 +2230,7 @@ function Profile() {
                 style={{ width: "calc(100% - 22.5%)" }}
               >
                 <h2>
-                  Profile Overview{" "}
+                  {t("Profile Overview")}{" "}
                   <Link
                     to={
                       localStorage.getItem("back")
@@ -2263,8 +2249,8 @@ function Profile() {
                         d="M0.646446 3.64645C0.451185 3.84171 0.451185 4.15829 0.646446 4.35355L3.82843 7.53553C4.02369 7.7308 4.34027 7.7308 4.53553 7.53553C4.7308 7.34027 4.7308 7.02369 4.53553 6.82843L1.70711 4L4.53553 1.17157C4.7308 0.976311 4.7308 0.659728 4.53553 0.464466C4.34027 0.269204 4.02369 0.269204 3.82843 0.464466L0.646446 3.64645ZM17 3.5L1 3.5V4.5L17 4.5V3.5Z"
                         fill="#A98D4B"
                       />
-                    </svg>
-                    Back{" "}
+                    </svg>{" "}
+                    {t("Back")}
                   </Link>
                 </h2>
                 <div className="about_edit">
@@ -2302,7 +2288,7 @@ function Profile() {
                             alt=""
                           />
                           {profile.facebookverify != null ||
-                            profile.linkdinverify != null ? (
+                          profile.linkdinverify != null ? (
                             <img
                               src={
                                 window.location.origin + "/images/nany_cont.svg"
@@ -2381,7 +2367,7 @@ function Profile() {
                           {profile.first_name + " " + profile.last_name} (25){" "}
                           <a className="heart_sec">
                             {localStorage.getItem("user_type") == "provider" &&
-                              selfprofile.id != profile.id ? (
+                            selfprofile.id != profile.id ? (
                               <Favorite_profile
                                 id={profile.id}
                                 username={profile.username}
@@ -2406,11 +2392,11 @@ function Profile() {
                                 (e) => e.ProviderId == selfprofile.id
                               )[0]?.inviteStatus == 1 &&
                               profile.checkreviewstatus != true) ||
-                              profile.job.filter(
-                                (e) =>
-                                  e?.checkhiredorNot?.applyjob_hiredstatus == 0
-                              )[0] ||
-                              Object.values(job_apply)[0] ? (
+                            profile.job.filter(
+                              (e) =>
+                                e?.checkhiredorNot?.applyjob_hiredstatus == 0
+                            )[0] ||
+                            Object.values(job_apply)[0] ? (
                               <>
                                 {[...Array(profile.reviewAvg)].map(
                                   (star, index) => {
@@ -2518,24 +2504,24 @@ function Profile() {
                           <h5>
                             {new Date().getFullYear() -
                               new Date(profile.created_at).getFullYear() >
-                              0
+                            0
                               ? new Date().getFullYear() -
-                              new Date(profile.created_at).getFullYear() +
-                              " YRS"
-                              : 0 + " YRS"}{" "}
+                                new Date(profile.created_at).getFullYear() +
+                                t(" YRS")
+                              : 0 + t(" YRS")}{" "}
                           </h5>
-                          <h6>Member</h6>
+                          <h6>{t("Member")}</h6>
                         </div>
                         <div className="vi"></div>
 
                         <div className="applications">
                           <h5>{profile.jobs}</h5>
-                          <h6>Job posts</h6>
+                          <h6>{t("Job posts")}</h6>
                         </div>
                         <div className="vi"></div>
                         <div className="hiring">
                           <h5>{profile.hiringcount}</h5>
-                          <h6>Hirings</h6>
+                          <h6>{t("Hirings")}</h6>
                         </div>
                       </div>
                     </div>
@@ -2543,24 +2529,24 @@ function Profile() {
                       className="quarybtn faid"
                       style={
                         profile.invitationData &&
-                          profile.invitationData.filter(
-                            (e) => e.ProviderId == selfprofile.id
-                          )[0]?.inviteStatus == 1
+                        profile.invitationData.filter(
+                          (e) => e.ProviderId == selfprofile.id
+                        )[0]?.inviteStatus == 1
                           ? { opacity: "1" }
                           : {}
                       }
                     >
                       {!localStorage.getItem("token") ||
-                        !localStorage.getItem("id") ? (
+                      !localStorage.getItem("id") ? (
                         <Link to="/signup" className="message">
-                          Send message
+                          {t("Send message")}
                         </Link>
                       ) : (
                         <button
                           className="message"
                           onClick={(e) => {
                             selfprofile.user_type == "provider" &&
-                              selfprofile.backgroundstatus == null ? (
+                            selfprofile.backgroundstatus == null ? (
                               setshowflogin2(true)
                             ) : selfprofile.user_type == "parents" &&
                               !selfprofile.job[0] ? (
@@ -2570,28 +2556,28 @@ function Profile() {
                                 {
                                   (navigate(
                                     "/search-providers/message-inbox/" +
-                                    profile.id
+                                      profile.id
                                   ),
-                                    // navigate(localStorage.getItem("user_type") == "parents" ? "/parents-membership" : "/provider-membership"),
-                                    localStorage.setItem("message", slugdata.id))
+                                  // navigate(localStorage.getItem("user_type") == "parents" ? "/parents-membership" : "/provider-membership"),
+                                  localStorage.setItem("message", slugdata.id))
                                 }
                               </>
                             );
                           }}
                           style={
                             profile.invitationData &&
-                              profile.invitationData.filter(
-                                (e) => e.ProviderId == selfprofile.id
-                              )[0]?.inviteStatus == 1 &&
-                              selfprofile.user_type == "provider"
+                            profile.invitationData.filter(
+                              (e) => e.ProviderId == selfprofile.id
+                            )[0]?.inviteStatus == 1 &&
+                            selfprofile.user_type == "provider"
                               ? {}
                               : { opacity: "0.5" }
                           }
                           disabled={
                             profile.invitationData &&
-                              profile.invitationData.filter(
-                                (e) => e.ProviderId == selfprofile.id
-                              )[0]?.inviteStatus == 1
+                            profile.invitationData.filter(
+                              (e) => e.ProviderId == selfprofile.id
+                            )[0]?.inviteStatus == 1
                               ? false
                               : true
                           }
@@ -2603,36 +2589,36 @@ function Profile() {
                         <button
                           style={
                             profile.invitationData &&
-                              profile.invitationData.filter(
-                                (e) => e.ProviderId == selfprofile.id
-                              )[0]?.inviteStatus == 1 &&
-                              selfprofile.user_type == "provider" &&
-                              !profile.recomm_status
+                            profile.invitationData.filter(
+                              (e) => e.ProviderId == selfprofile.id
+                            )[0]?.inviteStatus == 1 &&
+                            selfprofile.user_type == "provider" &&
+                            !profile.recomm_status
                               ? {}
                               : { opacity: "0.5" }
                           }
                           className="ask"
                           onClick={(e) => {
                             selfprofile.user_type == "provider" &&
-                              selfprofile.backgroundstatus == null
+                            selfprofile.backgroundstatus == null
                               ? setshowflogin2(true)
                               : selfprofile.user_type == "parents" &&
                                 !selfprofile.job[0]
-                                ? setShowfprovider2(true)
-                                : setrequest(true);
+                              ? setShowfprovider2(true)
+                              : setrequest(true);
                           }}
                           disabled={
                             profile.invitationData &&
-                              profile.invitationData.filter(
-                                (e) => e.ProviderId == selfprofile.id
-                              )[0]?.inviteStatus == 1 &&
-                              selfprofile.user_type == "provider" &&
-                              !profile.recomm_status
+                            profile.invitationData.filter(
+                              (e) => e.ProviderId == selfprofile.id
+                            )[0]?.inviteStatus == 1 &&
+                            selfprofile.user_type == "provider" &&
+                            !profile.recomm_status
                               ? false
                               : true
                           }
                         >
-                          Ask for Recommendation
+                          {t("Ask for Recommendation")}
                         </button>
                       ) : (
                         <button
@@ -2640,13 +2626,13 @@ function Profile() {
                           className="ask"
                           disabled={true}
                         >
-                          Ask for Recommendation
+                          {t("Ask for Recommendation")}
                         </button>
                       )}
                     </div>
                   </div>
                   <p>
-                    <h4>About me and my family</h4>
+                    <h4>{t("About me and my family")}</h4>
                     <svg
                       width="40"
                       height="29"
@@ -2664,24 +2650,24 @@ function Profile() {
                       className="quarybtn faid"
                       style={
                         profile.invitationData &&
-                          profile.invitationData.filter(
-                            (e) => e.ProviderId == selfprofile.id
-                          )[0]?.inviteStatus == 1
+                        profile.invitationData.filter(
+                          (e) => e.ProviderId == selfprofile.id
+                        )[0]?.inviteStatus == 1
                           ? { opacity: "1" }
                           : {}
                       }
                     >
                       {!localStorage.getItem("token") ||
-                        !localStorage.getItem("id") ? (
+                      !localStorage.getItem("id") ? (
                         <Link to="/signup" className="message">
-                          Send message
+                          {t("Send message")}
                         </Link>
                       ) : (
                         <button
                           className="message"
                           onClick={(e) => {
                             selfprofile.user_type == "provider" &&
-                              selfprofile.backgroundstatus == null ? (
+                            selfprofile.backgroundstatus == null ? (
                               setshowflogin2(true)
                             ) : selfprofile.user_type == "parents" &&
                               !selfprofile.job[0] ? (
@@ -2691,44 +2677,44 @@ function Profile() {
                                 {
                                   (navigate(
                                     "/search-providers/message-inbox/" +
-                                    profile.id
+                                      profile.id
                                   ),
-                                    // navigate(localStorage.getItem("user_type") == "parents" ? "/parents-membership" : "/provider-membership"),
-                                    localStorage.setItem("message", slugdata.id))
+                                  // navigate(localStorage.getItem("user_type") == "parents" ? "/parents-membership" : "/provider-membership"),
+                                  localStorage.setItem("message", slugdata.id))
                                 }
                               </>
                             );
                           }}
                           style={
                             profile.invitationData &&
-                              profile.invitationData.filter(
-                                (e) => e.ProviderId == selfprofile.id
-                              )[0]?.inviteStatus == 1 &&
-                              selfprofile.user_type == "provider"
+                            profile.invitationData.filter(
+                              (e) => e.ProviderId == selfprofile.id
+                            )[0]?.inviteStatus == 1 &&
+                            selfprofile.user_type == "provider"
                               ? {}
                               : { opacity: "0.5" }
                           }
                           disabled={
                             profile.invitationData &&
-                              profile.invitationData.filter(
-                                (e) => e.ProviderId == selfprofile.id
-                              )[0]?.inviteStatus == 1
+                            profile.invitationData.filter(
+                              (e) => e.ProviderId == selfprofile.id
+                            )[0]?.inviteStatus == 1
                               ? false
                               : true
                           }
                         >
-                          Send message{" "}
+                          {t("Send message")}{" "}
                         </button>
                       )}
                       {ecomen == "" ? (
                         <button
                           style={
                             profile.invitationData &&
-                              profile.invitationData.filter(
-                                (e) => e.ProviderId == selfprofile.id
-                              )[0]?.inviteStatus == 1 &&
-                              selfprofile.user_type == "provider" &&
-                              !profile.recomm_status
+                            profile.invitationData.filter(
+                              (e) => e.ProviderId == selfprofile.id
+                            )[0]?.inviteStatus == 1 &&
+                            selfprofile.user_type == "provider" &&
+                            !profile.recomm_status
                               ? {}
                               : { opacity: "0.5" }
                           }
@@ -2736,16 +2722,16 @@ function Profile() {
                           onClick={(e) => setrequest(true)}
                           disabled={
                             profile.invitationData &&
-                              profile.invitationData.filter(
-                                (e) => e.ProviderId == selfprofile.id
-                              )[0]?.inviteStatus == 1 &&
-                              selfprofile.user_type == "provider" &&
-                              !profile.recomm_status
+                            profile.invitationData.filter(
+                              (e) => e.ProviderId == selfprofile.id
+                            )[0]?.inviteStatus == 1 &&
+                            selfprofile.user_type == "provider" &&
+                            !profile.recomm_status
                               ? false
                               : true
                           }
                         >
-                          Ask for Recommendation
+                          {t("Ask for Recommendation")}
                         </button>
                       ) : (
                         <button
@@ -2753,7 +2739,7 @@ function Profile() {
                           className="ask"
                           disabled={true}
                         >
-                          Ask for Recommendation
+                          {t("Ask for Recommendation")}
                         </button>
                       )}
                     </div>
@@ -2775,12 +2761,12 @@ function Profile() {
                       })
                     }
                   >
-                    Security and Verification
+                    {t("Security and Verification")}
                   </h3>
                   {ssubtab.security == "active" ? (
                     <div className="editkids security mg">
                       <label>
-                        Verified accounts{" "}
+                        {t("Verified accounts")}{" "}
                         <span>
                           <strong>
                             <div className="social_verify">
@@ -2872,7 +2858,7 @@ function Profile() {
                       })
                     }
                   >
-                    Reviews
+                    {t("Reviews")}
                   </h3>
                   {console.log(profile.reviewData)}
                   {ssubtab.Reviews == "active" ? (
@@ -2884,7 +2870,7 @@ function Profile() {
                         className="slider_test reviewshow"
                       >
                         {profile.reviewData?.map((data, index) => {
-                          if (data) {
+                          if (data.status == 0) {
                             return (
                               <div className="item">
                                 <div className="review_list">
@@ -2961,7 +2947,7 @@ function Profile() {
                       </Slider>
                     ) : (
                       <p className="no_active" style={{ margin: "25px 0" }}>
-                        No reviews at this time
+                        {t("No reviews at this time")}
                       </p>
                     )
                   ) : (
@@ -2981,15 +2967,15 @@ function Profile() {
                       })
                     }
                   >
-                    Job Posts
+                    {t("Job Posts")}
                   </h3>
                   {ssubtab.Job == "active" ? (
                     <div className="right_side_section">
                       <div className="looking_for_candidate">
                         {profile.job &&
-                          profile.job.length > 0 &&
-                          profile.service_type &&
-                          Object.keys(profile.service_type).length > 0 ? (
+                        profile.job.length > 0 &&
+                        profile.service_type &&
+                        Object.keys(profile.service_type).length > 0 ? (
                           profile.job &&
                           profile.job.map((data, index) => {
                             if (data.status == 0) {
@@ -3002,8 +2988,8 @@ function Profile() {
                                           src={
                                             profile.file_path != null
                                               ? api +
-                                              "/public/assets/images/users/" +
-                                              profile.file_path
+                                                "/public/assets/images/users/" +
+                                                profile.file_path
                                               : "img/nany_img.png"
                                           }
                                           alt=""
@@ -3011,7 +2997,7 @@ function Profile() {
                                         <div className="heart_sec">
                                           {localStorage.getItem("user_type") ==
                                             "provider" &&
-                                            selfprofile.id != profile.id ? (
+                                          selfprofile.id != profile.id ? (
                                             <Favorite_select
                                               id={data.id}
                                               heart2={data.checkfavorNot}
@@ -3053,7 +3039,7 @@ function Profile() {
                                           alt=""
                                         />
                                         {profile.facebookverify != null ||
-                                          profile.linkdinverify != null ? (
+                                        profile.linkdinverify != null ? (
                                           <img
                                             src={
                                               window.location.origin +
@@ -3088,7 +3074,7 @@ function Profile() {
                                             {localStorage.getItem(
                                               "user_type"
                                             ) == "provider" &&
-                                              selfprofile.id != profile.id ? (
+                                            selfprofile.id != profile.id ? (
                                               <Favorite_select
                                                 id={data.id}
                                                 heart2={data.favorNot}
@@ -3100,7 +3086,7 @@ function Profile() {
                                           </div>
                                         </h3>
                                         {data.plateformonsocialmedia ==
-                                          "Yes" ? (
+                                        "Yes" ? (
                                           <Facebook_share
                                             link={
                                               window.location.origin +
@@ -3196,7 +3182,7 @@ function Profile() {
                                                 alt=""
                                               />
                                             ) : data.job_type ==
-                                              "Special EducationParaprofessional" ? (
+                                              "Special Education Paraprofessional" ? (
                                               <img
                                                 src={
                                                   window.location.origin +
@@ -3220,7 +3206,7 @@ function Profile() {
                                           )}
                                           <h5>
                                             {data.job_type != null
-                                              ? data.job_type
+                                              ? t(data.job_type)
                                               : ""}
                                             {/* {
                                                                                 data.service_type != null &&data.service_type)[0].length > 8 ? "..." : ""
@@ -3238,36 +3224,36 @@ function Profile() {
                                             alt=""
                                           />{" "}
                                           {profile &&
-                                            selfprofile.country == "Serbia" ? (
+                                          profile.country == "Serbia" ? (
                                             <h5>
                                               {profile.nanyperhrrate != null &&
-                                                index == 0
+                                              index == 0
                                                 ? profile.nanyperhrrate
-                                                  .substr(
-                                                    profile.nanyperhrrate.lastIndexOf(
-                                                      "\\"
-                                                    ) + 1
-                                                  )
-                                                  .split("-")[0] *
-                                                100 +
-                                                " - " +
-                                                profile.nanyperhrrate
-                                                  .substr(
-                                                    profile.nanyperhrrate.lastIndexOf(
-                                                      "\\"
-                                                    ) + 1
-                                                  )
-                                                  .split("-")[1] *
-                                                100
+                                                    .substr(
+                                                      profile.nanyperhrrate.lastIndexOf(
+                                                        "\\"
+                                                      ) + 1
+                                                    )
+                                                    .split("-")[0] *
+                                                    100 +
+                                                  " - " +
+                                                  profile.nanyperhrrate
+                                                    .substr(
+                                                      profile.nanyperhrrate.lastIndexOf(
+                                                        "\\"
+                                                      ) + 1
+                                                    )
+                                                    .split("-")[1] *
+                                                    100
                                                 : profile.tutorperhrrate
-                                                  ? profile.tutorperhrrate
+                                                ? profile.tutorperhrrate
                                                     .substr(
                                                       profile.tutorperhrrate.lastIndexOf(
                                                         "\\"
                                                       ) + 1
                                                     )
                                                     .split("-")[0] *
-                                                  100 +
+                                                    100 +
                                                   " - " +
                                                   profile.tutorperhrrate
                                                     .substr(
@@ -3276,20 +3262,20 @@ function Profile() {
                                                       ) + 1
                                                     )
                                                     .split("-")[1] *
-                                                  100
-                                                  : ""}{" "}
-                                              /hour
+                                                    100
+                                                : ""}{" "}
+                                              {t("/hour")}
                                             </h5>
                                           ) : (
                                             <h5>
                                               $
                                               {profile.nanyperhrrate != null &&
-                                                index == 0
+                                              index == 0
                                                 ? profile.nanyperhrrate
                                                 : profile.tutorperhrrate
-                                                  ? profile.tutorperhrrate
-                                                  : ""}{" "}
-                                              /hour
+                                                ? profile.tutorperhrrate
+                                                : ""}{" "}
+                                              {t("/hour")}
                                             </h5>
                                           )}
                                         </div>
@@ -3304,8 +3290,8 @@ function Profile() {
                                           />
                                           <h5>
                                             {profile.tutorintrestedin != null
-                                              ? profile.tutorintrestedin
-                                              : ""}{" "}
+                                              ? t(profile.tutorintrestedin)
+                                              : ""}
                                           </h5>
                                         </div>
                                         <div className="vi"></div>
@@ -3335,7 +3321,7 @@ function Profile() {
                                           <h5>
                                             {profile.country != null
                                               ? profile.country
-                                              : ""}
+                                              : ""}{" "}
                                             ,{" "}
                                             {profile.city != null
                                               ? profile.city
@@ -3345,16 +3331,16 @@ function Profile() {
                                       </div>
                                       {data?.checkhiredorNot
                                         ?.applyjob_hiredstatus == 0 ||
-                                        data?.checkhiredorNot
-                                          ?.applyjob_hiredstatus == 1 ||
-                                        (profile.invitationData &&
-                                          profile.invitationData.filter(
-                                            (e) => e.ProviderId == selfprofile.id
-                                          )[0]?.inviteStatus == 1) ? (
+                                      data?.checkhiredorNot
+                                        ?.applyjob_hiredstatus == 1 ||
+                                      (profile.invitationData &&
+                                        profile.invitationData.filter(
+                                          (e) => e.ProviderId == selfprofile.id
+                                        )[0]?.inviteStatus == 1) ? (
                                         <p id={"half" + index}>
                                           {data.description != null
                                             ? data.description
-                                            : ""}{" "}
+                                            : ""}
                                         </p>
                                       ) : (
                                         <p id={"half" + index}>
@@ -3362,7 +3348,7 @@ function Profile() {
                                             ? data.description.substr(0, 100)
                                             : ""}{" "}
                                           {data.description != null &&
-                                            data.description.length > 100 ? (
+                                          data.description.length > 100 ? (
                                             <span
                                               onClick={(e) => {
                                                 setplink(true);
@@ -3373,7 +3359,7 @@ function Profile() {
                                                 );
                                               }}
                                             >
-                                              ...more
+                                              {t("...more")}
                                             </span>
                                           ) : (
                                             ""
@@ -3394,87 +3380,86 @@ function Profile() {
                                           less
                                         </span>
                                       </p>
-
                                       <div className="view_profile_btn">
                                         {!localStorage.getItem("token") ||
-                                          !localStorage.getItem("id") ? (
+                                        !localStorage.getItem("id") ? (
                                           <Link to="/signup">
-                                            Apply for Job
+                                            {t("Apply for Job")}
                                           </Link>
                                         ) : job_apply &&
                                           Object.values(job_apply).filter(
                                             (val) => val == data.id
                                           )[0] ? (
                                           <button style={{ opacity: "0.5" }}>
-                                            Applied
+                                            {t("Applied")}
                                           </button>
                                         ) : // data?.checkhiredorNot?.applyjob_hiredstatus == 1 ?
-                                          //     <>
-                                          //         <button
-                                          //         >Message</button>
-                                          //     </>
-                                          //     :
-                                          data?.checkhiredorNot
+                                        //     <>
+                                        //         <button
+                                        //         >Message</button>
+                                        //     </>
+                                        //     :
+                                        data?.checkhiredorNot
                                             ?.applyjob_hiredstatus == 0 ||
-                                            data?.checkhiredorNot
-                                              ?.applyjob_hiredstatus == 1 ||
-                                            (profile.invitationData &&
-                                              profile.invitationData.filter(
-                                                (e) =>
-                                                  e.ProviderId == selfprofile.id
-                                              )[0]?.inviteStatus == 1) ? (
-                                            <button style={{ opacity: "0.5" }}>
-                                              Applied
-                                            </button>
-                                          ) : (
-                                            <button
-                                              style={
-                                                selfprofile.user_type ==
-                                                  "provider"
-                                                  ? {}
-                                                  : { opacity: "0.5" }
-                                              }
-                                              onClick={(e) => {
-                                                selfprofile.user_type ==
-                                                  "provider" &&
-                                                  selfprofile.backgroundstatus ==
-                                                  null
-                                                  ? setshowflogin2(true)
-                                                  : selfprofile.user_type ==
+                                          data?.checkhiredorNot
+                                            ?.applyjob_hiredstatus == 1 ||
+                                          (profile.invitationData &&
+                                            profile.invitationData.filter(
+                                              (e) =>
+                                                e.ProviderId == selfprofile.id
+                                            )[0]?.inviteStatus == 1) ? (
+                                          <button style={{ opacity: "0.5" }}>
+                                            {t("Applied")}
+                                          </button>
+                                        ) : (
+                                          <button
+                                            style={
+                                              selfprofile.user_type ==
+                                              "provider"
+                                                ? {}
+                                                : { opacity: "0.5" }
+                                            }
+                                            onClick={(e) => {
+                                              selfprofile.user_type ==
+                                                "provider" &&
+                                              selfprofile.backgroundstatus ==
+                                                null
+                                                ? setshowflogin2(true)
+                                                : selfprofile.user_type ==
                                                     "parents" &&
-                                                    !selfprofile.job[0]
-                                                    ? setShowfprovider2(true)
-                                                    : setfirstappliapply(true);
-                                                setuserid({
-                                                  id: data.id,
-                                                  userid: data.user_id,
-                                                  index: index,
-                                                });
-                                              }}
-                                              disabled={
-                                                localStorage.getItem(
-                                                  "user_type"
-                                                ) != "provider"
-                                                  ? true
-                                                  : false
-                                              }
-                                            >
-                                              Apply for Job
-                                            </button>
-                                          )}
+                                                  !selfprofile.job[0]
+                                                ? setShowfprovider2(true)
+                                                : setfirstappliapply(true);
+                                              setuserid({
+                                                id: data.id,
+                                                userid: data.user_id,
+                                                index: index,
+                                              });
+                                            }}
+                                            disabled={
+                                              localStorage.getItem(
+                                                "user_type"
+                                              ) != "provider"
+                                                ? true
+                                                : false
+                                            }
+                                          >
+                                            {t("Apply for Job")}
+                                          </button>
+                                        )}
                                       </div>
                                     </div>
                                   </div>
                                   <p>
-                                    Please refer to our{" "}
+                                    {t("Please refer to our")}{" "}
                                     <Link to="/faq" target="_blank">
-                                      FAQ
+                                      {t("FAQ")}
                                     </Link>{" "}
-                                    and{" "}
+                                    {t("and")}{" "}
                                     <Link to="/safety-center" target="_blank">
-                                      Safety center
+                                      {t("Safety center")}
                                     </Link>{" "}
-                                    to read safety tips.
+                                    {t("to read safety tips.")}
                                   </p>
                                 </div>
                               );
@@ -3482,7 +3467,7 @@ function Profile() {
                           })
                         ) : (
                           <p className="no_active">
-                            No active job post at this time
+                            {t("No active job post at this time")}
                           </p>
                         )}
                       </div>
@@ -3504,40 +3489,45 @@ function Profile() {
                       })
                     }
                   >
-                    About
+                    {t("About")}
                   </h3>
                   {ssubtab.About == "active" ? (
                     <div className="editkids aboutdetail">
                       <div className="left2">
                         <label>
-                          <span className="half">First Name </span>
+                          <span className="half">{t("First Name")} </span>
                           <span>
                             <strong>{profile.first_name}</strong>
                           </span>
                         </label>
                         <label>
-                          <span className="half">Last Name </span>
+                          <span className="half">{t("Last Name")} </span>
                           <span>
                             <strong>{profile.last_name}</strong>
                           </span>
                         </label>
-                        {/* <label><span className="half">Date of birth</span> <span><strong>{profile.dob}</strong></span></label> */}
+                        <label>
+                          <span className="half">{t("Date of birth")}</span>{" "}
+                          <span>
+                            <strong>{profile.dob}</strong>
+                          </span>
+                        </label>
                       </div>
                       <div className="right2">
                         <label>
-                          <span className="half">City </span>
+                          <span className="half">{t("City")} </span>
                           <span>
                             <strong>{profile.city}</strong>
                           </span>
                         </label>
                         <label>
-                          <span className="half">ZIP code </span>
+                          <span className="half">{t("ZIP code")} </span>
                           <span>
                             <strong>{profile.zip}</strong>
                           </span>
                         </label>
                         <label>
-                          <span className="half">Country </span>
+                          <span className="half">{t("Country")} </span>
                           <span>
                             <strong>{profile.country}</strong>
                           </span>
@@ -3561,22 +3551,30 @@ function Profile() {
                       })
                     }
                   >
-                    Info about kids
+                    {t("Info about kids")}
                   </h3>
                   {ssubtab.kids == "active" ? (
                     <div className="editkids">
                       <label>
-                        Number of children to take care of{" "}
-                        <span className="cir">{children}</span>
+                        {t("Number of children to take care of")}{" "}
+                        <span
+                          className={`cir ${
+                            children === "twins" && language === "sr"
+                              ? "specialStyle"
+                              : ""
+                          }`}
+                        >
+                          {t(children)}
+                        </span>
                       </label>
                       {selectcat[0] ? (
                         <label>
-                          Child’s age{" "}
+                          {t("Child’s age")}
                           <span>
                             <strong>
                               {selectcat.map((e, index) => {
                                 return (
-                                  e.name +
+                                  t(e.name) +
                                   (profile.childage.length - 1 >= index + 1
                                     ? "; "
                                     : "")
@@ -3590,7 +3588,7 @@ function Profile() {
                       )}
                       <br />
                       <label>
-                        Special needs{" "}
+                        {t("Special needs")}{" "}
                         <span>
                           <strong>
                             <svg
@@ -3613,46 +3611,46 @@ function Profile() {
                                 fill="white"
                               />
                             </svg>
-                            {profile.childsocialneed}
+                            {t(profile.childsocialneed)}
                           </strong>
                         </span>
                       </label>
-                      {profile.childsocialneed == "No"
+                      {profile.childsocialneed == t("No")
                         ? ""
                         : children_age.map((e) => {
-                          return (
-                            <label>
-                              <span>
-                                <strong>
-                                  <svg
-                                    width="20"
-                                    height="20"
-                                    viewBox="0 0 20 20"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                  >
-                                    <path
-                                      fill-rule="evenodd"
-                                      clip-rule="evenodd"
-                                      d="M0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10Z"
-                                      fill="#A98D4B"
-                                    />
-                                    <path
-                                      fill-rule="evenodd"
-                                      clip-rule="evenodd"
-                                      d="M14.8283 6.40305C15.1833 6.75808 15.1833 7.33368 14.8283 7.6887L9.18544 13.5978C8.83042 13.9528 8.25481 13.9528 7.89979 13.5978L5.17252 10.8705C4.81749 10.5155 4.81749 9.9399 5.17252 9.58487C5.52754 9.22985 6.10314 9.22985 6.45817 9.58487L8.54261 11.6693L13.5426 6.40305C13.8976 6.04803 14.4732 6.04803 14.8283 6.40305Z"
-                                      fill="white"
-                                    />
-                                  </svg>
-                                  {e.name}{" "}
-                                </strong>
-                              </span>
-                            </label>
-                          );
-                        })}
+                            return (
+                              <label>
+                                <span>
+                                  <strong>
+                                    <svg
+                                      width="20"
+                                      height="20"
+                                      viewBox="0 0 20 20"
+                                      fill="none"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                      <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10Z"
+                                        fill="#A98D4B"
+                                      />
+                                      <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M14.8283 6.40305C15.1833 6.75808 15.1833 7.33368 14.8283 7.6887L9.18544 13.5978C8.83042 13.9528 8.25481 13.9528 7.89979 13.5978L5.17252 10.8705C4.81749 10.5155 4.81749 9.9399 5.17252 9.58487C5.52754 9.22985 6.10314 9.22985 6.45817 9.58487L8.54261 11.6693L13.5426 6.40305C13.8976 6.04803 14.4732 6.04803 14.8283 6.40305Z"
+                                        fill="white"
+                                      />
+                                    </svg>
+                                    {t(e.name)}
+                                  </strong>
+                                </span>
+                              </label>
+                            );
+                          })}
                       {profile.service_type && profile.service_type.tab2 ? (
                         <label>
-                          Child needs IEP
+                          {t("Child needs IEP")}{" "}
                           <span>
                             <strong>
                               <svg
@@ -3675,7 +3673,7 @@ function Profile() {
                                   fill="white"
                                 />
                               </svg>
-                              {profile.childneediep}{" "}
+                              {t(profile.childneediep)}
                             </strong>
                           </span>
                         </label>
@@ -3684,7 +3682,7 @@ function Profile() {
                       )}
                       <br />
                       <label>
-                        Allergies{" "}
+                        {t("Allergies")}{" "}
                         <span>
                           <strong>
                             <svg
@@ -3707,12 +3705,12 @@ function Profile() {
                                 fill="white"
                               />
                             </svg>
-                            {profile.childanyallergies}{" "}
+                            {t(profile.childanyallergies)}
                           </strong>
                         </span>
                       </label>
                       <label>
-                        Medical conditions
+                        {t("Medical conditions")}{" "}
                         <span>
                           <strong>
                             <svg
@@ -3735,7 +3733,7 @@ function Profile() {
                                 fill="white"
                               />
                             </svg>
-                            {profile.childmedicalcondition}{" "}
+                            {t(profile.childmedicalcondition)}
                           </strong>
                         </span>
                       </label>
@@ -3757,7 +3755,7 @@ function Profile() {
                       })
                     }
                   >
-                    Job Preferences
+                    {t("Job Preferences")}
                   </h3>
                   {ssubtab.job == "active" ? (
                     <div className="editkids editabout">
@@ -3769,10 +3767,10 @@ function Profile() {
                                 window.location.origin + "/images/nany_pur.svg"
                               }
                             />{" "}
-                            Nanny
+                            {t("Nanny")}
                           </h2>
                           <label>
-                            Live in nanny{" "}
+                            {t("Live in nanny")}{" "}
                             <span>
                               <strong>
                                 <svg
@@ -3800,10 +3798,10 @@ function Profile() {
                             </span>
                           </label>
                           <label>
-                            Rate per hour
+                            {t("Rate per hour")}
                             <span>
                               <strong>
-                                <b> {selfprofile.country == "Serbia" ? usd.min * 100 + " - " + usd.max * 100 : usd.min + " - " + usd.max + "&"}</b>
+                                <b> {usd.min + " - " + usd.max}$</b>
                               </strong>
                             </span>
                           </label>
@@ -3822,13 +3820,13 @@ function Profile() {
                                 "/images/special_education.svg"
                               }
                             />{" "}
-                            Special Education Teacher
+                            {t("Special Education Teacher")}
                           </h2>
                           <label>
-                            Rate per hour
+                            {t("Rate per hour")}
                             <span>
                               <strong>
-                                <b>{selfprofile.country == "Serbia" ? usd3.min * 100 + " - " + usd3.max * 100 : usd3.min + " - " + usd3.max + "$"}</b>
+                                <b>{usd3.min + " - " + usd3.max}$</b>
                               </strong>
                             </span>
                           </label>
@@ -3848,13 +3846,13 @@ function Profile() {
                                 "/images/professional.svg"
                               }
                             />{" "}
-                            Special Education Paraprofessional{" "}
+                            {t("Special Education Paraprofessional")}
                           </h2>
                           <label>
-                            Rate per hour
+                            {t("Rate per hour")}
                             <span>
                               <strong>
-                                <b>{selfprofile.country == "Serbia" ? usd4.min * 100 + " - " + usd4.max * 100 : usd4.min + " - " + usd4.max + "$"}</b>
+                                <b>{usd4.min + " - " + usd4.max}$</b>
                               </strong>
                             </span>
                           </label>
@@ -3870,13 +3868,13 @@ function Profile() {
                           <h2 className="border">
                             <img
                               src={window.location.origin + "/images/tuter.svg"}
-                            />
-                            Tutor
+                            />{" "}
+                            {t("Tutor")}
                           </h2>
-                          <h4>We need a tutor for</h4>
+                          <h4>{t("We need a tutor for")}</h4>
                           <label>
                             {qualifications.English &&
-                              qualifications.English != "" ? (
+                            qualifications.English != "" ? (
                               <span>
                                 <strong>
                                   <svg
@@ -3899,14 +3897,14 @@ function Profile() {
                                       fill="white"
                                     />
                                   </svg>
-                                  English{" "}
+                                  {t("English")}
                                 </strong>
                               </span>
                             ) : (
                               ""
                             )}
                             {qualifications.Serbian &&
-                              qualifications.Serbian != "" ? (
+                            qualifications.Serbian != "" ? (
                               <span>
                                 <strong>
                                   <svg
@@ -3929,14 +3927,14 @@ function Profile() {
                                       fill="white"
                                     />
                                   </svg>
-                                  Serbian{" "}
+                                  {t("Serbian")}
                                 </strong>
                               </span>
                             ) : (
                               ""
                             )}
                             {qualifications.Mathematics &&
-                              qualifications.Mathematics != "" ? (
+                            qualifications.Mathematics != "" ? (
                               <span>
                                 <strong>
                                   <svg
@@ -3959,14 +3957,14 @@ function Profile() {
                                       fill="white"
                                     />
                                   </svg>
-                                  Mathematics
+                                  {t("Mathematics")}
                                 </strong>
                               </span>
                             ) : (
                               ""
                             )}
                             {qualifications.Physics &&
-                              qualifications.Physics != "" ? (
+                            qualifications.Physics != "" ? (
                               <span>
                                 <strong>
                                   <svg
@@ -3989,14 +3987,14 @@ function Profile() {
                                       fill="white"
                                     />
                                   </svg>
-                                  Physics{" "}
+                                  {t("Physics")}
                                 </strong>
                               </span>
                             ) : (
                               ""
                             )}
                             {qualifications.Chemistry &&
-                              qualifications.Chemistry != "" ? (
+                            qualifications.Chemistry != "" ? (
                               <span>
                                 <strong>
                                   <svg
@@ -4019,14 +4017,14 @@ function Profile() {
                                       fill="white"
                                     />
                                   </svg>
-                                  Chemistry{" "}
+                                  {t("Chemistry")}
                                 </strong>
                               </span>
                             ) : (
                               ""
                             )}
                             {qualifications.Other &&
-                              qualifications.Other != "" ? (
+                            qualifications.Other != "" ? (
                               <span>
                                 <strong>
                                   <svg
@@ -4049,7 +4047,7 @@ function Profile() {
                                       fill="white"
                                     />
                                   </svg>
-                                  Other{" "}
+                                  {t("Other")}
                                 </strong>
                               </span>
                             ) : (
@@ -4058,10 +4056,10 @@ function Profile() {
                           </label>
                           <br />
                           <label>
-                            Rate per hour
+                            {t("Rate per hour")}
                             <span>
                               <strong>
-                                <b>{selfprofile.country == "Serbia" ? usd2.min * 100 + " - " + usd2.max * 100 : usd2.min + " - " + usd2.max + "&"}</b>
+                                <b>{usd2.min + " - " + usd2.max}$</b>
                               </strong>
                             </span>
                           </label>
@@ -4072,28 +4070,28 @@ function Profile() {
                         ""
                       )}
                       <div className="gernaledt">
-                        <h2 className="border ">General info</h2>
+                        <h2 className="border ">{t("General info")}</h2>
                         <div className="left2">
                           <label>
-                            Preferred work experience
+                            {t("Preferred work experience")}
                             <span>
                               <strong>
-                                <b>{profile.tutorexp} </b>
+                                <b>{t(profile.tutorexp)}</b>
                               </strong>
                             </span>
                           </label>
                           <label>
-                            Preferred age of a provider
+                            {t("Preferred age of a provider")}
                             <span>
                               <strong>
-                                <b>{profile.preferredageofprovider} </b>
+                                <b>{t(profile.preferredageofprovider)}</b>
                               </strong>
                             </span>
                           </label>
                         </div>
                         <div className="right2">
                           <label>
-                            Start date
+                            {t("Start date")}
                             <span>
                               <strong>
                                 <b>{profile.tutorstartdate}</b>
@@ -4101,10 +4099,10 @@ function Profile() {
                             </span>
                           </label>
                           <label>
-                            Frequency
+                            {t("Frequency")}
                             <span>
                               <strong>
-                                <b>{profile.tutorintrestedin} </b>
+                                <b>{t(profile.tutorintrestedin)}</b>
                               </strong>
                             </span>
                           </label>
@@ -4131,13 +4129,13 @@ function Profile() {
                       })
                     }
                   >
-                    Availability
+                    {t("Availability")}
                   </h3>
                   {ssubtab.availability == "active" ? (
                     <div className="calendershow">
                       <div className="calander">
                         <div className="form_group full">
-                          <label>Availability and working hours</label>
+                          <label>{t("Availability and working hours")}</label>
                         </div>
                         <div className="legend">
                           {/* <ul>
@@ -4159,32 +4157,32 @@ function Profile() {
                                                         : ""}
                                                 </ul> */}
                           <div className="form_group full">
-                            <label className="border">Legend</label>
+                            <label className="border">{t("Legend")}</label>
                             <ul>
                               <li>
-                                <strong>Full time</strong>
+                                <strong>{t("Full time")}</strong>
                                 <br />
-                                Mon - Fri, 9:00 AM to 6:00 PM
+                                {t("Mon - Fri, 9:00 AM to 6:00 PM")}
                               </li>
                               <li>
-                                <strong>Before school</strong>
+                                <strong>{t("Before school")}</strong>
                                 <br />
-                                Mon - Fri, 6:00 AM to 9:00 AM
+                                {t("Mon - Fri, 6:00 AM to 9:00 AM")}
                               </li>
                               <li>
-                                <strong>After school</strong>
+                                <strong>{t("After school")}</strong>
                                 <br />
-                                Mon - Fri, 3:00 PM to 9:00 PM
+                                {t("Mon - Fri, 3:00 PM to 9:00 PM")}
                               </li>
                               <li>
-                                <strong>Overnight</strong>
+                                <strong>{t("Overnight")}</strong>
                                 <br />
-                                Mon - Fri, 9:00 PM to 6:00 AM
+                                {t("Mon - Fri, 9:00 PM to 6:00 AM")}
                               </li>
                               <li>
-                                <strong>Weekends</strong>
+                                <strong>{t("Weekends")}</strong>
                                 <br />
-                                Saturday 12:00 AM to Sunday 11:59 PM
+                                {t("Saturday 12:00 AM to Sunday 11:59 PM")}
                               </li>
                             </ul>
                           </div>
@@ -4260,20 +4258,20 @@ function Profile() {
                       })
                     }
                   >
-                    Additional Info
+                    {t("Additional Info")}
                   </h3>
                   {ssubtab.info == "active" ? (
                     <div className="editkids editabout editinfo">
                       <div className="nannyediy">
                         {oralspeak.English ||
-                          oralspeak.Serbian ||
-                          oralspeak.Spanish ||
-                          oralspeak.French ||
-                          oralspeak.Chinese ||
-                          oralspeak.German ||
-                          oralspeak.Italian ||
-                          oralspeak.Other ? (
-                          <h4>Preferred foreign language</h4>
+                        oralspeak.Serbian ||
+                        oralspeak.Spanish ||
+                        oralspeak.French ||
+                        oralspeak.Chinese ||
+                        oralspeak.German ||
+                        oralspeak.Italian ||
+                        oralspeak.Other ? (
+                          <h4>{t("Preferred foreign language")}</h4>
                         ) : (
                           ""
                         )}
@@ -4302,7 +4300,7 @@ function Profile() {
                                     fill="white"
                                   />
                                 </svg>
-                                English{" "}
+                                {t("English")}
                               </strong>
                             </span>
                           ) : (
@@ -4331,7 +4329,7 @@ function Profile() {
                                     fill="white"
                                   />
                                 </svg>
-                                Spanish{" "}
+                                {t("Spanish")}
                               </strong>
                             </span>
                           ) : (
@@ -4360,7 +4358,7 @@ function Profile() {
                                     fill="white"
                                   />
                                 </svg>
-                                French{" "}
+                                {t("French")}
                               </strong>
                             </span>
                           ) : (
@@ -4389,7 +4387,7 @@ function Profile() {
                                     fill="white"
                                   />
                                 </svg>
-                                Chinese{" "}
+                                {t("Chinese")}
                               </strong>
                             </span>
                           ) : (
@@ -4418,7 +4416,7 @@ function Profile() {
                                     fill="white"
                                   />
                                 </svg>
-                                German{" "}
+                                {t("German")}
                               </strong>
                             </span>
                           ) : (
@@ -4447,7 +4445,7 @@ function Profile() {
                                     fill="white"
                                   />
                                 </svg>
-                                Italian{" "}
+                                {t("Italian")}
                               </strong>
                             </span>
                           ) : (
@@ -4476,7 +4474,7 @@ function Profile() {
                                     fill="white"
                                   />
                                 </svg>
-                                Other{" "}
+                                {t("Other")}
                               </strong>
                             </span>
                           ) : (
@@ -4486,12 +4484,12 @@ function Profile() {
 
                         <br />
                         {profile.service_type &&
-                          profile.service_type.tab1 &&
-                          Object.keys(profile.service_type).length == 1 ? (
+                        profile.service_type.tab1 &&
+                        Object.keys(profile.service_type).length == 1 ? (
                           <div className="icon">
                             <ul>
                               <li>
-                                Child transportation
+                                {t("Child transportation")}
                                 <div className="icons">
                                   {habit.licence == "false" ? (
                                     <svg
@@ -4542,7 +4540,7 @@ function Profile() {
                                 </div>
                               </li>
                               <li>
-                                Occasional traveling
+                                {t("Occasional traveling")}
                                 <div className="icons">
                                   {habit.family == "false" ? (
                                     <svg
@@ -4597,7 +4595,7 @@ function Profile() {
                                 </div>
                               </li>
                               <li>
-                                Light housework
+                                {t("Light housework")}
                                 <div className="icons">
                                   {habit.housework == "false" ? (
                                     <svg
@@ -4671,7 +4669,7 @@ function Profile() {
                                 </div>
                               </li>
                               <li>
-                                Cooking for kids
+                                {t("Cooking for kids")}
                                 <div className="icons">
                                   {habit.kids == "false" ? (
                                     <svg
@@ -4783,20 +4781,24 @@ function Profile() {
                                 fill="#7D2B8B"
                               />
                             </svg>
-                            Need a service abroad{" "}
-                            <span>{profile.workingabroad}</span>
+                            {t("Need a service abroad")}
+                            <span>{t(profile.workingabroad)}</span>
                           </label>
                           <br />
                           {profile.workingabroad == "Yes" ? (
                             <>
                               <label>
-                                <span className="half">Preferred Country</span>
+                                <span className="half">
+                                  {t("Preferred Country")}{" "}
+                                </span>
                                 <span>
                                   <strong>{profile.preferredcountry}</strong>
                                 </span>
                               </label>
                               <label>
-                                <span className="half">Preferred City</span>
+                                <span className="half">
+                                  {t("Preferred City")}{" "}
+                                </span>
                                 <span>
                                   <strong>{profile.preferredcity}</strong>
                                 </span>
@@ -4882,7 +4884,7 @@ function Profile() {
                 }}
                 className={subtab == "who-i-visited" ? "active " : ""}
               >
-                Who I Visited
+                {t("Who I Visited")}
               </li>
               <li
                 onClick={(e) => {
@@ -4898,13 +4900,13 @@ function Profile() {
                   subtab == "who-visited-me" ? "active upgrade" : "upgrade"
                 }
               >
-                Who Visited Me{" "}
+                {t("Who Visited Me")}{" "}
                 <span>
                   <Link
                     to={""}
-                  // {!localStorage.getItem("token") || !localStorage.getItem("id") ? "/signup" : localStorage.getItem("user_type") == "parents" ? "/parents-membership" : "/provider-membership"} target="_blank"
+                    // {!localStorage.getItem("token") || !localStorage.getItem("id") ? "/signup" : localStorage.getItem("user_type") == "parents" ? "/parents-membership" : "/provider-membership"} target="_blank"
                   >
-                    upgrade
+                    {t("upgrade")}
                   </Link>
                 </span>
               </li>
@@ -4997,7 +4999,7 @@ function Profile() {
                 src={window.location.origin + "/images/jobnhistory.svg"}
                 alt=""
               />
-              <span>Jobs & Doc</span>
+              <span>{t("Jobs & Doc")}</span>
             </li>
             <li
               onClick={(e) => {
@@ -5019,7 +5021,7 @@ function Profile() {
                   fill="#A98D4B"
                 ></path>
               </svg>
-              <span>Recent visit </span>
+              <span> {t("Recent visit")}</span>
             </li>
             <li
               onClick={(e) =>
@@ -5030,7 +5032,7 @@ function Profile() {
                 src={window.location.origin + "/images/message.svg"}
                 alt=""
               />
-              <span>Messages</span>
+              <span>{t("Messages")}</span>
             </li>
             {localStorage.getItem("user_type") == "parents" ? (
               <li
@@ -5041,7 +5043,7 @@ function Profile() {
                 }}
               >
                 <img src={window.location.origin + "/images/fav.svg"} alt="" />
-                <span>Favorites</span>
+                <span>{t("Favorites")}</span>
               </li>
             ) : (
               <li
@@ -5053,7 +5055,7 @@ function Profile() {
                 }}
               >
                 <img src={window.location.origin + "/images/fav.svg"} alt="" />
-                <span>Favorites</span>
+                <span>{t("Favorites")}</span>
               </li>
             )}
             <li
@@ -5077,7 +5079,7 @@ function Profile() {
                 src={window.location.origin + "/images/reviewi.svg"}
                 alt=""
               />
-              <span>Reviews</span>
+              <span>{t("Reviews")}</span>
             </li>
             <li
               onClick={(e) => {
@@ -5094,7 +5096,7 @@ function Profile() {
                 src={window.location.origin + "/images/notification.svg"}
                 alt=""
               />
-              <span>Notifications</span>
+              <span>{t("Notifications")}</span>
             </li>
           </ul>
         </div>
@@ -5106,26 +5108,27 @@ function Profile() {
             <div className="promocode_content cancelmembership reportthanks">
               <div className="">
                 <p>
-                  <strong>Thank you for your message.</strong>
+                  <strong>{t("Thank you for your message.")}</strong>
                 </p>
                 <br />
                 <p className={"second"}>
                   <b>
-                    SensCare is taking your safety very seriously. Please allow
-                    us up to 48hrs to further investigate this inquiry.{" "}
+                    {t(
+                      "SensCare is taking your safety very seriously. Please allow us up to 48hrs to further investigate this inquiry."
+                    )}{" "}
                   </b>{" "}
                 </p>
                 <br />
                 <p className="giveus">
-                  In the meantime, please visit our{" "}
+                  {t("In the meantime, please visit our")}{" "}
                   <Link to="/safety-center" target={"_blank"}>
-                    Safety center
+                    {t("Safety center")}
                   </Link>{" "}
-                  and{" "}
+                  {t("")}{" "}
                   <Link to="/faq" target={"_blank"}>
-                    FAQ
+                    {t("FAQ")}
                   </Link>{" "}
-                  for more info.{" "}
+                  {t("for more info.")}{" "}
                 </p>
 
                 <div className="button text-center">
@@ -5137,7 +5140,7 @@ function Profile() {
                         setsurvay(false);
                       }}
                     >
-                      Close
+                      {t("Close")}
                     </button>
                   </div>
                 </div>
@@ -5171,17 +5174,18 @@ function Profile() {
                   fill="#7D2B8B"
                 />
               </svg>
-              <h2>Report User</h2>
+              <h2>{t("Report User")}</h2>
               <div className="cancelmembershipp">
                 <p>
                   <b>
-                    In order to process your request, we need a little bit more
-                    information from you.
+                    {t(
+                      "In order to process your request, we need a little bit more information from you."
+                    )}
                   </b>
                 </p>
                 <div className="onepxline"></div>
                 <p className={report.error != "" ? "active second" : "second"}>
-                  What is the reason you want to report this profile?{" "}
+                  {t("What is the reason you want to report this profile?")}{" "}
                 </p>
                 <br />
                 <ul>
@@ -5198,7 +5202,7 @@ function Profile() {
                         })
                       }
                     />
-                    <span>User sent an unsolicited message</span>
+                    <span> {t("User sent an unsolicited message")}</span>
                   </li>
                   <li>
                     <input
@@ -5213,10 +5217,10 @@ function Profile() {
                         })
                       }
                     />
-                    <span>Security and verification issue </span>
+                    <span> {t("Security and verification issue")}</span>
                   </li>
                 </ul>
-                <p className="giveus">Give us more details</p>
+                <p className="giveus">{t("Give us more details")}</p>
                 <div className="comment">
                   <textarea
                     className={
@@ -5225,16 +5229,19 @@ function Profile() {
                         : ""
                     }
                     maxLength="70"
+                    placeholder={t("Type here")}
                     onChange={(e) =>
                       setreport({ ...report, other: e.target.value, error: "" })
                     }
                   ></textarea>
-                  <span>Number of characters {70 - report.other.length}</span>
+                  <span>
+                    {t("Number of characters")} {70 - report.other.length}
+                  </span>
                 </div>
                 <div className="button text-center">
                   <div className="pull-right">
                     <button className="btn" onClick={(e) => reportset()}>
-                      Report User
+                      {t("Report User")}
                     </button>
                   </div>
                   <div className="pull-right">
@@ -5242,7 +5249,7 @@ function Profile() {
                       className="btn confirm"
                       onClick={(e) => setsurvay(false)}
                     >
-                      Cancel
+                      {t("Cancel")}
                     </button>
                   </div>
                 </div>
@@ -5260,12 +5267,12 @@ function Profile() {
               <Link to="" onClick={(e) => setsignout(false)}>
                 +{" "}
               </Link>
-              <h2>Sign out</h2>
-              <p>Are you sure you want to Sign out? </p>
+              <h2>{t("Sign out")}</h2>
+              <p>{t("Are you sure you want to Sign out?")} </p>
               <div className="button text-center">
                 <div className="pull-right">
                   <button className="btn" onClick={(e) => setsignout(false)}>
-                    No
+                    {t("No")}
                   </button>
                 </div>
                 <div className="pull-right">
@@ -5297,9 +5304,9 @@ function Profile() {
               <Link to="" onClick={(e) => setinterviewinvite(false)}>
                 +{" "}
               </Link>
-              <h2>Interview invite</h2>
+              <h2>{t("Interview invite")}</h2>
               <p>
-                Are you sure you want to send an Interview invite to{" "}
+                {t("Are you sure you want to send an Interview invite to")}{" "}
                 <span style={{ color: "#A98D4B" }}>
                   {profile.first_name + " " + profile.last_name}
                 </span>
@@ -5311,7 +5318,7 @@ function Profile() {
                     className="btn"
                     onClick={(e) => setinterviewinvite(false)}
                   >
-                    Cancel
+                    {t("Cancel")}
                   </button>
                 </div>
                 <div className="pull-right">
@@ -5319,12 +5326,12 @@ function Profile() {
                     className="btn confirm"
                     onClick={(e) => setinterviewinvite(false)}
                   >
-                    Send invite
+                    {t("Send invite")}
                   </button>
                 </div>
               </div>
               {profile.childmedicalcondition == "Yes" ||
-                profile.childanyallergies == "Yes" ? (
+              profile.childanyallergies == "Yes" ? (
                 <div className="noteedit">
                   <svg
                     width="17"
@@ -5342,9 +5349,10 @@ function Profile() {
                   </svg>
                   <span>
                     {" "}
-                    <b>Note: </b> Our record indicates that the provider might
-                    have an allergy and/or medical condition that you may want
-                    to discuss about during the interview.{" "}
+                    <b> {t("Note:")}</b>{" "}
+                    {t(
+                      "Our record indicates that the provider might have an allergy and/or medical condition that you may want to discuss about during the interview."
+                    )}{" "}
                   </span>
                 </div>
               ) : (
@@ -5364,24 +5372,28 @@ function Profile() {
               <Link to="" onClick={(e) => setrequest(false)}>
                 +{" "}
               </Link>
-              <h2>Ask for Recommendation</h2>
+              <h2>{t("Ask for Recommendation")}</h2>
               <p>
-                Ask <span>{profile.first_name}</span>for a recommendation letter
-                so that you can share with prospective employers what an
-                outstanding and committed employee you are.{" "}
+                {t("Ask")} <span>{profile.first_name}</span>{" "}
+                {t(
+                  "for a recommendation letter so that you can share with prospective employers what an outstanding and committed employee you are."
+                )}
               </p>
               <div className="form_groupre">
-                <label>Write a Message</label>
+                <label>{t("Write a Message")} </label>
                 <textarea
+                  placeholder={t("Type here")}
                   onChange={(e) => setrecommend(e.target.value)}
                   maxLength="300"
                 ></textarea>
-                <span>Number of characters {300 - recommend.length}</span>
+                <span>
+                  {t("Number of characters")} {300 - recommend.length}
+                </span>
               </div>
               <div className="button text-center ">
                 <div className="pull-right">
                   <button className="btn" onClick={(e) => setrequest(false)}>
-                    Cancel
+                    {t("Cancel")}
                   </button>
                 </div>
                 <div className="pull-right">
@@ -5389,7 +5401,7 @@ function Profile() {
                     className="btn confirm"
                     onClick={(e) => recommendation()}
                   >
-                    Send request
+                    {t("Send request")}
                   </button>
                 </div>
               </div>
@@ -5405,14 +5417,17 @@ function Profile() {
             <Link to="" onClick={(e) => setShowfprovider2(false)}>
               +{" "}
             </Link>
-            <h2>Complete your profile and find the perfect candidate</h2>
+            <h2>{t("Complete your profile and find the perfect candidate")}</h2>
             <img src={window.location.origin + "/images/landing.png"} />
             <p>
-              Answer a few questions to help you find the candidates that are
-              just right for you!
+              {t(
+                "Answer a few questions to help you find the candidates that are just right for you!"
+              )}
             </p>
             <button>
-              <Link to={"/complete-parents-profile"}>Complete Profile</Link>
+              <Link to={"/complete-parents-profile"}>
+                {t("Complete Profile")}
+              </Link>
             </button>
           </div>
         </Modal.Body>
@@ -5423,14 +5438,17 @@ function Profile() {
             <Link to="" onClick={(e) => setshowflogin2(false)}>
               +{" "}
             </Link>
-            <h2>Complete your profile and get a perfect job</h2>
+            <h2>{t("Complete your profile and get a perfect job")}</h2>
             <img src={window.location.origin + "/images/landing.png"} />
             <p>
-              Answer a few questions to make it easier to find jobs that are
-              just made for you!
+              {t(
+                "Answer a few questions to make it easier to find jobs that are just made for you!"
+              )}
             </p>
             <button>
-              <Link to={"/complete-provider-profile"}>Complete Profile</Link>
+              <Link to={"/complete-provider-profile"}>
+                {t("Complete Profile")}
+              </Link>
             </button>
           </div>
         </Modal.Body>
@@ -5441,7 +5459,7 @@ function Profile() {
             <div className="promocode_content cancelmembership uploadphoto">
               <div className="">
                 <p>
-                  <strong>Upload profile photos</strong>
+                  <strong>{t("Upload profile photos")}</strong>
                 </p>
                 <br />
                 <ul>
@@ -5542,25 +5560,25 @@ function Profile() {
                         name="photo"
                         checked="true"
                       />
-                      <span>Set as profile photo</span>
+                      <span>{t("Set as profile photo")}</span>
                     </div>
                   </li>
                   <li>
                     <div className="select_photoprofile">
                       <input type="radio" id="photo" name="photo" />
-                      <span>Set as profile photo</span>
+                      <span>{t("Set as profile photo")}</span>
                     </div>
                   </li>
                 </ol>
                 <br />
                 <p className="giveus">
-                  * You can upload .jpg and .png files size up to 5Mb{" "}
+                  {t("* You can upload .jpg and .png files size up to 5Mb")}{" "}
                 </p>
 
                 <div className="button text-center">
                   <div className="pull-right">
                     <button className="btn" onClick={(e) => setphotoupload()}>
-                      Close
+                      {t("Close")}
                     </button>
                   </div>
                   <div className="pull-right">
@@ -5568,7 +5586,7 @@ function Profile() {
                       className="btn confirm"
                       onClick={(e) => profile_update()}
                     >
-                      Upload photo
+                      {t("Upload photo")}
                     </button>
                   </div>
                 </div>
@@ -5597,23 +5615,34 @@ function Profile() {
         <Modal show={firstappli} onHide={(e) => setfirstappli(false)}>
           <Modal.Body>
             <div className="promocode_content login_first">
-              <Link to="" onClick={(e) => setfirstappli(false)}>
-                +{" "}
-              </Link>
-              <h2>Congratulations!</h2>
+              {/* <Link to="" onClick={e => setfirstappli(false)}>+ </Link> */}
+
+              <h2>{t("Congratulations!")}</h2>
               {job_apply2 ==
-                " You successfully applied for this job. Good luck!" ? (
+              t("You successfully applied for this job. Good luck!") ? (
                 ""
               ) : (
-                <img src={window.location.origin + "/images/activate.png"} />
+                <img src={window.location.origin + "/images/landing.png"} />
               )}
-              <p>{job_apply2} </p>
+              <p>
+                {language === "en" &&
+                job_apply2.includes(
+                  "You successfully applied for this job. Good luck!"
+                )
+                  ? job_apply2
+                  : "Uspešno ste se prijavili za ovaj posao. Srećno!"}
+              </p>
+
               {job_apply2 ==
-                "You successfully applied for this job. Good luck!" ? (
-                <button onClick={(e) => setfirstappli(false)}>Close</button>
+              t("You successfully applied for this job. Good luck!") ? (
+                <button onClick={(e) => setfirstappli(false)}>
+                  {t("Close")}
+                </button>
               ) : (
                 <button>
-                  <Link to={"/search-parents"}>Apply for similar jobs</Link>
+                  <Link to={"/search-parents"}>
+                    {t("Apply for similar jobs")}
+                  </Link>
                 </button>
               )}
             </div>
@@ -5627,14 +5656,14 @@ function Profile() {
           <Modal.Body>
             <div className="promocode_content upload_document_delete sure">
               {/* <Link to="" onClick={e => setfirstappliapply(false)}>+ </Link> */}
-              <h2 style={{ color: "#636363" }}>Job application</h2>
+              <h2 style={{ color: "#636363" }}>{t("Job application")}</h2>
 
               {profile.childmedicalcondition == "Yes" ||
-                profile.childanyallergies == "Yes" ? (
+              profile.childanyallergies == "Yes" ? (
                 <p style={{ borderBottom: "1px solid #B7B7B7" }}>
                   <svg
                     width="17"
-                    height="12"
+                    height="16"
                     viewBox="0 0 17 16"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -5646,16 +5675,17 @@ function Profile() {
                       fill="#A98D4B"
                     ></path>
                   </svg>
-                  <b>Note:</b> Our record indicates that the provider might have
-                  an allergy and/or medical condition that you may want to
-                  discuss about during the interview.{" "}
+                  <b> {t("Note")}</b>{" "}
+                  {t(
+                    "Our record indicates that the provider might have an allergy and/or medical condition that you may want to discuss about during the interview"
+                  )}
                 </p>
               ) : (
                 ""
               )}
-              <p>Are you sure you want to apply for this job post?</p>
+              <p>{t("Are you sure you want to apply for this job post")}</p>
               <button onClick={(e) => setfirstappliapply(false)}>
-                Cancel{" "}
+                {t("Cancel")}{" "}
               </button>
               <button
                 onClick={(e) => {
@@ -5663,7 +5693,7 @@ function Profile() {
                   jobapply(userid.id, userid.userid, userid.index);
                 }}
               >
-                Apply
+                {t("Apply")}
               </button>
               <br />
               <br />

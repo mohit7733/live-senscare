@@ -238,7 +238,7 @@ function Footer() {
                     <div className='container'>
                         <img src={window.location.origin + '/images/cooki_icon.svg'} />
                         <p>This site uses cookies in order to offer you the most relevant information.
-                            <br /> Please accept cookies for optimal performance.   <Link to="/cookies-policy" target="_blank"><b>Learn more</b></Link></p>
+                            <br /> Please accept cookies for optimal performance.   <Link to="/cookies-policy" target="_blank"><strong>LEARN MORE</strong></Link></p>
                         <button onClick={e => {
                             localStorage.setItem("cooki", false)
                             setcooki(false)
