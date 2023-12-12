@@ -80,7 +80,7 @@ function Routing() {
                     <Route exact path="/investor-relations" element={<Investor_relations />} />
                     <Route exact path="/work-with-us" element={<Work_us />} />
                     <Route exact path="/safety-center" element={<Safety_center />} />
-                    <Route exact path="/cookie-policy" element={<Cookie_policy />} />
+                    <Route exact path="/cookies-policy" element={<Cookie_policy />} />
                     <Route exact path="/resources" element={<Resources />} />
                     <Route exact path="/faq" element={<Faq />} />
                     <Route exact path="/complete-provider-profile" element={<Create_provider_profile />} />

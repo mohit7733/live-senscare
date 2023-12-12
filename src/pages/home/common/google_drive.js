@@ -17,7 +17,7 @@ function Google_drive() {
             multiselect: true,
             // customViews: customViewsArray, // custom view
             callbackFunction: (data) => {
-                if (data.action === 'cancel') {
+                if (data.action == 'cancel') {
                     console.log('User clicked cancel/close button')
                 }
                 console.log(data)
